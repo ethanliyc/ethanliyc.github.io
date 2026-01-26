@@ -1,75 +1,78 @@
 # This file controls the settings for your Quarto template from www.marvinschmitt.com
 
-# website settings
+# website settings #########################################
 website:
-  title: "Gandalf"                                # Your name
-  description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
-  image: img/my_image.jpg
-  
-  favicon: img/favicon.png
+  title: "Yi-Chen Li (Ethan)"                                # Your name
+  # description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan for search engine to understand the content of the site.
+  # image: img/personal-photo.JPG  # thumbnail when the hyper link is provided in other websites (facebook and X)
+  # favicon: img/favicon.png  # image of the browser tab icon
   
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true
-    logo: /img/logo.png
+    # logo: /img/logo.png  # logo to the left of the title arg
     
     # your sub-pages
     left:
       - text: "Projects"
         href: projects/index.qmd
-      - text: "Photography"
-        href: photography/index.qmd
+      # - text: "Photography"
+      #   href: photography/index.qmd
       - text: "CV"
         href: cv/index.qmd
     
     # your social media handles
     right:
-      - icon: folder-symlink
-        href: https://www.marvinschmitt.com/blog/website-tutorial-quarto/
-      - icon: twitter
-        href: https://twitter.com/MarvinSchmittML
+      - icon: twitter-x
+        href: https://x.com/EthanLi1999
       - icon: linkedin
-        href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
+        href: https://www.linkedin.com/in/yi-chen-li-a75513308
       - icon: envelope
         aria-label: email
-        href: "mailto:mail.marvinschmitt@gmail.com"  
+        href: "mailto:ethanli.taiwan@gmail.com"  
   
   
 
-# Don't touch unless you know what you are doing :) ------------
+  ## Customize search widget =======================================
   search: 
-    location: navbar
-    type: textbox
-  page-footer: 
-    left: |
-      <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
-    center: |
-      <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
-    right: |
-      <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
+    location: navbar  # put magnifier in the navbar panel
+    type: textbox   # overlay: a pop-up search window after clicking the magnifier. textbox: a fixed white region exists with the magnifier icon.
+  
+  ## Buttome panel =======================================
+  ## It exists in every page. 3 sections: left, center, and right sections
+  # page-footer: 
+  #   left: |
+  #     <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
+  #   center: |
+  #     <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
+  #   right: |
+  #     <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
 
+# Quarto Setting ###################################################
 project:
-  type: website
-  output-dir: docs
-
+  type: website     # Tell quarto this is a website project 
+  output-dir: docs  # The dir of all rendered html.
+  
+  ## quarto preview setting =======================================
   preview: 
-    port: 22222
-    browser: true
-    watch-inputs: true
-    navigate: true
+    port: 22222         # preview port (just for local preview)
+    browser: true       # Pop-up a browser when clicking preview
+    watch-inputs: true  # Automatic update if any changes are made
+    navigate: true      # allow page switching whenever the link to other pages are clicked.
 
 execute:
-  freeze: true
+  freeze: auto  # auto: update html whenever its original qmd is changed. true: update html only if the user asks quarto to do so.
 
+# Formatting ###################################################
 format:
   html:
-    fontsize: 1.1em
+    fontsize: 1.1em         # font size (global setting)
     theme: 
-      - pulse
+      - journal             # theme on https://bootswatch.com/
       - html/styles.scss
-    toc: false
-    code-link: true
-    anchor-sections: true
-    fig-cap-location: margin
-    reference-location: margin
-    footnotes-hover: true
+    toc: false              # Display toc or not (globally). false globbaly and true for specific page is recommended
+    code-link: true         # Enable code section if any
+    anchor-sections: true      # Create a linkable hash (#) after each header in an article 
+    fig-cap-location: margin   # figure caption location
+    reference-location: document  # location of the footnote. margin: ref is placed in the RHS of the page
+    footnotes-hover: true  # Whether the footnote is displayed when the curser is on it. 
