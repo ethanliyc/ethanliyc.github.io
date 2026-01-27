@@ -3,7 +3,7 @@
 # website settings #########################################
 website:
   title: "Yi-Chen Li (Ethan)"                                # Your name
-  # description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan for search engine to understand the content of the site.
+  description: "Yi-Chen"   # A brief slogan for search engine to understand the content of the site.
   # image: img/personal-photo.JPG  # thumbnail when the hyper link is provided in other websites (facebook and X)
   # favicon: img/favicon.png  # image of the browser tab icon
   
@@ -40,9 +40,9 @@ website:
   
   ## Buttome panel =======================================
   ## It exists in every page. 3 sections: left, center, and right sections
-  # page-footer: 
-  #   left: |
-  #     <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
+  page-footer:
+    left: |
+      <span class="faux-block">Template by <a href="https://marvin-schmitt.com/blog/website-tutorial-quarto/">Marvin Schmitt</a> (CC BY-SA 4.0)</span>
   #   center: |
   #     <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
   #   right: |

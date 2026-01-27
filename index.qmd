@@ -1,9 +1,14 @@
 ---
+title: "Yi-Chen Li (Ethan)"
+image: "img/personal-photo-crop.JPG"
+image-shape: rectangle
 about:
-  template: jolla
+  template: trestles
   id: about-block
-  image: "img/personal-photo-crop.JPG"
   links:
+    - icon: envelope
+      text: Email
+      href: "mailto:ethanli.taiwan@gmail.com"  
     - icon: twitter-x
       text: X
       href: https://x.com/EthanLi1999
@@ -13,23 +18,21 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/yi-chen-li-a75513308
-    - icon: envelope
-      text: Email
-      href: "mailto:ethanli.taiwan@gmail.com"  
 ---
 
 ::: {#about-block}
-:::
-
 # Welcome to my website! (Under construction)
 
 I am Yi-Chen Li (Ethan), a master’s student in Economics at National Taiwan University (NTU), and I was previously a visiting student at University of California, Berkeley. I study international trade, political economy, economic history, and applied econometrics.
 
-As a double major in Political Science and Economics during my undergraduate studies, I became fascinated by how economic shocks and globalization reshape social values and political life. Much of my thinking is inspired by [Karl Polanyi](https://en.wikipedia.org/wiki/Karl_Polanyi)'s [The Great Transformation](https://en.wikipedia.org/wiki/The_Great_Transformation_(book)).
+As a double major in Political Science and Economics during my undergraduate studies, I became fascinated by how economic shocks and globalization reshape social values and political life. Much of my thinking is inspired by [Karl Polanyi's](https://en.wikipedia.org/wiki/Karl_Polanyi) [The Great Transformation](https://en.wikipedia.org/wiki/The_Great_Transformation_(book)).
 
 Outside economics, I am broadly interested in history, philosophy, and social theory. Recently, I have been reading more in the philosophy of science and art history. In my free time, I enjoy classical music---I once played the saxophone---as well as independent music with inventive arrangements.
 
 Feel free to [contact me](mailto:ethanli.taiwan@gmail.com) if you would like to connect or discuss any of the topics explored on this website.
+:::
+
+
 
 
 
