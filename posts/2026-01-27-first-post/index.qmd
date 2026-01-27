@@ -1,0 +1,15 @@
+---
+title: "My First Post"
+date: 2026-01-27
+description: "A test post to verify listing, tags, and TOC."
+tags: [quarto, website]
+---
+
+## Why I built this site
+
+Write a few sentences here.
+
+## What I want to write about next
+
+- Topic A
+- Topic B

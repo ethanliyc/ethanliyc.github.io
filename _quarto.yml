@@ -20,6 +20,8 @@ website:
       #   href: photography/index.qmd
       - text: "CV"
         href: cv/index.qmd
+      - text: "Blog"
+        href: posts/
     
     # your social media handles
     right:
