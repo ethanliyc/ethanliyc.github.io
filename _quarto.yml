@@ -3,7 +3,7 @@
 # website settings #########################################
 website:
   title: "Yi-Chen Li (Ethan)"                                # Your name
-  description: "Yi-Chen"   # A brief slogan for search engine to understand the content of the site.
+  description: "Yi-Chen Li (Ethan) is a master’s student in economics at NTU, interested in trade, PE, and economic history, with broader interests in social science and intellectual history."   # A brief slogan for search engine to understand the content of the site.
   # image: img/personal-photo.JPG  # thumbnail when the hyper link is provided in other websites (facebook and X)
   # favicon: img/favicon.png  # image of the browser tab icon
   
@@ -14,8 +14,8 @@ website:
     
     # your sub-pages
     left:
-      - text: "Projects"
-        href: projects/index.qmd
+      # - text: "Projects"
+      #   href: projects/index.qmd
       # - text: "Photography"
       #   href: photography/index.qmd
       - text: "CV"
@@ -23,13 +23,13 @@ website:
     
     # your social media handles
     right:
-      - icon: twitter-x
-        href: https://x.com/EthanLi1999
-      - icon: linkedin
-        href: https://www.linkedin.com/in/yi-chen-li-a75513308
       - icon: envelope
         aria-label: email
         href: "mailto:ethanli.taiwan@gmail.com"  
+      - icon: linkedin
+        href: https://www.linkedin.com/in/yi-chen-li-a75513308
+      - icon: twitter-x
+        href: https://x.com/EthanLi1999
   
   
 

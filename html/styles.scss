@@ -108,22 +108,26 @@ $btn-code-copy-color-active: $orange !default;
 
 
 /*-- scss:rules --*/
+/*
+  這一段是「具體 CSS 規則」區：針對特定 HTML 元件做微調。
+  維護提醒：這些規則依賴 Quarto 生成的 class 名稱與結構，若 Quarto 或模板更新，class 會需要回來修。
+*/
 
-
+/* Adjust footer (.nav-footer) */
 .nav-footer {
     align-items: flex-start;  // Align all flex items to the top
-    flex-wrap: wrap;
-    border: 0 !important;
-    min-height: 3em;
-    //font-family: $footer-font-family;
+    flex-wrap: wrap;          // Auto line jumping
+    border: 0 !important;     // delete the frame of the footer
+    min-height: 3em;          // Minimum height of the footer
+    //font-family: $footer-font-family; // Once $footer-font-family is defined, font of the footer is specified here
 
     a {
-        color: $primary;
+        color: #e9e2d8;  // color of the hyperlink in footer (mask $link-color set above)
     }
 
     .faux-block {
-        display: block;
-        padding-bottom: 0.4em;
+        display: block;         // 讓 footer 的每個區塊都變成 block，方便垂直堆疊
+        padding-bottom: 0.4em;  // 每個區塊底部留空，避免擠在一起
     }
 
     // In the default Quarto template, .nav-footer-center has position: absolute 

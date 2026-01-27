@@ -1,23 +1,26 @@
 ---
 title: "Yi-Chen Li (Ethan)"
-image: "img/personal-photo-crop.JPG"
+image: "img/personal-photo.JPG"
 image-shape: rectangle
+format:
+  html:
+    page-layout: full   # widen the content block
 about:
   template: trestles
   id: about-block
   links:
     - icon: envelope
       text: Email
-      href: "mailto:ethanli.taiwan@gmail.com"  
+      href: "mailto:ethanli.taiwan@gmail.com" 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/yi-chen-li-a75513308 
     - icon: twitter-x
       text: X
       href: https://x.com/EthanLi1999
     # - icon: github
     #   text: Github
     #   href: https://github.com/marvinschmitt
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/yi-chen-li-a75513308
 ---
 
 ::: {#about-block}
