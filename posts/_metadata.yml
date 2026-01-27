@@ -1,4 +1,3 @@
----
 toc: true
 toc-location: right
 toc-depth: 3
@@ -6,6 +5,5 @@ format:
   html:
     page-layout: article
     title-block-banner: false
----
 
 # This yml controls the default setting of every article. You may override this in specific articles.

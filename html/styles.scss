@@ -97,14 +97,14 @@ $code-color: $gray-900 !default;  // 行內 code 文字：深灰/接近黑
    你目前在 _quarto.yml 把 toc: false，所以多數頁面可能根本不顯示 TOC。
    但如果你之後對 blog 文章單頁開 toc，這些顏色/字體大小就會派上用場。
 ---------------------------------------------------------- */
-$toc-color: $orange;              // TOC 連結/標示用色（未加 !default，表示強制覆寫）
+$toc-color: $borde;              // TOC 連結/標示用色（未加 !default，表示強制覆寫）
 $toc-font-size: 1em;              // TOC 字體大小
 
 /* ----------------------------------------------------------
    Code copy（程式碼區塊右上角「copy」按鈕）
    Quarto 支援 code-copy，這裡控制按鈕「active」時的顏色。
 ---------------------------------------------------------- */
-$btn-code-copy-color-active: $orange !default;
+$btn-code-copy-color-active: $borde !default;
 
 
 /*-- scss:rules --*/
