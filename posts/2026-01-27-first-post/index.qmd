@@ -2,7 +2,14 @@
 title: "My First Post"
 date: 2026-01-27
 description: "A test post to verify listing, tags, and TOC."
-tags: [quarto, website]
+tags: [quarto, website]        # tag for blog list tag
+categories: [quarto, website]  # tag for in-article tag
+toc: true
+toc-location: right
+toc-depth: 3
+format:
+  html:
+    page-layout: article
 ---
 
 ## Why I built this site
