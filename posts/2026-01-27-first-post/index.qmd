@@ -8,23 +8,23 @@ description: "My first quarto blog post with some resources to be read in the fu
 #     orcid: 0000-0002-5300-3075
 #     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
 #     affiliation-url: https://ucsb-meds.github.io/
-categories: [quarto, website]  # tag 
+categories: [quarto]  # tag 
 toc: true
 toc-location: right
 toc-depth: 3
 # image: preview-image.jpg # add preview image placed in posts/[folder of this article]
 draft: false  # true means to hide the article in the listing page and search engine.
-# lang: zh  # The default language is English; zh means Chinese. It affects (1) Which of zh and Eng fonts are prioritized. (2) how search engine and brwoser perceive the language of the page (3) text formatting of Chinese whenever the doc is rendered as LeTeX pdf
+# lang: zh-hant  # The default language is English; zh means Chinese. It affects (1) Which of zh and Eng fonts are prioritized. (2) how search engine and brwoser perceive the language of the page (3) text formatting of Chinese whenever the doc is rendered as LeTeX pdf
 ---
 
 # Quarto Publishing Workflow
 
 I record what has to be done if I update the website.
 
-1. Afteing any update, open terminal in R studio, and type `quarto render` to render the website. Then, type `quarto preview` to browse the website **locally** and check the results of the change.
+1. After any update, open terminal in R studio, and type `quarto render` to render the website. Then, type `quarto preview` to browse the website **locally** and check the results of the change.
 2. Closing the local browser does not terminate preview state in the terminal. To close it properly, press `control + C` on the keyboard.
 3. To publish the website, we need to push it to the repo. In the terminal, run the following
-  - Note: ` ```bash ` with bash create a non-executable code chunk for terminal stuffs,[^1] unlike ` ```{somelanguage} `
+    - Note: ` ```bash ` with bash create a non-executable code chunk for terminal stuffs,[^1] unlike ` ```{somelanguage} `
 
 ```bash
 git status # examine modified doc

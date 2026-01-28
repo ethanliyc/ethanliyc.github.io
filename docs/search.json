@@ -25,7 +25,7 @@
     "href": "posts/2026-01-27-first-post/index.html",
     "title": "Quarto Resources and Template (My First Post!)",
     "section": "",
-    "text": "I record what has to be done if I update the website.\n\nAfteing any update, open terminal in R studio, and type quarto render to render the website. Then, type quarto preview to browse the website locally and check the results of the change.\nClosing the local browser does not terminate preview state in the terminal. To close it properly, press control + C on the keyboard.\nTo publish the website, we need to push it to the repo. In the terminal, run the following\n\n\nNote: ```bash with bash create a non-executable code chunk for terminal stuffs,1 unlike ```{somelanguage}\n\n\ngit status # examine modified doc\ngit add .  # add \"all\" ( . means all) modified do in a package\ngit commit -m \"update message\" # message for this package\ngit push"
+    "text": "I record what has to be done if I update the website.\n\nAfter any update, open terminal in R studio, and type quarto render to render the website. Then, type quarto preview to browse the website locally and check the results of the change.\nClosing the local browser does not terminate preview state in the terminal. To close it properly, press control + C on the keyboard.\nTo publish the website, we need to push it to the repo. In the terminal, run the following\n\nNote: ```bash with bash create a non-executable code chunk for terminal stuffs,1 unlike ```{somelanguage}\n\n\n\n\ngit status # examine modified doc\ngit add .  # add \"all\" ( . means all) modified do in a package\ngit commit -m \"update message\" # message for this package\ngit push"
   },
   {
     "objectID": "posts/2026-01-27-first-post/index.html#english-subheader",
@@ -74,6 +74,6 @@
     "href": "posts/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Quarto Resources and Template (My First Post!)\n\n\n\n\n\n\nquarto\n\n\nwebsite\n\n\n\nMy first quarto blog post with some resources to be read in the future\n\n\n\n\n\nJan 27, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Quarto Resources and Template (My First Post!)\n\n\n\n\n\n\nquarto\n\n\n\nMy first quarto blog post with some resources to be read in the future\n\n\n\n\n\nJan 27, 2026\n\n\n\n\n\n\nNo matching items"
   }
 ]

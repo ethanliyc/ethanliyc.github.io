@@ -89,6 +89,20 @@ $toc-font-size: 1em;              // TOC 字體大小
    Quarto 支援 code-copy，這裡控制按鈕「active」時的顏色 */
 $btn-code-copy-color-active: $borde !default;
 
+/*
+  Bootstrap global font stacks: Prioritize Eng then zh fonts
+  Put Chinese fonts into the same stack so mixed Chinese/English works even when lang=en.
+*/
+$font-family-sans-serif:
+  "Noto Sans",
+  "Noto Sans KR",
+  "Noto Sans JP",
+  "Noto Sans TC",
+  system-ui, -apple-system, "Segoe UI", Arial, sans-serif !default;
+
+/* Make headings consistent */
+$headings-font-family: $font-family-sans-serif !default;
+
 /* --------------------------------------------------------- */
 /*-- scss:rules --*/
 /* --------------------------------------------------------- */
@@ -155,36 +169,83 @@ $btn-code-copy-color-active: $borde !default;
     }
 }
 
-/* --- Adjust font --- */
-
-/* 
-   Font setting
-   Eng: Noto Sans, the subsequent font are for special case if google font is down. 
-   Zh (Chinese): Mimic Jesse's strategy to prioritize KR and JP's punctuations.
-   Note: The ending "sans-serif" means "random feasible sans-serif font"
+/* --- Font setting --- */
+/*
+  Font setting (additional help other than bootstrap $ args above)
 */
 :root {
-  --font-en: "Noto Sans", system-ui, -apple-system, Arial, sans-serif;
-  --font-zh: "Noto Sans KR", "Noto Sans JP", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
-  
-  /* Base font：Default is Eng and it falls back to zh whenever Chinese exist*/
-  --font-base: var(--font-en), var(--font-zh);
+  --font-base: "Noto Sans", "Noto Sans KR", "Noto Sans JP", "Noto Sans TC",
+               system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
 }
 
-/*  Specify body font*/
+/* Optional font reinforcement (usually not necessary after setting $font-family-sans-serif) */
 body {
   font-family: var(--font-base);
 }
 
 
-/* If "lang: zh-hant" is set in an article (中文文章), priorize zh */
-:lang(zh),
-:lang(zh-Hant) body {
-  font-family: var(--font-zh), var(--font-en);
+/* --- Code folding (details/summary) styling --- */
+
+details.code-fold > summary {
+  /* 2) 讓背景不要撐滿整行：改成 inline-flex，寬度只包住內容 */
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+
+  /* 3) 讓 "Code" 比正文字小一點 */
+  font-size: 0.85em;
+  font-weight: 500;
+
+  /* 4) 方形包住 arrow Code  */
+  padding: 0.1em 0.2em;  // top/button left/right. E.g. button height = 0.1 + font height + 0.1
+  border-radius: 0.5em;  // higher means more circular angle shape
+  background: $gray-100;                
+  border: 1px solid rgba(0,0,0,0.06);
+  color: $gray-500;                     
+  cursor: pointer;
+
+  /* 5) 我們要自己控制箭頭，所以把原生 marker 關掉 */
+  list-style: none;
 }
 
-/* Set title font rule */
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-base);
+/* 6) 移除 WebKit (Chrome/Safari) 對 summary 的預設 marker */
+details.code-fold > summary::-webkit-details-marker {
+  display: none;
 }
 
+/* 7) 自己做一個箭頭，長得像預設的 ▶ */
+details.code-fold > summary::before {
+  content: "▶";
+  display: inline-block;
+  margin-right: 0.45em;
+  font-size: 0.85em;        /* 箭頭略小，不搶戲 */
+  line-height: 1;
+  transform: translateY(-0.02em);
+}
+
+/* 8) 展開時，箭頭旋轉成 ▼ 的方向（像原生展開效果） */
+details.code-fold[open] > summary::before {
+  transform: rotate(90deg) translateY(-0.02em);
+}
+
+/* 9) hover：滑鼠移上去，背景稍微變深，提示可點 */
+details.code-fold > summary:hover {
+  background: #e9e2d8;
+}
+
+/* 10) focus：鍵盤 tab 到這個按鈕時要看得到（可用性/無障礙） */
+details.code-fold > summary:focus {
+  outline: 1.5px solid rgba(71, 19, 80, 0.25);
+  outline-offset: 1.5px;
+}
+
+
+/* =========================================================
+   Cell outputs styling (stderr/warnings/messages/print)
+   Quarto emits: <div class="cell-output ..."><pre><code>...</code></pre></div>
+   ========================================================= */
+
+.cell-output {
+  background-color: $gray-100;
+  border-radius: 4px;
+}

@@ -88,5 +88,5 @@ format:
     
 # Language Formatting ###########################################
 # set en means: (1) Search engine and the browser perceive the website as English. (2) font prioritize English (see styles.scss)
+
 lang: en
-    
