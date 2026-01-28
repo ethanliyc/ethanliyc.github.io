@@ -1,0 +1,15 @@
+{
+  "hash": "186be6602fc10cae619e3b4261d608fb",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Title of the Post\"\ndate: YYYY-MM-DD\ndescription: \"Desc in the info box below the blog listing. This also informs SEO about page content\" # \n# author: # add author info in the article\n#   - name: Samantha Csik\n#     url: https://samanthacsik.github.io/\n#     orcid: 0000-0002-5300-3075\n#     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis\n#     affiliation-url: https://ucsb-meds.github.io/\ncategories: [tag1, tag2]  # tag \nnumber-sections: true  # Add number before header\n# image: preview-image.jpg # add preview image placed inside posts/[folder of this article]\ndraft: false  # true means to hide the article in the listing page and search engine.\n# lang: zh-hant  # The default language is English; zh means Chinese. It affects (1) Which of zh and Eng fonts are prioritized. (2) how search engine and brwoser perceive the language of the page (3) text formatting of Chinese whenever the doc is rendered as LeTeX pdf\n---\n\n\n\n\n# Hyper links and footnote\n\nThis post documents **[brief purpose here]**, mainly for future reference and reproducibility.\n\nYou can include hyperlinks like this:\n- Official documentation: https://quarto.org\n- Inline link example: [Quarto documentation](https://quarto.org/docs/)\n- [Quarto Formatting Guide](https://quarto.org/docs/authoring/markdown-basics.html)\n\nYou can also add a footnote like this[^example-footnote].\n\n[^example-footnote]: This is an example footnote. Use it for side remarks, references, or clarifications.\n\n\n# Lists\n\n*Nested list usually require 4 spaces before - or 1. to make indentation*\n\n---\n\n## Key Points (Numbered List)\n\n1. First key idea or step.\n2. Second key idea.\n3. Third key idea (can include subpoints):\n    1. Nested sub-step A.\n    2. Nested sub-step B.\n\n---\n\n## Outline / Checklist (Unordered List)\n\n- Main task or concept\n    - Subtask / detail\n        - Even more specific note\n- Another task\n- Final takeaway\n\n---\n\n# Example Code\n\n## R Example (executed)\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nx <- rnorm(100)\nmean(x)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] -0.07717993\n```\n\n\n:::\n:::\n\n\n\n### Code display\n\nUse ``` to create a code display environment. ```{program} means executable code, so don't use curly brackets that confuse R.\n\n```bash\ngit status\ngit add -A\ngit commit -m \"Update post\"\ngit push\n```\n\n## References / Further Reading\n\n- Quarto documentation: https://quarto.org/docs/\n\n---\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -9,9 +9,7 @@ description: "My first quarto blog post with some resources to be read in the fu
 #     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
 #     affiliation-url: https://ucsb-meds.github.io/
 categories: [quarto]  # tag 
-toc: true
-toc-location: right
-toc-depth: 3
+number-sections: true  # Add number before header
 # image: preview-image.jpg # add preview image placed in posts/[folder of this article]
 draft: false  # true means to hide the article in the listing page and search engine.
 # lang: zh-hant  # The default language is English; zh means Chinese. It affects (1) Which of zh and Eng fonts are prioritized. (2) how search engine and brwoser perceive the language of the page (3) text formatting of Chinese whenever the doc is rendered as LeTeX pdf

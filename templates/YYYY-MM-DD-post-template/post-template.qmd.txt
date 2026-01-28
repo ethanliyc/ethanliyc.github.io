@@ -1,0 +1,87 @@
+---
+title: "Title of the Post"
+date: YYYY-MM-DD
+description: "Desc in the info box below the blog listing. This also informs SEO about page content" # 
+# author: # add author info in the article
+#   - name: Samantha Csik
+#     url: https://samanthacsik.github.io/
+#     orcid: 0000-0002-5300-3075
+#     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
+#     affiliation-url: https://ucsb-meds.github.io/
+categories: [book-review, notes, reflection]  # tag 
+number-sections: true  # Add number before header
+# image: preview-image.jpg # add preview image placed inside posts/[folder of this article]
+draft: false  # true means to hide the article in the listing page and search engine.
+# lang: zh-hant  # The default language is English; zh means Chinese. It affects (1) Which of zh and Eng fonts are prioritized. (2) how search engine and brwoser perceive the language of the page (3) text formatting of Chinese whenever the doc is rendered as LeTeX pdf
+---
+
+
+# Hyper links and footnote
+
+This post documents **[brief purpose here]**, mainly for future reference and reproducibility.
+
+You can include hyperlinks like this:
+- Official documentation: https://quarto.org
+- Inline link example: [Quarto documentation](https://quarto.org/docs/)
+- [Quarto Formatting Guide](https://quarto.org/docs/authoring/markdown-basics.html)
+
+You can also add a footnote like this[^example-footnote].
+
+[^example-footnote]: This is an example footnote. Use it for side remarks, references, or clarifications.
+
+
+# Lists
+
+*Nested list usually require 4 spaces before - or 1. to make indentation*
+
+---
+
+## Key Points (Numbered List)
+
+1. First key idea or step.
+2. Second key idea.
+3. Third key idea (can include subpoints):
+    1. Nested sub-step A.
+    2. Nested sub-step B.
+
+---
+
+## Outline / Checklist (Unordered List)
+
+- Main task or concept
+    - Subtask / detail
+        - Even more specific note
+- Another task
+- Final takeaway
+
+---
+
+# Example Code
+
+## R Example (executed)
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+
+x <- rnorm(100)
+mean(x)
+```
+
+### Code display
+
+Use ``` to create a code display environment. ```{program} means executable code, so don't use curly brackets that confuse R.
+
+```bash
+git status
+git add -A
+git commit -m "Update post"
+git push
+```
+
+## References / Further Reading
+
+- Quarto documentation: https://quarto.org/docs/
+
+---

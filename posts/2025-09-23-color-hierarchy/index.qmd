@@ -1,0 +1,123 @@
+---
+title: "顏色命名的規律"
+date: 2025-09-23
+description: "" 
+# author: # add author info in the article
+#   - name: Samantha Csik
+#     url: https://samanthacsik.github.io/
+#     orcid: 0000-0002-5300-3075
+#     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
+#     affiliation-url: https://ucsb-meds.github.io/
+categories: [notes]  # tag 
+number-sections: true  # Add number before header
+# image: preview-image.jpg # add preview image placed inside posts/[folder of this article]
+draft: true  # true means to hide the article in the listing page and search engine.
+# lang: zh-hant  # The default language is English; zh means Chinese. It affects (1) Which of zh and Eng fonts are prioritized. (2) how search engine and brwoser perceive the language of the page (3) text formatting of Chinese whenever the doc is rendered as LeTeX pdf
+---
+
+::: {.callout-note}
+本篇文搬運自[我的Medium](https://medium.com/@Yich_2826/%E5%BF%83%E5%BE%97-%E9%A1%8F%E8%89%B2%E5%91%BD%E5%90%8D%E7%9A%84%E8%A6%8F%E5%BE%8B-2bf8036df7b9)，也是我個人blog的首篇正式文章。
+:::
+
+
+小時候演奏過一首John Mackey所寫的炫炮現代樂曲---「[Wine-Dark Sea](https://www.youtube.com/watch?v=GyvcDPuUzO4)」---描述古希臘作家荷馬(Homer )的史詩「奧德賽(Odyssey)」中主角奧德修斯(Odysseus)的經歷；第一樂章的標題是Hubris，以雄偉的號角聲，搭配不和諧音程及隨小節變換的拍號，讓海神的天罰在奧德修斯的傲慢中醞釀，最終爆發。我以前就只覺得這是一首很「酷」的曲子，沒太多其他想法，但最近看了幾部影片，才突然瞭解了Wine-Dark Sea名稱蘊含的科學或人文(?)意義。
+
+Wine-Dark Sea意指「如酒一樣深色的海」，我猜想可能是紫或深紅色吧。我以前覺得這個形容詞的形式---「物體-Dark」---是歐美文學的修辭法，聽起來比較具象化。直至前幾天透過Vox的影片「[The surprising pattern behind color names around the world](https://www.youtube.com/watch?v=gMqZR3pqMjg)」，知道了所謂的「Basic Color Terms」，而且每個社會的顏色命名有固定的pattern，我這才發現原來這個管樂曲名另有奧妙!?這幾天我沒事查了些這方面的內容，故在本文稍稍整理我的不專業小心得，也幫自己Medium除草一番。
+
+---
+
+# 顏色命名的Puzzle
+
+很早就有人發現，荷馬史詩中僅有很少的顏色詞彙。英國首相William Gladstone在1858年出版的「Studies on Homer and the Homeric Age」中，發現荷馬用同一個詞形容不同的顏色(至少對英語使用者來說不同)；例如他用同一個詞形容blood、dark cloud、sea wave、rainbow。為甚麼會這樣呢？
+
+而且，仔細思考人們命名顏色的方式，有幾個有趣的問題:
+
+1. 顏色按照波長而言是連續的，那為甚麼我們會命名特定波長的顏色---例如紅、黃、綠---而非其他呢？ 譬如，用「鼻涕色」代稱黃色和綠色的中間色。
+2. 不同語言似乎有不同數量的顏色詞彙，例如象牙海岸的語言Wobé用Kpe指涉藍色、紫色、棕色。
+3. 若2.為真，則這些基礎顏色詞彙(Basic Color Term, BCT)的數量是否會對應特定一組顏色呢? 例如，當一個語言只有三種顏色，那這三種會是甚麼呢? 
+4. 承3.，那是甚麼因素決定了哪一些顏色會先被命名？
+5. BCT數量較少的語言，是如何稱呼各種物體的顏色呢？
+
+
+# Berlin and Kay’s BCT
+UC Berkeley的教授Berlin and Kay在1969年的「Basic Color Terms: Their Universality and Evolution」一書中，首次提出BCT（Basic Color Term）的概念。他們以蒐集不同國家受試者的方式，歸納出以下規律:
+
+
+
+
+
+
+
+
+
+---
+
+# Hyper links and footnote
+
+This post documents **[brief purpose here]**, mainly for future reference and reproducibility.
+
+You can include hyperlinks like this:
+- Official documentation: https://quarto.org
+- Inline link example: [Quarto documentation](https://quarto.org/docs/)
+- [Quarto Formatting Guide](https://quarto.org/docs/authoring/markdown-basics.html)
+
+You can also add a footnote like this[^example-footnote].
+
+[^example-footnote]: This is an example footnote. Use it for side remarks, references, or clarifications.
+
+
+# Lists
+
+*Nested list usually require 4 spaces before - or 1. to make indentation*
+
+---
+
+## Key Points (Numbered List)
+
+1. First key idea or step.
+2. Second key idea.
+3. Third key idea (can include subpoints):
+    1. Nested sub-step A.
+    2. Nested sub-step B.
+
+---
+
+## Outline / Checklist (Unordered List)
+
+- Main task or concept
+    - Subtask / detail
+        - Even more specific note
+- Another task
+- Final takeaway
+
+---
+
+# Example Code
+
+## R Example (executed)
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+
+x <- rnorm(100)
+mean(x)
+```
+
+### Code display
+
+Use ``` to create a code display environment. ```{program} means executable code, so don't use curly brackets that confuse R.
+
+```bash
+git status
+git add -A
+git commit -m "Update post"
+git push
+```
+
+## References / Further Reading
+
+- Quarto documentation: https://quarto.org/docs/
+
+---

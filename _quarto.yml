@@ -3,7 +3,7 @@
 # website settings #########################################
 website:
   title: "Yi-Chen Li (Ethan)"                                # Your name
-  description: "Yi-Chen Li (Ethan) is a master’s student in economics at NTU, interested in trade, PE, and economic history, with broader interests in social science and intellectual history."   # A brief slogan for search engine to understand the content of the site.
+  description: "Yi-Chen Li (Ethan) is a master’s student in economics at NTU, interested in trade, political economy, and economic history, with broader interests in social science and intellectual history."   # A brief slogan for search engine to understand the content of the site.
   # image: img/personal-photo.JPG  # thumbnail when the hyper link is provided in other websites (facebook and X)
   # favicon: img/favicon.png  # image of the browser tab icon
   
@@ -74,7 +74,7 @@ format:
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
           <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    fontsize: 1.1em         # font size (global setting)
+    fontsize: 1.2em         # font size (global setting)
     theme: 
       - journal             # theme on https://bootswatch.com/
       - html/styles.scss
