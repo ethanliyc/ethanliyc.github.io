@@ -1,4 +1,7 @@
+
+/* --------------------------------------------------------- */
 /*-- scss:defaults --*/
+/* --------------------------------------------------------- */
 /* This section changes global setting for the objects in the specified "theme" in _quarto.yml". Once changed, these setup are applied to, say navigation bar's color. */
 
 
@@ -6,11 +9,9 @@
 /* Set the handy color definition for later use cases.*/
 
 
-/* ----------------------------------------------------------
-   基礎灰階與黑白：Bootstrap 的標準變數命名
-   這些常被用於背景、邊框、字色、卡片等元件。
-   !default 的意思是：如果前面已經定義過，就不要覆蓋；否則用這個值。
----------------------------------------------------------- */
+/* 基礎灰階與黑白：Bootstrap 的標準變數命名
+   用於背景、邊框、字色、卡片等元件。
+   !default: 如果前面已經定義過，就不要覆蓋；否則用這個值 */
 $white:    #ffffff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -23,10 +24,9 @@ $gray-800: #373a3c !default;
 $gray-900: #212529 !default;
 $black:    #000000 !default;
 
-/* ----------------------------------------------------------
-   主色盤（semantic 以外的 raw colors）
-   這些是「原始顏色」：你可以在後面把 $primary 等語意色指定給它們。
----------------------------------------------------------- */
+/* 主色盤（semantic 以外的 raw colors）
+   在後面把 $primary 等語意色指定給它們 */
+   
 $blue:    #2f3e4e !default;   // slate blue（偏灰、沉穩）
 $brown:   #8b6f4e !default;   // 溫和大地棕
 $sand:    #e6dfd6 !default;   // 沙色背景輔助
@@ -43,7 +43,7 @@ $cyan:    #3093CF !default;
 $forest:    #2e4a3f !default;
 $parchment: #f3efe9 !default;
 
-/* --- Palette A: Earth Beige + Night Bordeaux (recommended) --- */
+/* Earth Beige + Night Bordeaux */
 $earth: #CEB992;
 $teal:  #73937E;
 $char:  #585563;
@@ -51,13 +51,9 @@ $berry: #5B2E48;
 $borde: #471323;
 
 
-/* ----------------------------------------------------------
-   Bootstrap 語意色（semantic colors）
-   很多元件（button、badge、alert、link、navbar）會用這些語意色。
-   $primary 「主色」調性，連結、按鈕等通常會跟著變。
----------------------------------------------------------- */
-/* $primary:   $blue !default;      // 主色：最常被用在連結、按鈕、強調元素
-$secondary: $brown !default;     // 次要色：次要按鈕、次要文字 */
+/* Bootstrap 語意色（semantic colors）
+   元件（button、badge、alert、link、navbar）會用這些語意色。
+   $primary 「主色」調性，連結、按鈕等通常會跟著變 */
 
 $primary:   $borde !default;     // 主色：用深波爾多（不是藍），連結/按鈕會很穩重
 $secondary: $char  !default;     // 次要色：偏冷的灰紫，適合次要按鈕/字
@@ -68,52 +64,40 @@ $danger:    $berry !default;     // 危險狀態：danger alert/button
 $light:     #f3efe8 !default;    // 淺色系：背景或次要底色
 $dark:      #1a1a1a !default;    // 深色系：深色元件字色/背景
 
-/* ----------------------------------------------------------
-   Links（連結）
-   Bootstrap/Quarto 會用 $link-color 等變數生成 a 標籤與各種連結樣式。
----------------------------------------------------------- */
+/* Links
+   Bootstrap/Quarto 會用 $link-color 等變數生成 a 標籤與各種連結樣式 */
 $link-color: $primary !default;   // 一般連結顏色：跟主色走
 $link-decoration: underline dotted !default;   // 一般連結是否有底線. none: no underline
 $link-hover-color: $teal !default;             // 滑鼠 hover 時連結顏色
 $link-hover-decoration: underline !default;    // hover 時是否加底線：underline
 
-/* ----------------------------------------------------------
-   Footer（頁尾）
-   這兩個變數通常是模板/Quarto 用來設定 footer 的背景與文字顏色。
-   但是否生效，取決於模板是否在 footer 的 CSS 中引用了它們。
----------------------------------------------------------- */
+/* Footer（頁尾）
+   這兩個變數通常是模板/Quarto 用來設定 footer 的背景與文字顏色
+   是否生效，取決於模板是否在 footer 的 CSS 中引用了它們 */
 $footer-bg: $borde !default;     // footer 背景色
 $footer-fg: #e9e2d8 !default;    // footer 文字色
 
-/* ----------------------------------------------------------
-   Inline code（行內程式碼）
-   例如 `like this` 這種 inline code 的背景與字色。
----------------------------------------------------------- */
+/* Inline code */
 $code-bg: $gray-200 !default;     // 行內 code 背景：淺灰
 $code-color: $gray-900 !default;  // 行內 code 文字：深灰/接近黑
 
-/* ----------------------------------------------------------
-   TOC（目錄）
-   你目前在 _quarto.yml 把 toc: false，所以多數頁面可能根本不顯示 TOC。
-   但如果你之後對 blog 文章單頁開 toc，這些顏色/字體大小就會派上用場。
----------------------------------------------------------- */
+/* TOC */
 $toc-color: $borde;              // TOC 連結/標示用色（未加 !default，表示強制覆寫）
 $toc-font-size: 1em;              // TOC 字體大小
 
-/* ----------------------------------------------------------
-   Code copy（程式碼區塊右上角「copy」按鈕）
-   Quarto 支援 code-copy，這裡控制按鈕「active」時的顏色。
----------------------------------------------------------- */
+/* Code copy（程式碼區塊右上角「copy」按鈕）
+   Quarto 支援 code-copy，這裡控制按鈕「active」時的顏色 */
 $btn-code-copy-color-active: $borde !default;
 
-
+/* --------------------------------------------------------- */
 /*-- scss:rules --*/
+/* --------------------------------------------------------- */
 /*
-  這一段是「具體 CSS 規則」區：針對特定 HTML 元件做微調。
-  維護提醒：這些規則依賴 Quarto 生成的 class 名稱與結構，若 Quarto 或模板更新，class 會需要回來修。
+  具體 CSS 規則區：特定 HTML 元件微調。
+  這些規則依賴 Quarto 生成的 class 名稱與結構，若 Quarto 或模板更新，class 會需要回來修。
 */
 
-/* Adjust footer (.nav-footer) */
+/* --- Adjust footer (.nav-footer) --- */
 .nav-footer {
     align-items: flex-start;  // Align all flex items to the top
     flex-wrap: wrap;          // Auto line jumping
@@ -170,3 +154,37 @@ $btn-code-copy-color-active: $borde !default;
         }
     }
 }
+
+/* --- Adjust font --- */
+
+/* 
+   Font setting
+   Eng: Noto Sans, the subsequent font are for special case if google font is down. 
+   Zh (Chinese): Mimic Jesse's strategy to prioritize KR and JP's punctuations.
+   Note: The ending "sans-serif" means "random feasible sans-serif font"
+*/
+:root {
+  --font-en: "Noto Sans", system-ui, -apple-system, Arial, sans-serif;
+  --font-zh: "Noto Sans KR", "Noto Sans JP", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  
+  /* Base font：Default is Eng and it falls back to zh whenever Chinese exist*/
+  --font-base: var(--font-en), var(--font-zh);
+}
+
+/*  Specify body font*/
+body {
+  font-family: var(--font-base);
+}
+
+
+/* If "lang: zh-hant" is set in an article (中文文章), priorize zh */
+:lang(zh),
+:lang(zh-Hant) body {
+  font-family: var(--font-zh), var(--font-en);
+}
+
+/* Set title font rule */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-base);
+}
+

@@ -69,7 +69,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-e4f5e8fe08cc6c9bd4eb1ade7baa571d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/bootstrap/bootstrap-3bead498e12cf3863dff704597012836.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -94,7 +94,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script>
+}</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&amp;family=Noto+Sans+KR:wght@100..900&amp;family=Noto+Sans+TC:wght@100..900&amp;family=Noto+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
 </head>
 <body class="nav-fixed">
 
@@ -201,8 +203,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ol type="1">
 <li>Afteing any update, open terminal in R studio, and type <code>quarto render</code> to render the website. Then, type <code>quarto preview</code> to browse the website <strong>locally</strong> and check the results of the change.</li>
 <li>Closing the local browser does not terminate preview state in the terminal. To close it properly, press <code>control + C</code> on the keyboard.</li>
-<li>To publish the website, we need to push it to the repo. In the terminal, run the following (<code>```bash</code> with bash create a non-executable code chunk for terminal stuffs,<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> unlike <code>```\{somelanguage\}</code>)</li>
+<li>To publish the website, we need to push it to the repo. In the terminal, run the following</li>
 </ol>
+<ul>
+<li>Note: <code>```bash</code> with bash create a non-executable code chunk for terminal stuffs,<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> unlike <code>```{somelanguage}</code>
+</li>
+</ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status <span class="co"># examine modified doc</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .  <span class="co"># add "all" ( . means all) modified do in a package</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"update message"</span> <span class="co"># message for this package</span></span>

@@ -38,7 +38,7 @@ website:
   ## Customize search widget =======================================
   search: 
     location: navbar  # put magnifier in the navbar panel
-    type: textbox   # overlay: a pop-up search window after clicking the magnifier. textbox: a fixed white region exists with the magnifier icon.
+    type: textbox   # overlay: a pop-up search window whenever the magnifier is clicked. textbox: a fixed white region exists with the magnifier icon.
   
   ## Buttome panel =======================================
   ## It exists in every page. 3 sections: left, center, and right sections
@@ -68,6 +68,12 @@ execute:
 # Formatting ###################################################
 format:
   html:
+    # Import font from google (to be put in each html)
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     fontsize: 1.1em         # font size (global setting)
     theme: 
       - journal             # theme on https://bootswatch.com/
@@ -78,3 +84,9 @@ format:
     fig-cap-location: margin   # figure caption location
     reference-location: document  # location of the footnote. margin: ref is placed in the RHS of the page
     footnotes-hover: true  # Whether the footnote is displayed when the curser is on it. 
+    
+    
+# Language Formatting ###########################################
+# set en means: (1) Search engine and the browser perceive the website as English. (2) font prioritize English (see styles.scss)
+lang: en
+    
