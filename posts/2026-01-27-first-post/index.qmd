@@ -1,22 +1,135 @@
 ---
-title: "My First Post"
+title: "Quarto Resources and Template (My First Post!)"
 date: 2026-01-27
-description: "A test post to verify listing, tags, and TOC."
-tags: [quarto, website]        # tag for blog list tag
-categories: [quarto, website]  # tag for in-article tag
+description: "My first quarto blog post with some resources to be read in the future" # desc in the info box
+# author: # add author info in the article
+#   - name: Samantha Csik
+#     url: https://samanthacsik.github.io/
+#     orcid: 0000-0002-5300-3075
+#     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
+#     affiliation-url: https://ucsb-meds.github.io/
+categories: [quarto, website]  # tag 
 toc: true
 toc-location: right
 toc-depth: 3
-format:
-  html:
-    page-layout: article
+# image: preview-image.jpg # add preview image placed in posts/[folder of this article]
+draft: false  # true means to hide the article in the listing page and search engine.
 ---
 
-## Why I built this site
+# Quarto Publishing Workflow
 
-Write a few sentences here.
+I record what has to be done if I update the website.
 
-## What I want to write about next
+1. Afteing any update, open terminal in R studio, and type `quarto render` to render the website. Then, type `quarto preview` to browse the website **locally** and check the results of the change.
+2. Closing the local browser does not terminate preview state in the terminal. To close it properly, press `control + C` on the keyboard.
+3. To publish the website, we need to push it to the repo. In the terminal, run the following (` ```bash ` with bash create a non-executable code chunk for terminal stuffs,[^1] unlike ` ```\{somelanguage\} `)
 
-- Topic A
-- Topic B
+```bash
+git status # examine modified doc
+git add .  # add "all" ( . means all) modified do in a package
+git commit -m "update message" # message for this package
+git push
+```
+
+[^1]: See [HTML Code Block](https://quarto.org/docs/output-formats/html-code.html) for the languages that Quarto supports syntax highlighting
+
+
+# Some Good Quarto Tutorials
+
+- [The ultimate guide to starting a Quarto blog](https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html)
+- [Quarto Formatting Official Guide](https://quarto.org/docs/authoring/markdown-basics.html)
+
+
+# English font test
+
+## English subheader
+
+Block quote test
+
+> …The life of man is solitary, poor, nasty, brutish, and short. He is the prey of contingent happenings.
+
+Endowed with a few limited senses and a brain, man began to pierce the mystery about him. By utilizing what the senses reveal immediately or what can be inferred from experiments, man adopted axioms and applied his reasoning powers. His quest was the quest for order; his goal, to build systems of knowledge as opposed to transient sensations, and to form patterns of explanation that might help him attain some mastery over his environment. His chief accomplishment, the product of man’s own reason, is mathematics. It is not a perfect gem and continued polishing will probably not remove all flaws.
+
+Nevertheless; mathematics has been our most effective link with the world of sense perceptions and though it is discomfiting to have to grant that its foundations are not secure, it is still the most precious jewel of the human mind and must be treasured and husbanded. It has been in the van of reason and no doubt will continue to be even if new flaws are discovered by more searching scrutiny.
+
+Alfred North Whitehead once wrote, “Let us grant that the pursuit of mathematics is a divine madness of the human spirit.” Madness, perhaps, but surely divine.
+
+
+
+# 中文字體測試
+
+## 中文小標題
+
+學而篇第一
+【1.1】
+子曰：「學而時習之，不亦說（同『悅』，下文僅列字）乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」
+
+孔子說：「學了做人處事的道理，並在適當的時候印證練習，不也覺得高興嗎？志同道合的朋友從遠方來相聚，不也感到快樂嗎？別人不瞭解你，而你並不生氣，不也是君子的風度嗎？」
+
+古代的「子」字放在名字之後，是對老師、長者的尊稱，就好像稱呼「您」一樣，譬如：孔子、老子、荀子等；但子貢、子張、子游、子夏等人，就純粹是名字而已。《論語》中出現的「子曰」，專指孔子說的話，譯文直接翻成「孔子說」，比較清楚。
+
+全方位的學習與成長
+
+何謂「學而時習之」？一般譯為「學了以後時常練習」，但是「時」字在古代不作「時常」解，而是指適當的時機，好比春耕、夏耘、秋收、冬藏一樣。「不亦說乎」的「說」字，同「悅」字，是指發自內在的高興。
+
+就「學」的內容而言，通常是指五經：《詩》、《書》、《禮》、《樂》、《易》，以及「六藝」：禮、樂、射、御、書、數。根據孔子的思想來說，這應該是指學習做人處事的道理。
+
+「五經」的「經」即指永恆的道理，《詩經》代表文學；《書經》（即《尚書》）代表歷史；《禮經》（即《禮記》）代表社會科學，有很多詳細的生活規範；《樂經》代表藝術；《易經》代表哲學，這些是古代的人文學科。生活的基本規範就在「五經」裡，所以說是學習做人處事的道理。
+
+就學的方法而言，要配合「思」（主體的反省與理解），以求溫故知新，活學活用。孔子的「學」有三點內涵：
+
+其一，學習古代的知識與技術。為什麼「禮」、「樂」在「五經」、「六藝」裡都有呢？因為禮、樂既有理論的部分，也有操作的部分。譬如，學禮是要能真正執行禮儀，像宗教祭祀或喪禮，都有具體的操作過程，需要學習和實踐；樂也是一樣，學了音樂理論，還要實際演奏樂器，才是真正的技能。六藝就是六種技術，都是基本的技巧。在古代社會，只有貴族子弟可以受大學教育；平民子弟學了五經、六藝，在社會上就成為人才，很多諸侯國或大夫之家甚至會聘請他們擔任家臣。
+
+其二，「學」要配合思考。譬如，「學而不思則罔，思而不學則殆」（【2.15】），代表學習要配合思考才能把古代的知識現代化。「溫故而知新」，重新再讀學過的知識，有了新的體會，才能擔任老師。為師者必須經常融合個人的心得，學生學習之後，才能對生活有所幫助。
+
+其三，學習與行為有關。學習可以改變人的行為，譬如，《論語》有幾處提到好學，其中以顏淵最得孔子的欣賞，他說顏淵的好學是：「不遷怒，不貳過。」（【6.3】）與人吵架爭執，即使滿腔怒火，也不會把怒氣發泄到另一個人身上；不會再犯同樣的過錯，這說明學習有一種改造自己的力量。顏淵的好學表現在「不遷怒，不貳過」，也就是付諸於日常行為中。
+
+所以，孔子的學有三點特色：第一，老老實實學習古代的知識與技術；第二，學與思配合，得到個人的體會；第三，學習要能改變行為，這才是所謂做人處事的道理。
+
+由此可知，孔子的「學」是全方位的學習與成長。
+
+進德修業，追求至聖境界
+
+「樂」是外在顯示出來的快樂。古代的交通不像今日方便，朋友從遠方來拜訪，特別能感受到那份心意，分外覺得同聲相應、同氣相求。
+
+南宋的哲學家陸象山說：「東海有聖人，西海有聖人，此心同，此理同。」任何一種文化產品的相通，都要提高到理念的層次才能互動和溝通，志同道合的人聚在一起，絕不是黨同伐異，而是純粹追求人生的理想，因此相聚就會快樂。總之，「學而時習之」較重視個人的自我要求，「有朋自遠方來」，就開始產生一種互動。
+
+「人不知而不慍，不亦君子乎？」說明一個人已經學問有成，在社會上擁有很高的聲望，照樣不為人所瞭解，卻不因此生氣。因為求人不如求己，時機尚未成熟，即使學問再好，也無法要求事事都依照自己的方式來做。關於「人不知而不慍」，還可參考【1.16】、【4.14】、【14.30】、【15.19】。
+
+「君子」在古代是指君之子，也就是政治權貴的子弟，或指有官位者。有官位者又分為幾等：天子、諸侯、卿大夫，然後是士、庶人，庶人是人數最多的一個階級。天子只有一個，就是周天子。諸侯是指天子分封的七十一國，其中有分大國、次國、小國，大國方百里，次國方七十里，小國方五十里。第三個是卿大夫，在諸侯國當政的人。士就是讀書人，包括文士、武士。
+
+孔子保留這種用法，同時更強調以「君子」代表學行兼備的有德之人。因此，君子成為儒家的人格典型，泛指有理想、有原則，不斷進德修業，追求至聖境界的人。
+
+本章強調，先要自己努力學習，其次與朋友互相呼應，然後在學習有成而未受重視時，可以坦然自處。
+
+
+# Code Section Test
+
+Let's read some data and generate some plots
+```{r}
+#| code-fold: true
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r}
+data("USJudgeRatings")
+
+df_judge = USJudgeRatings
+```
+
+
+```{r}
+#| code-fold: true
+ggplot(df_judge, aes(x = CONT, y = DMNR)) + 
+  geom_point() +
+  geom_smooth() + 
+  theme_bw() + 
+  labs(title = "Test Plot")
+```
+
+
+
+
+

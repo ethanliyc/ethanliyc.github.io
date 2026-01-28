@@ -76,9 +76,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-description','listing-tags',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -131,7 +131,7 @@ window.Quarto = {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -178,32 +178,33 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Blog</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cXVhcnRv">quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2Vic2l0ZQ==">website <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 
@@ -211,32 +212,31 @@ window.Quarto = {
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cXVhcnRvJTJDd2Vic2l0ZQ==" data-listing-date-sort="1769443200000" data-listing-file-modified-sort="1769502926788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
+<div class="quarto-post image-right" data-index="0" data-categories="cXVhcnRvJTJDd2Vic2l0ZQ==" data-listing-date-sort="1769443200000" data-listing-file-modified-sort="1769585280540" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="421">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../posts/2026-01-27-first-post/index.html" class="no-external">My First Post</a>
+<a href="../posts/2026-01-27-first-post/index.html" class="no-external">Quarto Resources and Template (My First Post!)</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../posts/2026-01-27-first-post/index.html" class="no-external"></a>
 </div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cXVhcnRv'); return false;">
+quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('d2Vic2l0ZQ=='); return false;">
+website
+</div>
+</div>
 <div class="listing-description">
-<a href="../posts/2026-01-27-first-post/index.html" class="no-external">A test post to verify listing, tags, and TOC.</a>
+<a href="../posts/2026-01-27-first-post/index.html" class="no-external">My first quarto blog post with some resources to be read in the future</a>
 </div>
 </div>
 <div class="metadata">
 <a href="../posts/2026-01-27-first-post/index.html" class="no-external">
 <div class="listing-date">
 Jan 27, 2026
-</div>
-<div class="metadata-value listing-tags">
-quarto,website
 </div>
 </a>
 </div>

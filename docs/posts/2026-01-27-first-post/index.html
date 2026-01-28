@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.42">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
 <meta name="dcterms.date" content="2026-01-27">
-<meta name="description" content="A test post to verify listing, tags, and TOC.">
-
-<title>My First Post – Yi-Chen Li (Ethan)</title>
+<meta name="description" content="My first quarto blog post with some resources to be read in the future">
+<title>Quarto Resources and Template (My First Post!) – Yi-Chen Li (Ethan)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,8 +19,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
-
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
@@ -39,8 +69,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-e4f5e8fe08cc6c9bd4eb1ade7baa571d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/bootstrap/bootstrap-e4f5e8fe08cc6c9bd4eb1ade7baa571d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -66,16 +95,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-
-
 </head>
-
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Yi-Chen Li (Ethan)</span>
@@ -87,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
+<li class="nav-item">
     <a class="nav-link" href="../../cv/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
@@ -96,8 +120,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item compact">
     <a class="nav-link" href="mailto:ethanli.taiwan@gmail.com"> <i class="bi bi-envelope" role="img" aria-label="email">
 </i> 
 <span class="menu-text"></span></a>
@@ -113,32 +137,37 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
+</div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-i-built-this-site" id="toc-why-i-built-this-site" class="nav-link active" data-scroll-target="#why-i-built-this-site">Why I built this site</a></li>
-  <li><a href="#what-i-want-to-write-about-next" id="toc-what-i-want-to-write-about-next" class="nav-link" data-scroll-target="#what-i-want-to-write-about-next">What I want to write about next</a></li>
+<li><a href="#quarto-publishing-workflow" id="toc-quarto-publishing-workflow" class="nav-link active" data-scroll-target="#quarto-publishing-workflow">Quarto Publishing Workflow</a></li>
+  <li><a href="#some-good-quarto-tutorials" id="toc-some-good-quarto-tutorials" class="nav-link" data-scroll-target="#some-good-quarto-tutorials">Some Good Quarto Tutorials</a></li>
+  <li>
+<a href="#english-font-test" id="toc-english-font-test" class="nav-link" data-scroll-target="#english-font-test">English font test</a>
+  <ul class="collapse">
+<li><a href="#english-subheader" id="toc-english-subheader" class="nav-link" data-scroll-target="#english-subheader">English subheader</a></li>
   </ul>
-</nav>
+</li>
+  <li>
+<a href="#%E4%B8%AD%E6%96%87%E5%AD%97%E9%AB%94%E6%B8%AC%E8%A9%A6" id="toc-中文字體測試" class="nav-link" data-scroll-target="#%E4%B8%AD%E6%96%87%E5%AD%97%E9%AB%94%E6%B8%AC%E8%A9%A6">中文字體測試</a>
+  <ul class="collapse">
+<li><a href="#%E4%B8%AD%E6%96%87%E5%B0%8F%E6%A8%99%E9%A1%8C" id="toc-中文小標題" class="nav-link" data-scroll-target="#%E4%B8%AD%E6%96%87%E5%B0%8F%E6%A8%99%E9%A1%8C">中文小標題</a></li>
+  </ul>
+</li>
+  <li><a href="#code-section-test" id="toc-code-section-test" class="nav-link" data-scroll-target="#code-section-test">Code Section Test</a></li>
+  </ul></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">My First Post</h1>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">Quarto Resources and Template (My First Post!)</h1>
   <div class="quarto-categories">
     <div class="quarto-category">quarto</div>
     <div class="quarto-category">website</div>
@@ -147,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    A test post to verify listing, tags, and TOC.
+    My first quarto blog post with some resources to be read in the future
   </div>
 </div>
 
@@ -167,25 +196,102 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header>
-
-
-<section id="why-i-built-this-site" class="level2">
-<h2 class="anchored" data-anchor-id="why-i-built-this-site">Why I built this site</h2>
-<p>Write a few sentences here.</p>
-</section>
-<section id="what-i-want-to-write-about-next" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-want-to-write-about-next">What I want to write about next</h2>
+</header><section id="quarto-publishing-workflow" class="level1"><h1>Quarto Publishing Workflow</h1>
+<p>I record what has to be done if I update the website.</p>
+<ol type="1">
+<li>Afteing any update, open terminal in R studio, and type <code>quarto render</code> to render the website. Then, type <code>quarto preview</code> to browse the website <strong>locally</strong> and check the results of the change.</li>
+<li>Closing the local browser does not terminate preview state in the terminal. To close it properly, press <code>control + C</code> on the keyboard.</li>
+<li>To publish the website, we need to push it to the repo. In the terminal, run the following (<code>```bash</code> with bash create a non-executable code chunk for terminal stuffs,<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> unlike <code>```\{somelanguage\}</code>)</li>
+</ol>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status <span class="co"># examine modified doc</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .  <span class="co"># add "all" ( . means all) modified do in a package</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"update message"</span> <span class="co"># message for this package</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section><section id="some-good-quarto-tutorials" class="level1"><h1>Some Good Quarto Tutorials</h1>
 <ul>
-<li>Topic A</li>
-<li>Topic B</li>
-</ul>
+<li><a href="https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html">The ultimate guide to starting a Quarto blog</a></li>
+<li><a href="https://quarto.org/docs/authoring/markdown-basics.html">Quarto Formatting Official Guide</a></li>
+</ul></section><section id="english-font-test" class="level1"><h1>English font test</h1>
+<section id="english-subheader" class="level2"><h2 class="anchored" data-anchor-id="english-subheader">English subheader</h2>
+<p>Block quote test</p>
+<blockquote class="blockquote">
+<p>…The life of man is solitary, poor, nasty, brutish, and short. He is the prey of contingent happenings.</p>
+</blockquote>
+<p>Endowed with a few limited senses and a brain, man began to pierce the mystery about him. By utilizing what the senses reveal immediately or what can be inferred from experiments, man adopted axioms and applied his reasoning powers. His quest was the quest for order; his goal, to build systems of knowledge as opposed to transient sensations, and to form patterns of explanation that might help him attain some mastery over his environment. His chief accomplishment, the product of man’s own reason, is mathematics. It is not a perfect gem and continued polishing will probably not remove all flaws.</p>
+<p>Nevertheless; mathematics has been our most effective link with the world of sense perceptions and though it is discomfiting to have to grant that its foundations are not secure, it is still the most precious jewel of the human mind and must be treasured and husbanded. It has been in the van of reason and no doubt will continue to be even if new flaws are discovered by more searching scrutiny.</p>
+<p>Alfred North Whitehead once wrote, “Let us grant that the pursuit of mathematics is a divine madness of the human spirit.” Madness, perhaps, but surely divine.</p>
+</section></section><section id="中文字體測試" class="level1"><h1>中文字體測試</h1>
+<section id="中文小標題" class="level2"><h2 class="anchored" data-anchor-id="中文小標題">中文小標題</h2>
+<p>學而篇第一 【1.1】 子曰：「學而時習之，不亦說（同『悅』，下文僅列字）乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」</p>
+<p>孔子說：「學了做人處事的道理，並在適當的時候印證練習，不也覺得高興嗎？志同道合的朋友從遠方來相聚，不也感到快樂嗎？別人不瞭解你，而你並不生氣，不也是君子的風度嗎？」</p>
+<p>古代的「子」字放在名字之後，是對老師、長者的尊稱，就好像稱呼「您」一樣，譬如：孔子、老子、荀子等；但子貢、子張、子游、子夏等人，就純粹是名字而已。《論語》中出現的「子曰」，專指孔子說的話，譯文直接翻成「孔子說」，比較清楚。</p>
+<p>全方位的學習與成長</p>
+<p>何謂「學而時習之」？一般譯為「學了以後時常練習」，但是「時」字在古代不作「時常」解，而是指適當的時機，好比春耕、夏耘、秋收、冬藏一樣。「不亦說乎」的「說」字，同「悅」字，是指發自內在的高興。</p>
+<p>就「學」的內容而言，通常是指五經：《詩》、《書》、《禮》、《樂》、《易》，以及「六藝」：禮、樂、射、御、書、數。根據孔子的思想來說，這應該是指學習做人處事的道理。</p>
+<p>「五經」的「經」即指永恆的道理，《詩經》代表文學；《書經》（即《尚書》）代表歷史；《禮經》（即《禮記》）代表社會科學，有很多詳細的生活規範；《樂經》代表藝術；《易經》代表哲學，這些是古代的人文學科。生活的基本規範就在「五經」裡，所以說是學習做人處事的道理。</p>
+<p>就學的方法而言，要配合「思」（主體的反省與理解），以求溫故知新，活學活用。孔子的「學」有三點內涵：</p>
+<p>其一，學習古代的知識與技術。為什麼「禮」、「樂」在「五經」、「六藝」裡都有呢？因為禮、樂既有理論的部分，也有操作的部分。譬如，學禮是要能真正執行禮儀，像宗教祭祀或喪禮，都有具體的操作過程，需要學習和實踐；樂也是一樣，學了音樂理論，還要實際演奏樂器，才是真正的技能。六藝就是六種技術，都是基本的技巧。在古代社會，只有貴族子弟可以受大學教育；平民子弟學了五經、六藝，在社會上就成為人才，很多諸侯國或大夫之家甚至會聘請他們擔任家臣。</p>
+<p>其二，「學」要配合思考。譬如，「學而不思則罔，思而不學則殆」（【2.15】），代表學習要配合思考才能把古代的知識現代化。「溫故而知新」，重新再讀學過的知識，有了新的體會，才能擔任老師。為師者必須經常融合個人的心得，學生學習之後，才能對生活有所幫助。</p>
+<p>其三，學習與行為有關。學習可以改變人的行為，譬如，《論語》有幾處提到好學，其中以顏淵最得孔子的欣賞，他說顏淵的好學是：「不遷怒，不貳過。」（【6.3】）與人吵架爭執，即使滿腔怒火，也不會把怒氣發泄到另一個人身上；不會再犯同樣的過錯，這說明學習有一種改造自己的力量。顏淵的好學表現在「不遷怒，不貳過」，也就是付諸於日常行為中。</p>
+<p>所以，孔子的學有三點特色：第一，老老實實學習古代的知識與技術；第二，學與思配合，得到個人的體會；第三，學習要能改變行為，這才是所謂做人處事的道理。</p>
+<p>由此可知，孔子的「學」是全方位的學習與成長。</p>
+<p>進德修業，追求至聖境界</p>
+<p>「樂」是外在顯示出來的快樂。古代的交通不像今日方便，朋友從遠方來拜訪，特別能感受到那份心意，分外覺得同聲相應、同氣相求。</p>
+<p>南宋的哲學家陸象山說：「東海有聖人，西海有聖人，此心同，此理同。」任何一種文化產品的相通，都要提高到理念的層次才能互動和溝通，志同道合的人聚在一起，絕不是黨同伐異，而是純粹追求人生的理想，因此相聚就會快樂。總之，「學而時習之」較重視個人的自我要求，「有朋自遠方來」，就開始產生一種互動。</p>
+<p>「人不知而不慍，不亦君子乎？」說明一個人已經學問有成，在社會上擁有很高的聲望，照樣不為人所瞭解，卻不因此生氣。因為求人不如求己，時機尚未成熟，即使學問再好，也無法要求事事都依照自己的方式來做。關於「人不知而不慍」，還可參考【1.16】、【4.14】、【14.30】、【15.19】。</p>
+<p>「君子」在古代是指君之子，也就是政治權貴的子弟，或指有官位者。有官位者又分為幾等：天子、諸侯、卿大夫，然後是士、庶人，庶人是人數最多的一個階級。天子只有一個，就是周天子。諸侯是指天子分封的七十一國，其中有分大國、次國、小國，大國方百里，次國方七十里，小國方五十里。第三個是卿大夫，在諸侯國當政的人。士就是讀書人，包括文士、武士。</p>
+<p>孔子保留這種用法，同時更強調以「君子」代表學行兼備的有德之人。因此，君子成為儒家的人格典型，泛指有理想、有原則，不斷進德修業，追求至聖境界的人。</p>
+<p>本章強調，先要自己努力學習，其次與朋友互相呼應，然後在學習有成而未受重視時，可以坦然自處。</p>
+</section></section><section id="code-section-test" class="level1"><h1>Code Section Test</h1>
+<p>Let’s read some data and generate some plots</p>
+<div class="cell">
+<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details><div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org">ggplot2</a></span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details><div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'ggplot2' was built under R version 4.4.3</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"USJudgeRatings"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">df_judge</span> <span class="op">=</span> <span class="va">USJudgeRatings</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="va">df_judge</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">CONT</span>, y <span class="op">=</span> <span class="va">DMNR</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> </span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_smooth.html">geom_smooth</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span> </span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_bw</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span> </span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op">(</span>title <span class="op">=</span> <span class="st">"Test Plot"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details><div class="cell-output cell-output-stderr">
+<pre><code>`geom_smooth()` using method = 'loess' and formula = 'y ~ x'</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure"><p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 
 
-</section>
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<ol>
+<li id="fn1"><p>See <a href="https://quarto.org/docs/output-formats/html-code.html">HTML Code Block</a> for the languages that Quarto supports syntax highlighting<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -603,8 +709,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
 <p><span class="faux-block">Template by <a href="https://marvin-schmitt.com/blog/website-tutorial-quarto/">Marvin Schmitt</a> (CC BY-SA 4.0)</span></p>
 </div>   
@@ -616,8 +721,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-
-
 
 
 </body></html>
