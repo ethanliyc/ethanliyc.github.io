@@ -1,7 +1,7 @@
 ---
 title: "顏色命名的規律"
 date: 2025-09-23
-description: "思考人類社會對顏色命名的差異，並整理Color Hierarchy的理論演變" 
+description: "思考人類社會對顏色命名的差異，並整理Color Hierarchy的理論演變。" 
 author: # add author info in the article
    - name: Yi-Chen Li (Ethan)
 #     url: https://samanthacsik.github.io/
@@ -24,7 +24,12 @@ lang: zh-Hant  # The default language is English; zh-Hant means Chinese and the 
 
 Wine-Dark Sea意指「如酒一樣深色的海」，我猜想可能是紫或深紅色吧。我以前覺得這個形容詞的形式---「物體-Dark」---是歐美文學的修辭法，聽起來比較具象化。直至前幾天透過Vox的影片「[The surprising pattern behind color names around the world](https://www.youtube.com/watch?v=gMqZR3pqMjg)」，知道了所謂的「Basic Color Terms」，而且每個社會的顏色命名有固定的pattern，我這才發現原來這首管樂曲名另有奧妙！？這幾天我沒事查了些這方面的內容，故在本文稍稍整理我的不專業小心得，也幫自己Medium除草一番。
 
+<br>
+
 ---
+
+<br>
+
 
 # 顏色命名的Puzzle
 
@@ -32,7 +37,7 @@ Wine-Dark Sea意指「如酒一樣深色的海」，我猜想可能是紫或深�
 
 仔細思考人們命名顏色的方式，有幾個有趣的問題:
 
-1. 顏色按照波長而言是連續的，那為甚麼我們會命名特定波長的顏色---例如紅、黃、綠---而非其他呢？ 為甚麼沒有人用「鼻涕色」代稱黃色和綠色的中間色呢? 
+1. 顏色按照波長而言是連續的，那為甚麼我們會命名特定波長的顏色---例如紅、黃、綠---而非其他呢？ 為甚麼沒有人用「鼻涕色」代稱黃色和綠色的中間色呢？
 2. 不同語言似乎有不同數量的顏色詞彙，例如象牙海岸的語言Wobé用Kpe指涉藍色、紫色、棕色。
 3. 若2.為真，則這些基礎顏色詞彙（Basic Color Term, BCT）的數量是否會對應特定一組顏色呢？ 例如，當一個語言只有三種顏色，那這三種會是甚麼呢？
 4. 承3.，那是甚麼因素決定了哪一些顏色會先被命名？
@@ -72,7 +77,7 @@ flowchart LR
 4. 文化因素：在歐洲歷史上，紅色衣著和高社會階級有關，紅色也是過去因稀缺而珍貴的顏色。種種社會因素使得紅色成為人們會先注意到的顏色。
 
 
----
+<br>
 
 
 
