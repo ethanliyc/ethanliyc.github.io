@@ -70,52 +70,17 @@
     "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     X\n  \n\n  \n  \n\nWelcome to my website! (Under construction)\nI am Yi-Chen Li (Ethan), a master’s student in Economics at National Taiwan University (NTU), and I was previously a visiting student at University of California, Berkeley. I study international trade, political economy, economic history, and applied econometrics.\nAs a double major in Political Science and Economics during my undergraduate studies, I became fascinated by how economic shocks and globalization reshape social values and political life. Much of my thinking is inspired by Karl Polanyi’s The Great Transformation.\nOutside economics, I am broadly interested in history, philosophy, and social theory. Recently, I have been reading more in the philosophy of science and art history. In my free time, I enjoy classical music—I once played the saxophone—as well as independent music with inventive arrangements.\nFeel free to contact me if you would like to connect or discuss any of the topics explored on this website."
   },
   {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Quarto Resources and Template (My First Post!)\n\n\n\n\n\n\nquarto\n\n\n\nMy first quarto blog post with some resources to be read in the future\n\n\n\n\n\nJan 27, 2026\n\n\n\n\n\n\n\n顏色命名的規律\n\n\n\n\n\n\nnotes\n\n\n\n\n\n\n\n\n\nSep 23, 2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/2025-09-23-color-hierarchy/index.html",
     "href": "posts/2025-09-23-color-hierarchy/index.html",
     "title": "顏色命名的規律",
     "section": "",
-    "text": "Note\n\n\n\n本篇文搬運自我的Medium，也是我個人blog的首篇正式文章。\n小時候演奏過一首John Mackey所寫的炫炮現代樂曲—「Wine-Dark Sea」—描述古希臘作家荷馬(Homer )的史詩「奧德賽(Odyssey)」中主角奧德修斯(Odysseus)的經歷；第一樂章的標題是Hubris，以雄偉的號角聲，搭配不和諧音程及隨小節變換的拍號，讓海神的天罰在奧德修斯的傲慢中醞釀，最終爆發。我以前就只覺得這是一首很「酷」的曲子，沒太多其他想法，但最近看了幾部影片，才突然瞭解了Wine-Dark Sea名稱蘊含的科學或人文(?)意義。\nWine-Dark Sea意指「如酒一樣深色的海」，我猜想可能是紫或深紅色吧。我以前覺得這個形容詞的形式—「物體-Dark」—是歐美文學的修辭法，聽起來比較具象化。直至前幾天透過Vox的影片「The surprising pattern behind color names around the world」，知道了所謂的「Basic Color Terms」，而且每個社會的顏色命名有固定的pattern，我這才發現原來這個管樂曲名另有奧妙!?這幾天我沒事查了些這方面的內容，故在本文稍稍整理我的不專業小心得，也幫自己Medium除草一番。"
+    "text": "註釋\n\n\n\n本篇文搬運自我的Medium。\n\n\n小時候演奏過一首John Mackey所寫的炫炮現代樂曲—「Wine-Dark Sea」—描述古希臘作家荷馬（Homer ）的史詩「奧德賽（Odyssey）」中主角奧德修斯（Odysseus）的經歷。第一樂章的標題是Hubris，以雄偉的號角聲，搭配不和諧音程及隨小節變換的拍號，讓海神的天罰在奧德修斯的傲慢中醞釀後爆發。我以前只覺得這是一首很「酷」的曲子，沒太多其他想法，但最近看了幾部影片，才突然瞭解了Wine-Dark Sea名稱蘊含的科學或人文（?）意義。\nWine-Dark Sea意指「如酒一樣深色的海」，我猜想可能是紫或深紅色吧。我以前覺得這個形容詞的形式—「物體-Dark」—是歐美文學的修辭法，聽起來比較具象化。直至前幾天透過Vox的影片「The surprising pattern behind color names around the world」，知道了所謂的「Basic Color Terms」，而且每個社會的顏色命名有固定的pattern，我這才發現原來這首管樂曲名另有奧妙！？這幾天我沒事查了些這方面的內容，故在本文稍稍整理我的不專業小心得，也幫自己Medium除草一番。\n\n\n1 顏色命名的Puzzle\n很早就有人發現，荷馬史詩中僅有很少的顏色詞彙。英國首相William Gladstone在1858年出版的「Studies on Homer and the Homeric Age」中，發現荷馬用同一個詞形容不同的顏色（至少對英語使用者來說不同）；例如他用同一個詞形容blood、dark cloud、sea wave、rainbow。為甚麼會這樣呢？\n仔細思考人們命名顏色的方式，有幾個有趣的問題:\n\n顏色按照波長而言是連續的，那為甚麼我們會命名特定波長的顏色—例如紅、黃、綠—而非其他呢？ 為甚麼沒有人用「鼻涕色」代稱黃色和綠色的中間色呢?\n不同語言似乎有不同數量的顏色詞彙，例如象牙海岸的語言Wobé用Kpe指涉藍色、紫色、棕色。\n若2.為真，則這些基礎顏色詞彙（Basic Color Term, BCT）的數量是否會對應特定一組顏色呢？ 例如，當一個語言只有三種顏色，那這三種會是甚麼呢？\n承3.，那是甚麼因素決定了哪一些顏色會先被命名？\nBCT數量較少的語言，是如何稱呼各種物體的顏色呢？\n\n\n\n2 Berlin and Kay’s BCT\nUC Berkeley的教授Berlin and Kay在1969年的「Basic Color Terms: Their Universality and Evolution」一書中，首次提出BCT（Basic Color Term）的概念。他們訪問了不同國家的受試者，歸納出以下規律:\n\n\n\n\n\n\nflowchart LR\n  WB[\"white&lt;br/&gt;black\"] --&gt; R[\"red\"] --&gt; GY[\"green&lt;br/&gt;yellow\"] --&gt; BL[\"blue\"] --&gt; BR[\"brown\"] --&gt; P[\"purple&lt;br/&gt;pink&lt;br/&gt;orange&lt;br/&gt;grey\"]\n\n\n\n\n圖 1: Adapted from Kay and Daniel (1978)\n\n\n\n\n\n這張圖要由左至右來閱讀。若一個語言只有兩種顏色，那就是White and Black，如果是三種，那就多加上red，第四和五種的話就是Green or Yellow…以此類推。\n雖然這個BCT的原始版本遭受諸多批評，但後來Berlin and Kay使用了更大的樣本、並觀察更多沒有文字的語言後（可見Berlin and Kay後來的World Color Survey），這個規律仍被支持，不過也歷經不少修改和新詮釋:\n\nWhite and Black的雙顏色語言，實際上指涉的是亮跟暗，而他們只是用亮色和暗色來指涉高階語言的數個顏色。其他低階語言也是同樣的，如開頭提到過Wobé語言用Kpe稱呼藍色、紫色、棕色。\n當低階語言使用者指涉特定顏色時，會用物體顏色來形容，如用sky代表藍色。\n不同語言或文化的使用者，他們所指涉的顏色，切在大致相同的位置。譬如中文使用者所稱的紅色和英文使用者的red，對應在光譜上的位置差不多，說明似乎不同語言使用者所定義的顏色波長具有普世性。\n\n我個人相當懷疑3.的詮釋，這系列的研究畢竟在20世紀後期才開始，而全球化和通訊產品的發達，可能已經讓不同社會原本在波長上指涉的位置漸漸統合，但現代的研究似乎很難調查到古代人對顏色的感知（perception）了。\n\n\n3 為甚麼某些顏色先於其他顏色？\n然而有趣的是，為甚麼有些顏色先於其他顏色？學界給出的原因族繁不及備載，仍未有定論。我找到了以下幾個說法:\n\n紅色可能和血或危險有關，所以為了生存，演化上會被保留下來。\n人類天生比較能辨識暖色或紅色，這點可以從嬰兒大腦的反應上發現。\n有人認為統計上，大自然的暖色系物體多。我們談論的物體的顏色都是偏暖和偏紅，背景的顏色則多是冷色系。人類為了溝通，故先發展出紅色。同理，藍色較晚發展，是因為大自然中藍色的生物很少（這點可以看這部影片）。\n文化因素：在歐洲歷史上，紅色衣著和高社會階級有關，紅色也是過去因稀缺而珍貴的顏色。種種社會因素使得紅色成為人們會先注意到的顏色。\n\n\n\n\n4 結語\n看了半天，感覺這方面的文獻還存有許多謎團。各種顏色跟對應的意涵，似乎顯現出一種人類天生的內在能力？如同Sound Symbolism—特定發音對應特定物體形狀—那般，值得思考原因為何。\n現在回想起荷馬所說的「Wine-Dark Sea」，原來這可能不是修辭的技巧，而是在顏色詞彙侷限下的表達方式！我只能說…嗯這首曲子還真的挺酷的（詞窮lol）。\n\n\n\n\n\n\n\nP.S.\n\n\n\n本篇是我不專業的整理。現在有AI了，針對紅色為何先出現一問題，我使用過Perplexity的研究功能。即便我有閱讀過內文，確定AI詮釋無誤，但若有錯誤仍歡迎指正；內文則全是本人親自撰寫。\n\n\n\n\nReferences\n\n圖 1 出處: Kay, P., & McDaniel, C. K. (1978). The Linguistic Significance of the Meanings of Basic Color Terms. Language, 54(3), 610–646. https://doi.org/10.2307/412789\n部分開頭Puzzle、例子、解釋來自Vox的The surprising pattern behind color names around the world\nBCT理論的後續討論和詮釋的整理\n\nHardin, C. L. (2013). Berlin and Kay theory. In Encyclopedia of color science and technology (pp. 1–4). Springer, New York, NY.\nFranklin, A. (2015). Development of color categorization. In A. J. Elliot, M. D. Fairchild, & A. Franklin (Eds.), Handbook of Color Psychology (pp. 279–294). chapter, Cambridge: Cambridge University Press.\n\n為何紅色先發展的社會和文化因素\n\nSmith, S. (2018, June 29). The Red Craze. Fashion History Timeline. https://fashionhistory.fitnyc.edu/the-red-craze/\n\n人們談論的物體多是暖色、而背景多是冷色系\n\nE. Gibson, R. Futrell, J. Jara-Ettinger, K. Mahowald, L. Bergen, S. Ratnasingam, M. Gibson, S.T. Piantadosi, & B.R. Conway, Color naming across languages reflects color use, Proc. Natl. Acad. Sci. 114 (40) 10785–10790, https://doi.org/10.1073/pnas.1619666114 (2017)."
   },
   {
-    "objectID": "posts/2025-09-23-color-hierarchy/index.html#key-points-numbered-list",
-    "href": "posts/2025-09-23-color-hierarchy/index.html#key-points-numbered-list",
-    "title": "顏色命名的規律",
-    "section": "\n4.1 Key Points (Numbered List)",
-    "text": "4.1 Key Points (Numbered List)\n\nFirst key idea or step.\nSecond key idea.\nThird key idea (can include subpoints):\n\nNested sub-step A.\nNested sub-step B."
-  },
-  {
-    "objectID": "posts/2025-09-23-color-hierarchy/index.html#outline-checklist-unordered-list",
-    "href": "posts/2025-09-23-color-hierarchy/index.html#outline-checklist-unordered-list",
-    "title": "顏色命名的規律",
-    "section": "\n4.2 Outline / Checklist (Unordered List)",
-    "text": "4.2 Outline / Checklist (Unordered List)\n\nMain task or concept\n\nSubtask / detail\n\nEven more specific note\n\n\n\n\nAnother task\nFinal takeaway"
-  },
-  {
-    "objectID": "posts/2025-09-23-color-hierarchy/index.html#r-example-executed",
-    "href": "posts/2025-09-23-color-hierarchy/index.html#r-example-executed",
-    "title": "顏色命名的規律",
-    "section": "\n5.1 R Example (executed)",
-    "text": "5.1 R Example (executed)\n\nx &lt;- rnorm(100)\nmean(x)\n\n[1] -0.07863101\n\n\n\n5.1.1 Code display\nUse to create a code display environment.{program} means executable code, so don’t use curly brackets that confuse R.\ngit status\ngit add -A\ngit commit -m \"Update post\"\ngit push"
-  },
-  {
-    "objectID": "posts/2025-09-23-color-hierarchy/index.html#references-further-reading",
-    "href": "posts/2025-09-23-color-hierarchy/index.html#references-further-reading",
-    "title": "顏色命名的規律",
-    "section": "\n5.2 References / Further Reading",
-    "text": "5.2 References / Further Reading\n\nQuarto documentation: https://quarto.org/docs/"
-  },
-  {
-    "objectID": "posts/2025-09-23-color-hierarchy/index.html#footnotes",
-    "href": "posts/2025-09-23-color-hierarchy/index.html#footnotes",
-    "title": "顏色命名的規律",
-    "section": "Footnotes",
-    "text": "Footnotes\n\nThis is an example footnote. Use it for side remarks, references, or clarifications.↩︎"
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Quarto Resources and Template (My First Post!)\n\n\n\n\n\n\nquarto\n\n\n\nMy first quarto blog post with some resources to be read in the future\n\n\n\n\n\nJan 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n顏色命名的規律\n\n\n\n\n\n\nnotes\n\n\n\n思考人類社會對顏色命名的差異，並整理Color Hierarchy的理論演變\n\n\n\n\n\nSep 23, 2025\n\n\n\n\n\n\nNo matching items"
   }
 ]

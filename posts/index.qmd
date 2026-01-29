@@ -2,14 +2,14 @@
 title: Blog
 format:
   html:
-    page-layout: full      # The content fills all space in the page
+    page-layout: article      # full: The content fills all space in the page
 title-block-banner: true   # A big "blog" banner is displayed in the listing page
 listing:
   contents: .
+  fields: [image, date, title, description, categories]  # objects to be put on the list
   type: default
   sort: "date desc"
   categories: numbered     # 右側顯示分類 + 篇數，且可點擊篩選
-  fields: [date, title, description, categories]
   page-size: 10            # 10 articles per page
   sort-ui: false
 ---

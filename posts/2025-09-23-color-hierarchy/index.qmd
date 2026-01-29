@@ -1,123 +1,108 @@
 ---
 title: "顏色命名的規律"
 date: 2025-09-23
-description: "" 
-# author: # add author info in the article
-#   - name: Samantha Csik
+description: "思考人類社會對顏色命名的差異，並整理Color Hierarchy的理論演變" 
+author: # add author info in the article
+   - name: Yi-Chen Li (Ethan)
 #     url: https://samanthacsik.github.io/
 #     orcid: 0000-0002-5300-3075
 #     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
 #     affiliation-url: https://ucsb-meds.github.io/
 categories: [notes]  # tag 
 number-sections: true  # Add number before header
-# image: preview-image.jpg # add preview image placed inside posts/[folder of this article]
-draft: true  # true means to hide the article in the listing page and search engine.
-# lang: zh-hant  # The default language is English; zh means Chinese. It affects (1) Which of zh and Eng fonts are prioritized. (2) how search engine and brwoser perceive the language of the page (3) text formatting of Chinese whenever the doc is rendered as LeTeX pdf
+image: color-hierarchy.png # add preview image placed inside posts/[folder of this article]
+draft: false  # true means to hide the article in the listing page and search engine.
+lang: zh-Hant  # The default language is English; zh-Hant means Chinese and the modified ver is set in _language.yml.
 ---
 
 ::: {.callout-note}
-本篇文搬運自[我的Medium](https://medium.com/@Yich_2826/%E5%BF%83%E5%BE%97-%E9%A1%8F%E8%89%B2%E5%91%BD%E5%90%8D%E7%9A%84%E8%A6%8F%E5%BE%8B-2bf8036df7b9)，也是我個人blog的首篇正式文章。
+本篇文搬運自[我的Medium](https://medium.com/@Yich_2826/%E5%BF%83%E5%BE%97-%E9%A1%8F%E8%89%B2%E5%91%BD%E5%90%8D%E7%9A%84%E8%A6%8F%E5%BE%8B-2bf8036df7b9)。
 :::
 
 
-小時候演奏過一首John Mackey所寫的炫炮現代樂曲---「[Wine-Dark Sea](https://www.youtube.com/watch?v=GyvcDPuUzO4)」---描述古希臘作家荷馬(Homer )的史詩「奧德賽(Odyssey)」中主角奧德修斯(Odysseus)的經歷；第一樂章的標題是Hubris，以雄偉的號角聲，搭配不和諧音程及隨小節變換的拍號，讓海神的天罰在奧德修斯的傲慢中醞釀，最終爆發。我以前就只覺得這是一首很「酷」的曲子，沒太多其他想法，但最近看了幾部影片，才突然瞭解了Wine-Dark Sea名稱蘊含的科學或人文(?)意義。
+小時候演奏過一首John Mackey所寫的炫炮現代樂曲---「[Wine-Dark Sea](https://www.youtube.com/watch?v=GyvcDPuUzO4)」---描述古希臘作家荷馬（Homer ）的史詩「奧德賽（Odyssey）」中主角奧德修斯（Odysseus）的經歷。第一樂章的標題是Hubris，以雄偉的號角聲，搭配不和諧音程及隨小節變換的拍號，讓海神的天罰在奧德修斯的傲慢中醞釀後爆發。我以前只覺得這是一首很「酷」的曲子，沒太多其他想法，但最近看了幾部影片，才突然瞭解了Wine-Dark Sea名稱蘊含的科學或人文（?）意義。
 
-Wine-Dark Sea意指「如酒一樣深色的海」，我猜想可能是紫或深紅色吧。我以前覺得這個形容詞的形式---「物體-Dark」---是歐美文學的修辭法，聽起來比較具象化。直至前幾天透過Vox的影片「[The surprising pattern behind color names around the world](https://www.youtube.com/watch?v=gMqZR3pqMjg)」，知道了所謂的「Basic Color Terms」，而且每個社會的顏色命名有固定的pattern，我這才發現原來這個管樂曲名另有奧妙!?這幾天我沒事查了些這方面的內容，故在本文稍稍整理我的不專業小心得，也幫自己Medium除草一番。
+Wine-Dark Sea意指「如酒一樣深色的海」，我猜想可能是紫或深紅色吧。我以前覺得這個形容詞的形式---「物體-Dark」---是歐美文學的修辭法，聽起來比較具象化。直至前幾天透過Vox的影片「[The surprising pattern behind color names around the world](https://www.youtube.com/watch?v=gMqZR3pqMjg)」，知道了所謂的「Basic Color Terms」，而且每個社會的顏色命名有固定的pattern，我這才發現原來這首管樂曲名另有奧妙！？這幾天我沒事查了些這方面的內容，故在本文稍稍整理我的不專業小心得，也幫自己Medium除草一番。
 
 ---
 
 # 顏色命名的Puzzle
 
-很早就有人發現，荷馬史詩中僅有很少的顏色詞彙。英國首相William Gladstone在1858年出版的「Studies on Homer and the Homeric Age」中，發現荷馬用同一個詞形容不同的顏色(至少對英語使用者來說不同)；例如他用同一個詞形容blood、dark cloud、sea wave、rainbow。為甚麼會這樣呢？
+很早就有人發現，荷馬史詩中僅有很少的顏色詞彙。英國首相William Gladstone在1858年出版的「Studies on Homer and the Homeric Age」中，發現荷馬用同一個詞形容不同的顏色（至少對英語使用者來說不同）；例如他用同一個詞形容blood、dark cloud、sea wave、rainbow。為甚麼會這樣呢？
 
-而且，仔細思考人們命名顏色的方式，有幾個有趣的問題:
+仔細思考人們命名顏色的方式，有幾個有趣的問題:
 
-1. 顏色按照波長而言是連續的，那為甚麼我們會命名特定波長的顏色---例如紅、黃、綠---而非其他呢？ 譬如，用「鼻涕色」代稱黃色和綠色的中間色。
+1. 顏色按照波長而言是連續的，那為甚麼我們會命名特定波長的顏色---例如紅、黃、綠---而非其他呢？ 為甚麼沒有人用「鼻涕色」代稱黃色和綠色的中間色呢? 
 2. 不同語言似乎有不同數量的顏色詞彙，例如象牙海岸的語言Wobé用Kpe指涉藍色、紫色、棕色。
-3. 若2.為真，則這些基礎顏色詞彙(Basic Color Term, BCT)的數量是否會對應特定一組顏色呢? 例如，當一個語言只有三種顏色，那這三種會是甚麼呢? 
+3. 若2.為真，則這些基礎顏色詞彙（Basic Color Term, BCT）的數量是否會對應特定一組顏色呢？ 例如，當一個語言只有三種顏色，那這三種會是甚麼呢？
 4. 承3.，那是甚麼因素決定了哪一些顏色會先被命名？
 5. BCT數量較少的語言，是如何稱呼各種物體的顏色呢？
 
 
 # Berlin and Kay’s BCT
-UC Berkeley的教授Berlin and Kay在1969年的「Basic Color Terms: Their Universality and Evolution」一書中，首次提出BCT（Basic Color Term）的概念。他們以蒐集不同國家受試者的方式，歸納出以下規律:
 
+UC Berkeley的教授Berlin and Kay在1969年的「Basic Color Terms: Their Universality and Evolution」一書中，首次提出BCT（Basic Color Term）的概念。他們訪問了不同國家的受試者，歸納出以下規律:
 
-
-
-
-
-
-
-
----
-
-# Hyper links and footnote
-
-This post documents **[brief purpose here]**, mainly for future reference and reproducibility.
-
-You can include hyperlinks like this:
-- Official documentation: https://quarto.org
-- Inline link example: [Quarto documentation](https://quarto.org/docs/)
-- [Quarto Formatting Guide](https://quarto.org/docs/authoring/markdown-basics.html)
-
-You can also add a footnote like this[^example-footnote].
-
-[^example-footnote]: This is an example footnote. Use it for side remarks, references, or clarifications.
-
-
-# Lists
-
-*Nested list usually require 4 spaces before - or 1. to make indentation*
-
----
-
-## Key Points (Numbered List)
-
-1. First key idea or step.
-2. Second key idea.
-3. Third key idea (can include subpoints):
-    1. Nested sub-step A.
-    2. Nested sub-step B.
-
----
-
-## Outline / Checklist (Unordered List)
-
-- Main task or concept
-    - Subtask / detail
-        - Even more specific note
-- Another task
-- Final takeaway
-
----
-
-# Example Code
-
-## R Example (executed)
-
-```{r}
-#| echo: true
-#| message: false
-#| warning: false
-
-x <- rnorm(100)
-mean(x)
+```{mermaid}
+%%| label: fig-BCT
+%%| fig-cap: "Adapted from Kay and Daniel (1978)"
+flowchart LR
+  WB["white<br/>black"] --> R["red"] --> GY["green<br/>yellow"] --> BL["blue"] --> BR["brown"] --> P["purple<br/>pink<br/>orange<br/>grey"]
 ```
 
-### Code display
+這張圖要由左至右來閱讀。若一個語言只有兩種顏色，那就是White and Black，如果是三種，那就多加上red，第四和五種的話就是Green or Yellow...以此類推。
 
-Use ``` to create a code display environment. ```{program} means executable code, so don't use curly brackets that confuse R.
 
-```bash
-git status
-git add -A
-git commit -m "Update post"
-git push
-```
+雖然這個BCT的原始版本遭受諸多批評，但後來Berlin and Kay使用了更大的樣本、並觀察更多沒有文字的語言後（可見Berlin and Kay後來的World Color Survey），這個規律仍被支持，不過也歷經不少修改和新詮釋:
 
-## References / Further Reading
+1. White and Black的雙顏色語言，實際上指涉的是亮跟暗，而他們只是用亮色和暗色來指涉高階語言的數個顏色。其他低階語言也是同樣的，如開頭提到過Wobé語言用Kpe稱呼藍色、紫色、棕色。
+2. 當低階語言使用者指涉特定顏色時，會用物體顏色來形容，如用sky代表藍色。
+3. 不同語言或文化的使用者，他們所指涉的顏色，切在大致相同的位置。譬如中文使用者所稱的紅色和英文使用者的red，對應在光譜上的位置差不多，說明似乎不同語言使用者所定義的顏色波長具有普世性。
 
-- Quarto documentation: https://quarto.org/docs/
+我個人相當懷疑3.的詮釋，這系列的研究畢竟在20世紀後期才開始，而全球化和通訊產品的發達，可能已經讓不同社會原本在波長上指涉的位置漸漸統合，但現代的研究似乎很難調查到古代人對顏色的感知（perception）了。
+
+
+# 為甚麼某些顏色先於其他顏色？
+
+然而有趣的是，為甚麼有些顏色先於其他顏色？學界給出的原因族繁不及備載，仍未有定論。我找到了以下幾個說法:
+
+1. 紅色可能和血或危險有關，所以為了生存，演化上會被保留下來。
+2. 人類天生比較能辨識暖色或紅色，這點可以從嬰兒大腦的反應上發現。
+3. 有人認為統計上，大自然的暖色系物體多。我們談論的物體的顏色都是偏暖和偏紅，背景的顏色則多是冷色系。人類為了溝通，故先發展出紅色。同理，藍色較晚發展，是因為大自然中藍色的生物很少（這點可以看[這部影片](https://www.youtube.com/watch?v=3g246c6Bv58)）。
+4. 文化因素：在歐洲歷史上，紅色衣著和高社會階級有關，紅色也是過去因稀缺而珍貴的顏色。種種社會因素使得紅色成為人們會先注意到的顏色。
+
 
 ---
+
+
+
+# 結語
+
+看了半天，感覺這方面的文獻還存有許多謎團。各種顏色跟對應的意涵，似乎顯現出一種人類天生的內在能力？如同Sound Symbolism---特定發音對應特定物體形狀---那般，值得思考原因為何。
+
+現在回想起荷馬所說的「Wine-Dark Sea」，原來這可能不是修辭的技巧，而是**在顏色詞彙侷限下的表達方式！**我只能說...嗯這首曲子還真的挺酷的（詞窮lol）。
+
+
+--- 
+
+::: {.callout-note title="P.S."}
+本篇是我不專業的整理。現在有AI了，針對紅色為何先出現一問題，我使用過Perplexity的研究功能。即便我有閱讀過內文，確定AI詮釋無誤，但若有錯誤仍歡迎指正；內文則全是本人親自撰寫。
+:::
+
+
+# References {.unnumbered}
+
+- @fig-BCT 出處: Kay, P., & McDaniel, C. K. (1978). The Linguistic Significance of the Meanings of Basic Color Terms. Language, 54(3), 610–646. https://doi.org/10.2307/412789
+- 部分開頭Puzzle、例子、解釋來自Vox的[The surprising pattern behind color names around the world](https://www.youtube.com/watch?v=gMqZR3pqMjg)
+
+- BCT理論的後續討論和詮釋的整理
+    - Hardin, C. L. (2013). Berlin and Kay theory. In Encyclopedia of color science and technology (pp. 1–4). Springer, New York, NY.
+    - Franklin, A. (2015). Development of color categorization. In A. J. Elliot, M. D. Fairchild, & A. Franklin (Eds.), Handbook of Color Psychology (pp. 279–294). chapter, Cambridge: Cambridge University Press.
+
+- 為何紅色先發展的社會和文化因素
+    - Smith, S. (2018, June 29). The Red Craze. Fashion History Timeline. https://fashionhistory.fitnyc.edu/the-red-craze/
+
+- 人們談論的物體多是暖色、而背景多是冷色系
+    - E. Gibson, R. Futrell, J. Jara-Ettinger, K. Mahowald, L. Bergen, S. Ratnasingam, M. Gibson, S.T. Piantadosi, & B.R. Conway, Color naming across languages reflects color use, Proc. Natl. Acad. Sci. 114 (40) 10785–10790, https://doi.org/10.1073/pnas.1619666114 (2017).
+
+

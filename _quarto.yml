@@ -81,7 +81,7 @@ format:
     toc: false              # Display toc or not (globally). false globbaly and true for specific page is recommended
     code-link: true         # Enable code section if any
     anchor-sections: true      # Create a linkable hash (#) after each header in an article 
-    fig-cap-location: margin   # figure caption location
+    fig-cap-location: bottom   # figure caption location
     reference-location: document  # location of the footnote. margin: ref is placed in the RHS of the page
     footnotes-hover: true  # Whether the footnote is displayed when the curser is on it. 
     

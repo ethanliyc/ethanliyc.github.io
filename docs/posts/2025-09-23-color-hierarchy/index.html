@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hant" xml:lang="zh-Hant"><head>
+
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.42">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<meta name="dcterms.date" content="2025-09-23">
+
+<meta name="author" content="Yi-Chen Li (Ethan)">
+<meta name="description" content="思考人類社會對顏色命名的差異，並整理Color Hierarchy的理論演變">
+
 <title>顏色命名的規律 – Yi-Chen Li (Ethan)</title>
 <style>
 code{white-space: pre-wrap;}
@@ -18,41 +22,8 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
+
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
@@ -68,7 +39,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-4abf07de17bc23ffd6e672df8ac81ea2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/bootstrap/bootstrap-4abf07de17bc23ffd6e672df8ac81ea2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -81,39 +53,47 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "s"
   ],
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "沒有結果",
+    "search-matching-documents-text": "符合的文件",
+    "search-copy-link-title": "複製搜尋連結",
+    "search-hide-matches-text": "隱藏其他符合的結果",
+    "search-more-match-text": "更多符合結果",
+    "search-more-matches-text": "更多符合結果",
+    "search-clear-button-title": "清除",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "送出",
+    "search-label": "搜尋"
   }
-}</script><link rel="preconnect" href="https://fonts.googleapis.com">
+}</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&amp;family=Noto+Sans+KR:wght@100..900&amp;family=Noto+Sans+TC:wght@100..900&amp;family=Noto+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
-<meta name="quarto:status" content="draft">
+
+
 </head>
+
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><div id="quarto-draft-alert" class="alert alert-warning"><i class="bi bi-pencil-square"></i>Draft</div><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Yi-Chen Li (Ethan)</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="搜尋"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="切換導航列" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-<li class="nav-item">
+  <li class="nav-item">
     <a class="nav-link" href="../../cv/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
@@ -122,8 +102,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
-<ul class="navbar-nav navbar-nav-scroll ms-auto">
-<li class="nav-item compact">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
     <a class="nav-link" href="mailto:ethanli.taiwan@gmail.com"> <i class="bi bi-envelope" role="img" aria-label="email">
 </i> 
 <span class="menu-text"></span></a>
@@ -139,58 +119,60 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-</div> <!-- /navcollapse -->
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">本頁目錄</h2>
    
   <ul>
-<li><a href="#%E9%A1%8F%E8%89%B2%E5%91%BD%E5%90%8D%E7%9A%84puzzle" id="toc-顏色命名的puzzle" class="nav-link active" data-scroll-target="#%E9%A1%8F%E8%89%B2%E5%91%BD%E5%90%8D%E7%9A%84puzzle"><span class="header-section-number">1</span> 顏色命名的Puzzle</a></li>
+  <li><a href="#顏色命名的puzzle" id="toc-顏色命名的puzzle" class="nav-link active" data-scroll-target="#顏色命名的puzzle"><span class="header-section-number">1</span> 顏色命名的Puzzle</a></li>
   <li><a href="#berlin-and-kays-bct" id="toc-berlin-and-kays-bct" class="nav-link" data-scroll-target="#berlin-and-kays-bct"><span class="header-section-number">2</span> Berlin and Kay’s BCT</a></li>
-  <li><a href="#hyper-links-and-footnote" id="toc-hyper-links-and-footnote" class="nav-link" data-scroll-target="#hyper-links-and-footnote"><span class="header-section-number">3</span> Hyper links and footnote</a></li>
-  <li>
-<a href="#lists" id="toc-lists" class="nav-link" data-scroll-target="#lists"><span class="header-section-number">4</span> Lists</a>
-  <ul class="collapse">
-<li><a href="#key-points-numbered-list" id="toc-key-points-numbered-list" class="nav-link" data-scroll-target="#key-points-numbered-list"><span class="header-section-number">4.1</span> Key Points (Numbered List)</a></li>
-  <li><a href="#outline-checklist-unordered-list" id="toc-outline-checklist-unordered-list" class="nav-link" data-scroll-target="#outline-checklist-unordered-list"><span class="header-section-number">4.2</span> Outline / Checklist (Unordered List)</a></li>
+  <li><a href="#為甚麼某些顏色先於其他顏色" id="toc-為甚麼某些顏色先於其他顏色" class="nav-link" data-scroll-target="#為甚麼某些顏色先於其他顏色"><span class="header-section-number">3</span> 為甚麼某些顏色先於其他顏色？</a></li>
+  <li><a href="#結語" id="toc-結語" class="nav-link" data-scroll-target="#結語"><span class="header-section-number">4</span> 結語</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-</li>
-  <li>
-<a href="#example-code" id="toc-example-code" class="nav-link" data-scroll-target="#example-code"><span class="header-section-number">5</span> Example Code</a>
-  <ul class="collapse">
-<li>
-<a href="#r-example-executed" id="toc-r-example-executed" class="nav-link" data-scroll-target="#r-example-executed"><span class="header-section-number">5.1</span> R Example (executed)</a>
-  <ul class="collapse">
-<li><a href="#code-display" id="toc-code-display" class="nav-link" data-scroll-target="#code-display"><span class="header-section-number">5.1.1</span> Code display</a></li>
-  </ul>
-</li>
-  <li><a href="#references-further-reading" id="toc-references-further-reading" class="nav-link" data-scroll-target="#references-further-reading"><span class="header-section-number">5.2</span> References / Further Reading</a></li>
-  </ul>
-</li>
-  </ul></nav>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
 <h1 class="title">顏色命名的規律</h1>
   <div class="quarto-categories">
     <div class="quarto-category">notes</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    思考人類社會對顏色命名的差異，並整理Color Hierarchy的理論演變
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">作者</div>
+    <div class="quarto-title-meta-contents">
+             <p>Yi-Chen Li (Ethan) </p>
+          </div>
+  </div>
     
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">發佈於</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 23, 2025</p>
+      <p class="date">2025年9月23日</p>
     </div>
   </div>
   
@@ -199,101 +181,122 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   
 
 
-</header><div class="callout callout-style-default callout-note callout-titled">
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+註釋
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>本篇文搬運自<a href="https://medium.com/@Yich_2826/%E5%BF%83%E5%BE%97-%E9%A1%8F%E8%89%B2%E5%91%BD%E5%90%8D%E7%9A%84%E8%A6%8F%E5%BE%8B-2bf8036df7b9">我的Medium</a>，也是我個人blog的首篇正式文章。</p>
+<p>本篇文搬運自<a href="https://medium.com/@Yich_2826/%E5%BF%83%E5%BE%97-%E9%A1%8F%E8%89%B2%E5%91%BD%E5%90%8D%E7%9A%84%E8%A6%8F%E5%BE%8B-2bf8036df7b9">我的Medium</a>。</p>
 </div>
 </div>
-<p>小時候演奏過一首John Mackey所寫的炫炮現代樂曲—「<a href="https://www.youtube.com/watch?v=GyvcDPuUzO4">Wine-Dark Sea</a>」—描述古希臘作家荷馬(Homer )的史詩「奧德賽(Odyssey)」中主角奧德修斯(Odysseus)的經歷；第一樂章的標題是Hubris，以雄偉的號角聲，搭配不和諧音程及隨小節變換的拍號，讓海神的天罰在奧德修斯的傲慢中醞釀，最終爆發。我以前就只覺得這是一首很「酷」的曲子，沒太多其他想法，但最近看了幾部影片，才突然瞭解了Wine-Dark Sea名稱蘊含的科學或人文(?)意義。</p>
-<p>Wine-Dark Sea意指「如酒一樣深色的海」，我猜想可能是紫或深紅色吧。我以前覺得這個形容詞的形式—「物體-Dark」—是歐美文學的修辭法，聽起來比較具象化。直至前幾天透過Vox的影片「<a href="https://www.youtube.com/watch?v=gMqZR3pqMjg">The surprising pattern behind color names around the world</a>」，知道了所謂的「Basic Color Terms」，而且每個社會的顏色命名有固定的pattern，我這才發現原來這個管樂曲名另有奧妙!?這幾天我沒事查了些這方面的內容，故在本文稍稍整理我的不專業小心得，也幫自己Medium除草一番。</p>
+<p>小時候演奏過一首John Mackey所寫的炫炮現代樂曲—「<a href="https://www.youtube.com/watch?v=GyvcDPuUzO4">Wine-Dark Sea</a>」—描述古希臘作家荷馬（Homer ）的史詩「奧德賽（Odyssey）」中主角奧德修斯（Odysseus）的經歷。第一樂章的標題是Hubris，以雄偉的號角聲，搭配不和諧音程及隨小節變換的拍號，讓海神的天罰在奧德修斯的傲慢中醞釀後爆發。我以前只覺得這是一首很「酷」的曲子，沒太多其他想法，但最近看了幾部影片，才突然瞭解了Wine-Dark Sea名稱蘊含的科學或人文（?）意義。</p>
+<p>Wine-Dark Sea意指「如酒一樣深色的海」，我猜想可能是紫或深紅色吧。我以前覺得這個形容詞的形式—「物體-Dark」—是歐美文學的修辭法，聽起來比較具象化。直至前幾天透過Vox的影片「<a href="https://www.youtube.com/watch?v=gMqZR3pqMjg">The surprising pattern behind color names around the world</a>」，知道了所謂的「Basic Color Terms」，而且每個社會的顏色命名有固定的pattern，我這才發現原來這首管樂曲名另有奧妙！？這幾天我沒事查了些這方面的內容，故在本文稍稍整理我的不專業小心得，也幫自己Medium除草一番。</p>
 <hr>
-<section id="顏色命名的puzzle" class="level1" data-number="1"><h1 data-number="1">
-<span class="header-section-number">1</span> 顏色命名的Puzzle</h1>
-<p>很早就有人發現，荷馬史詩中僅有很少的顏色詞彙。英國首相William Gladstone在1858年出版的「Studies on Homer and the Homeric Age」中，發現荷馬用同一個詞形容不同的顏色(至少對英語使用者來說不同)；例如他用同一個詞形容blood、dark cloud、sea wave、rainbow。為甚麼會這樣呢？</p>
-<p>而且，仔細思考人們命名顏色的方式，有幾個有趣的問題:</p>
+<section id="顏色命名的puzzle" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> 顏色命名的Puzzle</h1>
+<p>很早就有人發現，荷馬史詩中僅有很少的顏色詞彙。英國首相William Gladstone在1858年出版的「Studies on Homer and the Homeric Age」中，發現荷馬用同一個詞形容不同的顏色（至少對英語使用者來說不同）；例如他用同一個詞形容blood、dark cloud、sea wave、rainbow。為甚麼會這樣呢？</p>
+<p>仔細思考人們命名顏色的方式，有幾個有趣的問題:</p>
 <ol type="1">
-<li>顏色按照波長而言是連續的，那為甚麼我們會命名特定波長的顏色—例如紅、黃、綠—而非其他呢？ 譬如，用「鼻涕色」代稱黃色和綠色的中間色。</li>
+<li>顏色按照波長而言是連續的，那為甚麼我們會命名特定波長的顏色—例如紅、黃、綠—而非其他呢？ 為甚麼沒有人用「鼻涕色」代稱黃色和綠色的中間色呢?</li>
 <li>不同語言似乎有不同數量的顏色詞彙，例如象牙海岸的語言Wobé用Kpe指涉藍色、紫色、棕色。</li>
-<li>若2.為真，則這些基礎顏色詞彙(Basic Color Term, BCT)的數量是否會對應特定一組顏色呢? 例如，當一個語言只有三種顏色，那這三種會是甚麼呢?</li>
+<li>若2.為真，則這些基礎顏色詞彙（Basic Color Term, BCT）的數量是否會對應特定一組顏色呢？ 例如，當一個語言只有三種顏色，那這三種會是甚麼呢？</li>
 <li>承3.，那是甚麼因素決定了哪一些顏色會先被命名？</li>
 <li>BCT數量較少的語言，是如何稱呼各種物體的顏色呢？</li>
-</ol></section><section id="berlin-and-kays-bct" class="level1" data-number="2"><h1 data-number="2">
-<span class="header-section-number">2</span> Berlin and Kay’s BCT</h1>
-<p>UC Berkeley的教授Berlin and Kay在1969年的「Basic Color Terms: Their Universality and Evolution」一書中，首次提出BCT（Basic Color Term）的概念。他們以蒐集不同國家受試者的方式，歸納出以下規律:</p>
-<hr></section><section id="hyper-links-and-footnote" class="level1" data-number="3"><h1 data-number="3">
-<span class="header-section-number">3</span> Hyper links and footnote</h1>
-<p>This post documents <strong>[brief purpose here]</strong>, mainly for future reference and reproducibility.</p>
-<p>You can include hyperlinks like this: - Official documentation: https://quarto.org - Inline link example: <a href="https://quarto.org/docs/">Quarto documentation</a> - <a href="https://quarto.org/docs/authoring/markdown-basics.html">Quarto Formatting Guide</a></p>
-<p>You can also add a footnote like this<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
-</section><section id="lists" class="level1" data-number="4"><h1 data-number="4">
-<span class="header-section-number">4</span> Lists</h1>
-<p><em>Nested list usually require 4 spaces before - or 1. to make indentation</em></p>
-<hr>
-<section id="key-points-numbered-list" class="level2" data-number="4.1"><h2 data-number="4.1" class="anchored" data-anchor-id="key-points-numbered-list">
-<span class="header-section-number">4.1</span> Key Points (Numbered List)</h2>
-<ol type="1">
-<li>First key idea or step.</li>
-<li>Second key idea.</li>
-<li>Third key idea (can include subpoints):
-<ol type="1">
-<li>Nested sub-step A.</li>
-<li>Nested sub-step B.</li>
 </ol>
-</li>
-</ol>
-<hr></section><section id="outline-checklist-unordered-list" class="level2" data-number="4.2"><h2 data-number="4.2" class="anchored" data-anchor-id="outline-checklist-unordered-list">
-<span class="header-section-number">4.2</span> Outline / Checklist (Unordered List)</h2>
-<ul>
-<li>Main task or concept
-<ul>
-<li>Subtask / detail
-<ul>
-<li>Even more specific note</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Another task</li>
-<li>Final takeaway</li>
-</ul>
-<hr></section></section><section id="example-code" class="level1" data-number="5"><h1 data-number="5">
-<span class="header-section-number">5</span> Example Code</h1>
-<section id="r-example-executed" class="level2" data-number="5.1"><h2 data-number="5.1" class="anchored" data-anchor-id="r-example-executed">
-<span class="header-section-number">5.1</span> R Example (executed)</h2>
-<div class="cell">
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">rnorm</a></span><span class="op">(</span><span class="fl">100</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] -0.07863101</code></pre>
+</section>
+<section id="berlin-and-kays-bct" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Berlin and Kay’s BCT</h1>
+<p>UC Berkeley的教授Berlin and Kay在1969年的「Basic Color Terms: Their Universality and Evolution」一書中，首次提出BCT（Basic Color Term）的概念。他們訪問了不同國家的受試者，歸納出以下規律:</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-BCT" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-BCT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-BCT">flowchart LR
+  WB["white&lt;br/&gt;black"] --&gt; R["red"] --&gt; GY["green&lt;br/&gt;yellow"] --&gt; BL["blue"] --&gt; BR["brown"] --&gt; P["purple&lt;br/&gt;pink&lt;br/&gt;orange&lt;br/&gt;grey"]
+</pre>
 </div>
 </div>
-<section id="code-display" class="level3" data-number="5.1.1"><h3 data-number="5.1.1" class="anchored" data-anchor-id="code-display">
-<span class="header-section-number">5.1.1</span> Code display</h3>
-<p>Use <code>to create a code display environment.</code>{program} means executable code, so don’t use curly brackets that confuse R.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add <span class="at">-A</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Update post"</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section></section><section id="references-further-reading" class="level2" data-number="5.2"><h2 data-number="5.2" class="anchored" data-anchor-id="references-further-reading">
-<span class="header-section-number">5.2</span> References / Further Reading</h2>
-<ul>
-<li>Quarto documentation: https://quarto.org/docs/</li>
-</ul>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-BCT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+圖&nbsp;1: Adapted from Kay and Daniel (1978)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>這張圖要由左至右來閱讀。若一個語言只有兩種顏色，那就是White and Black，如果是三種，那就多加上red，第四和五種的話就是Green or Yellow…以此類推。</p>
+<p>雖然這個BCT的原始版本遭受諸多批評，但後來Berlin and Kay使用了更大的樣本、並觀察更多沒有文字的語言後（可見Berlin and Kay後來的World Color Survey），這個規律仍被支持，不過也歷經不少修改和新詮釋:</p>
+<ol type="1">
+<li>White and Black的雙顏色語言，實際上指涉的是亮跟暗，而他們只是用亮色和暗色來指涉高階語言的數個顏色。其他低階語言也是同樣的，如開頭提到過Wobé語言用Kpe稱呼藍色、紫色、棕色。</li>
+<li>當低階語言使用者指涉特定顏色時，會用物體顏色來形容，如用sky代表藍色。</li>
+<li>不同語言或文化的使用者，他們所指涉的顏色，切在大致相同的位置。譬如中文使用者所稱的紅色和英文使用者的red，對應在光譜上的位置差不多，說明似乎不同語言使用者所定義的顏色波長具有普世性。</li>
+</ol>
+<p>我個人相當懷疑3.的詮釋，這系列的研究畢竟在20世紀後期才開始，而全球化和通訊產品的發達，可能已經讓不同社會原本在波長上指涉的位置漸漸統合，但現代的研究似乎很難調查到古代人對顏色的感知（perception）了。</p>
+</section>
+<section id="為甚麼某些顏色先於其他顏色" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> 為甚麼某些顏色先於其他顏色？</h1>
+<p>然而有趣的是，為甚麼有些顏色先於其他顏色？學界給出的原因族繁不及備載，仍未有定論。我找到了以下幾個說法:</p>
+<ol type="1">
+<li>紅色可能和血或危險有關，所以為了生存，演化上會被保留下來。</li>
+<li>人類天生比較能辨識暖色或紅色，這點可以從嬰兒大腦的反應上發現。</li>
+<li>有人認為統計上，大自然的暖色系物體多。我們談論的物體的顏色都是偏暖和偏紅，背景的顏色則多是冷色系。人類為了溝通，故先發展出紅色。同理，藍色較晚發展，是因為大自然中藍色的生物很少（這點可以看<a href="https://www.youtube.com/watch?v=3g246c6Bv58">這部影片</a>）。</li>
+<li>文化因素：在歐洲歷史上，紅色衣著和高社會階級有關，紅色也是過去因稀缺而珍貴的顏色。種種社會因素使得紅色成為人們會先注意到的顏色。</li>
+</ol>
 <hr>
+</section>
+<section id="結語" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> 結語</h1>
+<p>看了半天，感覺這方面的文獻還存有許多謎團。各種顏色跟對應的意涵，似乎顯現出一種人類天生的內在能力？如同Sound Symbolism—特定發音對應特定物體形狀—那般，值得思考原因為何。</p>
+<p>現在回想起荷馬所說的「Wine-Dark Sea」，原來這可能不是修辭的技巧，而是<strong>在顏色詞彙侷限下的表達方式！</strong>我只能說…嗯這首曲子還真的挺酷的（詞窮lol）。</p>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled" title="P.S.">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+P.S.
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>本篇是我不專業的整理。現在有AI了，針對紅色為何先出現一問題，我使用過Perplexity的研究功能。即便我有閱讀過內文，確定AI詮釋無誤，但若有錯誤仍歡迎指正；內文則全是本人親自撰寫。</p>
+</div>
+</div>
+</section>
+<section id="references" class="level1 unnumbered">
+<h1 class="unnumbered">References</h1>
+<ul>
+<li><p><a href="#fig-BCT" class="quarto-xref">圖&nbsp;1</a> 出處: Kay, P., &amp; McDaniel, C. K. (1978). The Linguistic Significance of the Meanings of Basic Color Terms. Language, 54(3), 610–646. https://doi.org/10.2307/412789</p></li>
+<li><p>部分開頭Puzzle、例子、解釋來自Vox的<a href="https://www.youtube.com/watch?v=gMqZR3pqMjg">The surprising pattern behind color names around the world</a></p></li>
+<li><p>BCT理論的後續討論和詮釋的整理</p>
+<ul>
+<li>Hardin, C. L. (2013). Berlin and Kay theory. In Encyclopedia of color science and technology (pp.&nbsp;1–4). Springer, New York, NY.</li>
+<li>Franklin, A. (2015). Development of color categorization. In A. J. Elliot, M. D. Fairchild, &amp; A. Franklin (Eds.), Handbook of Color Psychology (pp.&nbsp;279–294). chapter, Cambridge: Cambridge University Press.</li>
+</ul></li>
+<li><p>為何紅色先發展的社會和文化因素</p>
+<ul>
+<li>Smith, S. (2018, June 29). The Red Craze. Fashion History Timeline. https://fashionhistory.fitnyc.edu/the-red-craze/</li>
+</ul></li>
+<li><p>人們談論的物體多是暖色、而背景多是冷色系</p>
+<ul>
+<li>E. Gibson, R. Futrell, J. Jara-Ettinger, K. Mahowald, L. Bergen, S. Ratnasingam, M. Gibson, S.T. Piantadosi, &amp; B.R. Conway, Color naming across languages reflects color use, Proc. Natl. Acad. Sci. 114 (40) 10785–10790, https://doi.org/10.1073/pnas.1619666114 (2017).</li>
+</ul></li>
+</ul>
 
 
-</section></section><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-<ol>
-<li id="fn1"><p>This is an example footnote. Use it for side remarks, references, or clarifications.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -336,12 +339,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "已複製");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "已複製");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -711,7 +714,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer">
+<footer class="footer">
+  <div class="nav-footer">
     <div class="nav-footer-left">
 <p><span class="faux-block">Template by <a href="https://marvin-schmitt.com/blog/website-tutorial-quarto/">Marvin Schmitt</a> (CC BY-SA 4.0)</span></p>
 </div>   
@@ -723,6 +727,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
+
 
 
 </body></html>
