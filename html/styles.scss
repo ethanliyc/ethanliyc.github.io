@@ -240,12 +240,25 @@ details.code-fold > summary:focus {
 }
 
 
-/* =========================================================
-   Cell outputs styling (stderr/warnings/messages/print)
-   Quarto emits: <div class="cell-output ..."><pre><code>...</code></pre></div>
-   ========================================================= */
+/* --- Cell outputs styling (stderr/warnings/messages/print) --- */
+/* Quarto emits: <div class="cell-output ..."><pre><code>...</code></pre></div> */
 
 .cell-output {
   background-color: $gray-100;
   border-radius: 4px;
 }
+
+
+/* --- TOC font sizing (right sidebar) --- */
+#TOC {
+  font-size: 0.9em;   // TOC 整體字體縮小；0.8~0.9 都常用
+  line-height: 1.35;  // distance btw second lines
+}
+
+/* Optional: slightly tighter spacing between items */
+#TOC .nav-link {
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+}
+
+

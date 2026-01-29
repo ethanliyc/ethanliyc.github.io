@@ -1,9 +1,9 @@
 ---
 title: "Title of the Post"
 date: YYYY-MM-DD
-description: "Desc in the info box below the blog listing. This also informs SEO about page content" # 
+description: "Desc in the info box below the blog listing. This also informs SEO about page content" 
 # author: # add author info in the article
-#   - name: Samantha Csik
+   - name: Yi-Chen Li (Ethan)
 #     url: https://samanthacsik.github.io/
 #     orcid: 0000-0002-5300-3075
 #     affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
