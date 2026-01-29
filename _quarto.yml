@@ -4,8 +4,13 @@
 website:
   title: "Yi-Chen Li (Ethan)"                                # Your name
   description: "Yi-Chen Li (Ethan) is a master’s student in economics at NTU, interested in trade, political economy, and economic history, with broader interests in social science and intellectual history."   # A brief slogan for search engine to understand the content of the site.
-  # image: img/personal-photo.JPG  # thumbnail when the hyper link is provided in other websites (facebook and X)
+  # image: img/personal-photo.JPG  # thumbnail when the hyperlink is provided in other websites (e.g. facebook)
   # favicon: img/favicon.png  # image of the browser tab icon
+  
+  google-analytics:
+    tracking-id: "G-JFYLBEH0M1"     # 使用 GA4
+    storage: none                 # no cookies. !!If on, cookie consent pop-up should be added (legal issue)
+    anonymize-ip: true            # No tracking id in detail  
   
   # start of the navigation bar at the top of the website
   navbar:
