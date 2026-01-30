@@ -21,88 +21,116 @@
     "text": "The History of the War of the Ring\n\narXiv Preprint | Code\nI am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved.\n\nView the tutorial for this template (+ download link)"
   },
   {
-    "objectID": "posts/2026-01-27-first-post/index.html",
-    "href": "posts/2026-01-27-first-post/index.html",
-    "title": "Quarto Resources and Template (My First Post!)",
+    "objectID": "posts/2026-01-30-reflection/index.html",
+    "href": "posts/2026-01-30-reflection/index.html",
+    "title": "2026-01-30 日常雜感",
     "section": "",
-    "text": "I record what has to be done if I update the website.\n\nAfter any update, open terminal in R studio, and type quarto render to render the website. Then, type quarto preview to browse the website locally and check the results of the change.\nClosing the local browser does not terminate preview state in the terminal. To close it properly, press control + C on the keyboard.\nTo publish the website, we need to push it to the repo. In the terminal, run the following\n\nNote: ```bash with bash create a non-executable code chunk for terminal stuffs,1 unlike ```{somelanguage}\n\n\n\n\ngit status # examine modified doc\ngit add .  # add \"all\" ( . means all) modified do in a package\ngit commit -m \"update message\" # message for this package\ngit push"
+    "text": "重要\n\n\n\n這是我的網站開站以來第一篇新的文章👏（其他都是舊的Medium搬運來的不算！）\n這是我Blog第一篇日常雜感，我想嘗試寫一些跟這些內容有關的雜感：跟朋友交流的心得、水管影片學到的新知、對網路文章或時事的評論…等。設想這系列下大多會是簡短、較無組織的想法，至於比較完整的筆記，我的tag會設成Notes的。我感覺頻率不會很高，有想法才寫，但目標是持之以恆！\n今天來寫一點前幾周看跟動物顏色有關的影片紀錄，其實沒什麼個人感想，只是覺得是很有趣的新知，就記錄在這了。"
   },
   {
-    "objectID": "posts/2026-01-27-first-post/index.html#english-subheader",
-    "href": "posts/2026-01-27-first-post/index.html#english-subheader",
-    "title": "Quarto Resources and Template (My First Post!)",
-    "section": "\n3.1 English subheader",
-    "text": "3.1 English subheader\nBlock quote test\n\n…The life of man is solitary, poor, nasty, brutish, and short. He is the prey of contingent happenings.\n\nEndowed with a few limited senses and a brain, man began to pierce the mystery about him. By utilizing what the senses reveal immediately or what can be inferred from experiments, man adopted axioms and applied his reasoning powers. His quest was the quest for order; his goal, to build systems of knowledge as opposed to transient sensations, and to form patterns of explanation that might help him attain some mastery over his environment. His chief accomplishment, the product of man’s own reason, is mathematics. It is not a perfect gem and continued polishing will probably not remove all flaws.\nNevertheless; mathematics has been our most effective link with the world of sense perceptions and though it is discomfiting to have to grant that its foundations are not secure, it is still the most precious jewel of the human mind and must be treasured and husbanded. It has been in the van of reason and no doubt will continue to be even if new flaws are discovered by more searching scrutiny.\nAlfred North Whitehead once wrote, “Let us grant that the pursuit of mathematics is a divine madness of the human spirit.” Madness, perhaps, but surely divine."
+    "objectID": "posts/2026-01-30-reflection/index.html#前情提要",
+    "href": "posts/2026-01-30-reflection/index.html#前情提要",
+    "title": "2026-01-30 日常雜感",
+    "section": "前情提要",
+    "text": "前情提要\n約莫2–3個月前，因為要準備GRE和托福二戰，又開始找很多英文影片看。以前一直很想看喜劇類的美劇，但試了一些都對不到我的胃口。改看脫口秀跟單口相聲後，我感覺也不是每一場都有梗（e.g. Trevor Noah），或有時笑點太仰賴英美的文化背景。至於那些真的好笑的片段，似乎都早就被放到網路上了，唯一比較打中我笑點的Jimmy O. Yang也被我看完了。\n於是乎，我開始嘗試看些知識型影片，畢竟我本來就愛學點亂七八糟的新知。一看不得了，好多個頻道主題都蠻和我胃口的，Vox、Kurzgesagt、Be Smart、Howtown…等，玲朗滿目。其實以前我也嘗試過，但大學時可能沒有英文考試壓力，也沒有那麼常使用英文，有時看/聽得挺吃力，這次經過美國交換+英文考試的壓力+GRE幫我擴大的單字量，發覺看起來輕鬆許多了。而且最重要的是，很多著名英文頻道都很注重出處跟專家說法，不自己亂做臆測，像是Kurzgesagt都有附上專家背書跟期刊佐證；相比之下，台灣許多自稱知識型頻道者根本就只看一本書或是亂爬資料後就胡亂推論，沒有專家或學理佐證。\n因此，最近我一方面覺得我的英文能力進展太慢跟這些頻道相見恨晚，另一方面也很感嘆台灣的人的知識來源，怎麼都只有這些低品質的資訊來源。台灣人的科學素養跟媒體識讀真的需要好好加強阿！\n\n好吧，回到記錄新知的主軸，今天我想記錄的新知識來自Be Smart頻道的「Why Does Every Animal Look Like This?」，題目是我以前從來沒注意到的，覺得很有趣，值得紀錄一下，不過就沒什麼個人想法了，更像是筆記。我也沒有再仔細看一次影片了，純按印象紀錄。"
   },
   {
-    "objectID": "posts/2026-01-27-first-post/index.html#中文小標題",
-    "href": "posts/2026-01-27-first-post/index.html#中文小標題",
-    "title": "Quarto Resources and Template (My First Post!)",
-    "section": "\n4.1 中文小標題",
-    "text": "4.1 中文小標題\n學而篇第一 【1.1】 子曰：「學而時習之，不亦說（同『悅』，下文僅列字）乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」\n孔子說：「學了做人處事的道理，並在適當的時候印證練習，不也覺得高興嗎？志同道合的朋友從遠方來相聚，不也感到快樂嗎？別人不瞭解你，而你並不生氣，不也是君子的風度嗎？」\n古代的「子」字放在名字之後，是對老師、長者的尊稱，就好像稱呼「您」一樣，譬如：孔子、老子、荀子等；但子貢、子張、子游、子夏等人，就純粹是名字而已。《論語》中出現的「子曰」，專指孔子說的話，譯文直接翻成「孔子說」，比較清楚。\n全方位的學習與成長\n何謂「學而時習之」？一般譯為「學了以後時常練習」，但是「時」字在古代不作「時常」解，而是指適當的時機，好比春耕、夏耘、秋收、冬藏一樣。「不亦說乎」的「說」字，同「悅」字，是指發自內在的高興。\n就「學」的內容而言，通常是指五經：《詩》、《書》、《禮》、《樂》、《易》，以及「六藝」：禮、樂、射、御、書、數。根據孔子的思想來說，這應該是指學習做人處事的道理。\n「五經」的「經」即指永恆的道理，《詩經》代表文學；《書經》（即《尚書》）代表歷史；《禮經》（即《禮記》）代表社會科學，有很多詳細的生活規範；《樂經》代表藝術；《易經》代表哲學，這些是古代的人文學科。生活的基本規範就在「五經」裡，所以說是學習做人處事的道理。\n就學的方法而言，要配合「思」（主體的反省與理解），以求溫故知新，活學活用。孔子的「學」有三點內涵：\n其一，學習古代的知識與技術。為什麼「禮」、「樂」在「五經」、「六藝」裡都有呢？因為禮、樂既有理論的部分，也有操作的部分。譬如，學禮是要能真正執行禮儀，像宗教祭祀或喪禮，都有具體的操作過程，需要學習和實踐；樂也是一樣，學了音樂理論，還要實際演奏樂器，才是真正的技能。六藝就是六種技術，都是基本的技巧。在古代社會，只有貴族子弟可以受大學教育；平民子弟學了五經、六藝，在社會上就成為人才，很多諸侯國或大夫之家甚至會聘請他們擔任家臣。\n其二，「學」要配合思考。譬如，「學而不思則罔，思而不學則殆」（【2.15】），代表學習要配合思考才能把古代的知識現代化。「溫故而知新」，重新再讀學過的知識，有了新的體會，才能擔任老師。為師者必須經常融合個人的心得，學生學習之後，才能對生活有所幫助。\n其三，學習與行為有關。學習可以改變人的行為，譬如，《論語》有幾處提到好學，其中以顏淵最得孔子的欣賞，他說顏淵的好學是：「不遷怒，不貳過。」（【6.3】）與人吵架爭執，即使滿腔怒火，也不會把怒氣發泄到另一個人身上；不會再犯同樣的過錯，這說明學習有一種改造自己的力量。顏淵的好學表現在「不遷怒，不貳過」，也就是付諸於日常行為中。\n所以，孔子的學有三點特色：第一，老老實實學習古代的知識與技術；第二，學與思配合，得到個人的體會；第三，學習要能改變行為，這才是所謂做人處事的道理。\n由此可知，孔子的「學」是全方位的學習與成長。\n進德修業，追求至聖境界\n「樂」是外在顯示出來的快樂。古代的交通不像今日方便，朋友從遠方來拜訪，特別能感受到那份心意，分外覺得同聲相應、同氣相求。\n南宋的哲學家陸象山說：「東海有聖人，西海有聖人，此心同，此理同。」任何一種文化產品的相通，都要提高到理念的層次才能互動和溝通，志同道合的人聚在一起，絕不是黨同伐異，而是純粹追求人生的理想，因此相聚就會快樂。總之，「學而時習之」較重視個人的自我要求，「有朋自遠方來」，就開始產生一種互動。\n「人不知而不慍，不亦君子乎？」說明一個人已經學問有成，在社會上擁有很高的聲望，照樣不為人所瞭解，卻不因此生氣。因為求人不如求己，時機尚未成熟，即使學問再好，也無法要求事事都依照自己的方式來做。關於「人不知而不慍」，還可參考【1.16】、【4.14】、【14.30】、【15.19】。\n「君子」在古代是指君之子，也就是政治權貴的子弟，或指有官位者。有官位者又分為幾等：天子、諸侯、卿大夫，然後是士、庶人，庶人是人數最多的一個階級。天子只有一個，就是周天子。諸侯是指天子分封的七十一國，其中有分大國、次國、小國，大國方百里，次國方七十里，小國方五十里。第三個是卿大夫，在諸侯國當政的人。士就是讀書人，包括文士、武士。\n孔子保留這種用法，同時更強調以「君子」代表學行兼備的有德之人。因此，君子成為儒家的人格典型，泛指有理想、有原則，不斷進德修業，追求至聖境界的人。\n本章強調，先要自己努力學習，其次與朋友互相呼應，然後在學習有成而未受重視時，可以坦然自處。"
+    "objectID": "posts/2026-01-30-reflection/index.html#動物的皮膚和毛髮顏色有結構可循",
+    "href": "posts/2026-01-30-reflection/index.html#動物的皮膚和毛髮顏色有結構可循",
+    "title": "2026-01-30 日常雜感",
+    "section": "動物的皮膚和毛髮顏色有結構可循？",
+    "text": "動物的皮膚和毛髮顏色有結構可循？\n影片提出的問題是：\n\n為甚麼動物腹部（靠地面的皮膚/毛髮）都是淺色，而背部（遠離地面的皮膚/毛髮）都是深色？\n\n若文字不好理解，可以看下面這張狗狗的圖片，他的背部是黑色但肚子是白色。\n\n\n\nSource: Image from dog, by grendelkhan, licensed under CC BY-SA 2.0.\n\n\n仔細想想，似乎很多四隻腳著地的動物都是如此，而且，魚類也是如此。恩~確實是一個我沒想過，但很普遍的現象。"
   },
   {
-    "objectID": "posts/2026-01-27-first-post/index.html#footnotes",
-    "href": "posts/2026-01-27-first-post/index.html#footnotes",
-    "title": "Quarto Resources and Template (My First Post!)",
-    "section": "Footnotes",
-    "text": "Footnotes\n\nSee HTML Code Block for the languages that Quarto supports syntax highlighting↩︎"
+    "objectID": "posts/2026-01-30-reflection/index.html#生物學家的解釋",
+    "href": "posts/2026-01-30-reflection/index.html#生物學家的解釋",
+    "title": "2026-01-30 日常雜感",
+    "section": "生物學家的解釋？",
+    "text": "生物學家的解釋？\n既然跟生物有關，影片整理的生物學解釋不出意料是跟「生存」有關。地面上有太陽光照著，所以背部毛髮深色，白色肚子也因為影子變成深色，如此一來，天敵的眼中會看到一團深色的物體，甚至透過背部顏色，可以跟背景融合，成為動物的camouflage。\n不過這個解釋對地面上的動物適用，但套用到魚類來說，似乎生效的方式不同。影片的解釋是：從下往上看一條魚，因為海上方有陽光，所以底下的掠食者看到的是一片白色。同理，掠食者由上往下看，看到的是深色的背部和地下的黑色海底。因此，魚類皮膚顏色的分佈只是很巧合地跟地面上的動物類似，但運作方式不同，殊途同歸。"
   },
   {
-    "objectID": "posts/2025-01-08-scientific-revolution/index.html",
-    "href": "posts/2025-01-08-scientific-revolution/index.html",
-    "title": "書評：《科學革命》",
+    "objectID": "posts/2026-01-30-reflection/index.html#例外和我自己的想法",
+    "href": "posts/2026-01-30-reflection/index.html#例外和我自己的想法",
+    "title": "2026-01-30 日常雜感",
+    "section": "例外和我自己的想法",
+    "text": "例外和我自己的想法\n這種單一解釋看似很powerful，但科學解釋都有例外。影片提到企鵝黑色的背部可以幫助吸熱，所以他們可能是出自熱能儲存的原因，恰好發展出黑背白肚的皮膚顏色分佈。\n看完後，我第一個想法是，人類的皮膚似乎沒有這麼明顯的顏色結構（或許深色皮膚的人種有一點算？），這是否展現出人類的生存並不仰賴這種簡單的掠食關係？此外，好像仍有動物是例外，譬如蛇似乎四周都是同個顏色。"
+  },
+  {
+    "objectID": "posts/2025-09-23-color-hierarchy/index.html",
+    "href": "posts/2025-09-23-color-hierarchy/index.html",
+    "title": "顏色命名的規律",
     "section": "",
-    "text": "註\n\n\n\n本文搬運自我的Medium，和原版差異僅在於文字編修。\n《科學革命》（The Scientific Revolution）是哈佛大學科學史教授Steven Shapin於1996年初版的科學革命介紹書籍，臺灣由左岸文化出版。本書由Shapin的上課教材編纂而成，主旨在於介紹科學革命的內容和相關的歷史學或社會學議題。作者嘗試破除傳統歷史學中對科學革命的理解，帶入新的史學研究，並試圖論證一個看似激進的論點:「There was no such thing as the Scientific Revolution」。\n「科學革命」此概念在1943年被法國歷史學家Alexandre Koyré提出後，傳統歷史學一直認為這段時期是現代性的起源，改變了人類思考的方式，就像戴上一副新的眼鏡(putting on a new pair of spectacles)。譬如英國歷史學家Herbert Butterfield曾說:\n既然這是一個如此有影響力的時期，作者為甚麼認為科學革命不存在？這共可分為三點：\n所以，實際上作者並未否定此事件的重要性，而是強調過去史學和大眾的理解或措辭不當，希望透過此書把新的研究介紹給大家。\n本書除了上述論證外，他以三個章節區分，分別是What (他們知道了甚麼)、How (他們如何知道)、Why (他們為甚麼想知道、目的是甚麼)；並以四個主題貫穿全文，包含：the mechanization of nature、the depersonalization of natural knowledge、the attempted mechanization of knowledge making、the aspiration to use the benign and disinterested reformed natural knowledge to achieve moral, social, and political ends。內容我後面會簡單敘述。\n以下先從內容、書寫風格和架構，後面會提到書本內容和我的個人心得。"
+    "text": "註\n\n\n\n本篇文搬運自我的Medium。\n\n\n小時候演奏過一首John Mackey所寫的炫炮現代樂曲—「Wine-Dark Sea」—描述古希臘作家荷馬（Homer ）的史詩「奧德賽（Odyssey）」中主角奧德修斯（Odysseus）的經歷。第一樂章的標題是Hubris，以雄偉的號角聲，搭配不和諧音程及隨小節變換的拍號，讓海神的天罰在奧德修斯的傲慢中醞釀後爆發。我以前只覺得這是一首很「酷」的曲子，沒太多其他想法，但最近看了幾部影片，才突然瞭解了Wine-Dark Sea名稱蘊含的科學或人文（?）意義。\nWine-Dark Sea意指「如酒一樣深色的海」，我猜想可能是紫或深紅色吧。我以前覺得這個形容詞的形式—「物體-Dark」—是歐美文學的修辭法，聽起來比較具象化。直至前幾天透過Vox的影片「The surprising pattern behind color names around the world」，知道了所謂的「Basic Color Terms」，而且每個社會的顏色命名有固定的pattern，我這才發現原來這首管樂曲名另有奧妙！？這幾天我沒事查了些這方面的內容，故在本文稍稍整理我的不專業小心得，也幫自己Medium除草一番。\n\n\n\n\n1 顏色命名的Puzzle\n很早就有人發現，荷馬史詩中僅有很少的顏色詞彙。英國首相William Gladstone在1858年出版的「Studies on Homer and the Homeric Age」中，發現荷馬用同一個詞形容不同的顏色（至少對英語使用者來說不同）；例如他用同一個詞形容blood、dark cloud、sea wave、rainbow。為甚麼會這樣呢？\n仔細思考人們命名顏色的方式，有幾個有趣的問題:\n\n顏色按照波長而言是連續的，那為甚麼我們會命名特定波長的顏色—例如紅、黃、綠—而非其他呢？ 為甚麼沒有人用「鼻涕色」代稱黃色和綠色的中間色呢？\n不同語言似乎有不同數量的顏色詞彙，例如象牙海岸的語言Wobé用Kpe指涉藍色、紫色、棕色。\n若2.為真，則這些基礎顏色詞彙（Basic Color Term, BCT）的數量是否會對應特定一組顏色呢？ 例如，當一個語言只有三種顏色，那這三種會是甚麼呢？\n承3.，那是甚麼因素決定了哪一些顏色會先被命名？\nBCT數量較少的語言，是如何稱呼各種物體的顏色呢？\n\n\n\n2 Berlin and Kay’s BCT\nUC Berkeley的教授Berlin and Kay在1969年的「Basic Color Terms: Their Universality and Evolution」一書中，首次提出BCT（Basic Color Term）的概念。他們訪問了不同國家的受試者，歸納出以下規律:\n\n\n\n\n\n\nflowchart LR\n  WB[\"white&lt;br/&gt;black\"] --&gt; R[\"red\"] --&gt; GY[\"green&lt;br/&gt;yellow\"] --&gt; BL[\"blue\"] --&gt; BR[\"brown\"] --&gt; P[\"purple&lt;br/&gt;pink&lt;br/&gt;orange&lt;br/&gt;grey\"]\n\n\n\n\n圖 1: Adapted from Kay and Daniel (1978)\n\n\n\n\n\n這張圖要由左至右來閱讀。若一個語言只有兩種顏色，那就是White and Black，如果是三種，那就多加上red，第四和五種的話就是Green or Yellow…以此類推。\n雖然這個BCT的原始版本遭受諸多批評，但後來Berlin and Kay使用了更大的樣本、並觀察更多沒有文字的語言後（可見Berlin and Kay後來的World Color Survey），這個規律仍被支持，不過也歷經不少修改和新詮釋:\n\nWhite and Black的雙顏色語言，實際上指涉的是亮跟暗，而他們只是用亮色和暗色來指涉高階語言的數個顏色。其他低階語言也是同樣的，如開頭提到過Wobé語言用Kpe稱呼藍色、紫色、棕色。\n當低階語言使用者指涉特定顏色時，會用物體顏色來形容，如用sky代表藍色。\n不同語言或文化的使用者，他們所指涉的顏色，切在大致相同的位置。譬如中文使用者所稱的紅色和英文使用者的red，對應在光譜上的位置差不多，說明似乎不同語言使用者所定義的顏色波長具有普世性。\n\n我個人相當懷疑3.的詮釋，這系列的研究畢竟在20世紀後期才開始，而全球化和通訊產品的發達，可能已經讓不同社會原本在波長上指涉的位置漸漸統合，但現代的研究似乎很難調查到古代人對顏色的感知（perception）了。\n\n\n3 為甚麼某些顏色先於其他顏色？\n然而有趣的是，為甚麼有些顏色先於其他顏色？學界給出的原因族繁不及備載，仍未有定論。我找到了以下幾個說法:\n\n紅色可能和血或危險有關，所以為了生存，演化上會被保留下來。\n人類天生比較能辨識暖色或紅色，這點可以從嬰兒大腦的反應上發現。\n有人認為統計上，大自然的暖色系物體多。我們談論的物體的顏色都是偏暖和偏紅，背景的顏色則多是冷色系。人類為了溝通，故先發展出紅色。同理，藍色較晚發展，是因為大自然中藍色的生物很少（這點可以看這部影片）。\n文化因素：在歐洲歷史上，紅色衣著和高社會階級有關，紅色也是過去因稀缺而珍貴的顏色。種種社會因素使得紅色成為人們會先注意到的顏色。\n\n\n\n\n4 結語\n看了半天，感覺這方面的文獻還存有許多謎團。各種顏色跟對應的意涵，似乎顯現出一種人類天生的內在能力？如同Sound Symbolism—特定發音對應特定物體形狀—那般，值得思考原因為何。\n現在回想起荷馬所說的「Wine-Dark Sea」，原來這可能不是修辭的技巧，而是在顏色詞彙侷限下的表達方式！我只能說…嗯這首曲子還真的挺酷的（詞窮lol）。\n\n\n\n\n\n\n\nP.S.\n\n\n\n本篇是我不專業的整理。現在有AI了，針對紅色為何先出現一問題，我使用過Perplexity的研究功能。即便我有閱讀過內文，確定AI詮釋無誤，但若有錯誤仍歡迎指正；內文則全是本人親自撰寫。\n\n\n\n\nReferences\n\n圖 1 出處: Kay, P., & McDaniel, C. K. (1978). The Linguistic Significance of the Meanings of Basic Color Terms. Language, 54(3), 610–646. https://doi.org/10.2307/412789\n部分開頭Puzzle、例子、解釋來自Vox的The surprising pattern behind color names around the world\nBCT理論的後續討論和詮釋的整理\n\nHardin, C. L. (2013). Berlin and Kay theory. In Encyclopedia of color science and technology (pp. 1–4). Springer, New York, NY.\nFranklin, A. (2015). Development of color categorization. In A. J. Elliot, M. D. Fairchild, & A. Franklin (Eds.), Handbook of Color Psychology (pp. 279–294). chapter, Cambridge: Cambridge University Press.\n\n為何紅色先發展的社會和文化因素\n\nSmith, S. (2018, June 29). The Red Craze. Fashion History Timeline. https://fashionhistory.fitnyc.edu/the-red-craze/\n\n人們談論的物體多是暖色、而背景多是冷色系\n\nE. Gibson, R. Futrell, J. Jara-Ettinger, K. Mahowald, L. Bergen, S. Ratnasingam, M. Gibson, S.T. Piantadosi, & B.R. Conway, Color naming across languages reflects color use, Proc. Natl. Acad. Sci. 114 (40) 10785–10790, https://doi.org/10.1073/pnas.1619666114 (2017)."
   },
   {
-    "objectID": "posts/2025-01-08-scientific-revolution/index.html#what",
-    "href": "posts/2025-01-08-scientific-revolution/index.html#what",
-    "title": "書評：《科學革命》",
-    "section": "1.1 What",
-    "text": "1.1 What\n第一章what說明了17世紀之前主流的自然哲學理論，即：中世紀教會修改後的經院版亞里斯多德的自然哲學理論（下簡稱亞氏自然哲學），並說明當時新的機械論（mechanical view of nature, or mechanical philosophy）和亞氏哲學的差異，以及機械論的新觀點或發現。本書在極小的篇幅內呈現許多兩個學說的對比，我就不一一贅述了，僅抓幾個印象比較深刻的重點簡述，我比較感興趣的部分則放在心得討論。\n\n1.1.1 （1）目的論或泛靈論vs.機械論；（2）自然vs.人造物\n亞氏自然哲學最大特色是目的論（teleology）和泛靈論（animism），認為萬物有一種傾向、目的、或屬性，以此同時解釋「生物」—包含人—和「大自然」。舉例來說，要解釋托里切利實驗中倒裝的汞柱或水柱為何有特定的高度，亞氏哲學觀點認為因為水有厭惡空無一物的特性，故那個高度就是厭惡程度的表現；同理，此論者會認為土有往下掉的傾向。由此可知，這實為從生物學或人類中心的觀點出發的大一統哲學理論，如同我們會觀察到樹有「長大」的傾向，人做事總有個「意圖」。所以，亞氏哲學僅是把此觀點套用到所有事物上。但要注意，他們並不認為物質會如人類那樣「思考」。\n亞氏哲學第二特色是認為自然「如同」工匠，打造了「完美」的自然事物。所以「自然物」和「人造物」有本質之不同，自然比較高等。在基督宗教中，地球是墮落的人類的居住地，和天界（太陽等星體）也有本質之不同，所以物理法則可能也不同。\n機械論則反其道而行，認為解釋大自然，應該要用「粒子–運動」這種機械般的方式解釋，而且機械的人造物就可以「比擬」大自然。針對汞柱上方的真空部分，機械論會以「平衡」的概念去解釋。\n其次，天界的規則和地球的物理規則是相同的，這可由牛頓物理學強大的預測力來佐證。另一個例子是伽利略當初看到太陽上的黑點後，根據計算斷言黑點是在太陽上，因此天體似乎並非「完美」。\n要注意到，我們現代的科學普遍相信機械論，但那時的觀測技術不足，所以這樣的說法只可謂新穎的哲學觀點，而非以紮實的觀察作為基礎。因此，理解當時的機械論哲學家如何論據、如何說服其他人變得非常重要。\n\n\n1.1.2 （3）抽象性質和可理解性（intelligibility）\n此爭點牽涉到兩種理論觀點對物的構成的根本想像。\n亞氏哲學中，物包含「物質」和「抽象屬性或是substantial forms（實質形式）」兩個要素。1 譬如亞歷山大雕像包含「石頭」和「亞歷山大的形象」。老鼠的構成除了有血肉，還有「老鼠的概念」附在上面，兩者缺一不可；若少了老鼠的形象，則那塊血肉就不是「老鼠」了。在解釋事物上，亞氏哲學將人的感受歸咎於物的屬性（當我用這個詞彙時我已經是機械論者了，哈）。例如，火是熱的，代表火有熱的屬性；玫瑰花有溫暖或甜美的屬性。\n相對地，機械論把物的構成拆分成主要性質（primary qualities）和次要性質（secondary qualities），前者意指物質和運動，後者意指人受到主要性質影響後對此物的感受。因此，火焰並沒有熱的特性，而是粒子震動後導致我的手感覺「熱」。再者，機械論者僅肯認物質和運動這類有形（tangible）事物的解釋方式，否定亞氏哲學的實質形式論，認為採用到抽象形式的理論是「不可理解的」（un-intelligible）、神祕的（occult）。即便機械論者堅稱，但這種論調在當時很難說比亞氏哲學更好「理解」。捫心自問，我們要怎麼說哪一個說法好理解呢？似乎只能說哪一個更實用？\n由此開始，主觀的感受被認定是比較不可靠的，新的機械論者還認為這種抽象形式的理論時常服膺於教會的教條主義。\n\n\n1.1.3 （4）機械論與數學的關係\n當代的科學和數學關係緊密，但17世紀時機械論者並不必然使用數學，他們只是偏好用機械、物質、運動的原則來解釋萬物。這要等到如Kepler或牛頓等人，使用數學幫助物理和天文學發展理論和展現其預測力後，才漸漸被接受。過去不被接受的原因大概是數學物件的idealization，雖然有紮實的邏輯，但總是和觀測結果有些差距。\n有一常見的說法認為牛頓是機械論的集大成者，但他飽受批評的一點在於，他放棄思考「引力」這種抽象力的機械因。納入引力這種主動的力，讓機械論似乎又重新引進抽象的、目的論的神祕力量。"
+    "objectID": "posts/2024-02-15-distinct-soc-nat-science/index.html",
+    "href": "posts/2024-02-15-distinct-soc-nat-science/index.html",
+    "title": "自然科學與歷史科學的分野",
+    "section": "",
+    "text": "今天是初五，下周也要開學了，打算用寫作為寒假的閱讀作結。\n以前恰好在長頸鹿拓樸學的哲（科）普文〈韋伯摘要一：黑格爾與宗教於羅謝方法論之影響〉中，讀到19世紀末與20世紀初新康德主義（Neo-Kantianism）中西南學派（Southwest School）對科學和科學方法論的觀點。裡面針對自然科學跟社會科學分野的論點當時就引起我很大的興趣，不過始終未去深究。近期可能肇因讀了太多經濟學理論，開始閱讀Ken Morrison的《古典社會學巨擘》（Marx, Durkheim, Weber：Formations of Modern Social Thought），並在韋伯的章節再次讀到西南學派，便花了一天時間盡量搞懂新康德主義，尤其是西南學派的想法，也嘗試把筆記撰成文章整理在這，順便讓自己重整一下思緒。\n以下主要按照Ken Morrison的《古典社會學巨擘》中第四章〈韋伯〉的西南學派內容加以整理後撰寫，並搭配史丹佛哲學百科的Neo-Kantianism等網站以求內容正確。但以我一日西南學派迷而言，新康德主義的脈絡真不好理解，他們的知識論論辯參雜了相當抽象且繁雜（精妙?）的概念、以及對康德哲學思想的「超越」（他們很喜歡這麼說），我未能全部瞭解，僅按照我有興趣的「自然科學與社會/歷史科學的分野」一主題來整理並理解。"
   },
   {
-    "objectID": "posts/2025-01-08-scientific-revolution/index.html#how",
-    "href": "posts/2025-01-08-scientific-revolution/index.html#how",
-    "title": "書評：《科學革命》",
-    "section": "1.2 How",
-    "text": "1.2 How\n本章圍繞在機械論哲學家是如何（認為自己）「知道」和「傳播」這些新知的，如新儀器的使用、實驗法的發明、實驗報告的流傳。這裡每一個階段都會引起些爭議，譬如伽利略新的望遠鏡發明後，不是每個人都會使用、也不是都看到他宣稱的星體，因此，這種當代認為理所當然的新器材，也是需要花時間使人接受的。本章也提及新思想的神學基礎和復古的觀念，復古一說強調了當時的人目標是尚古，而非革命。\n\n1.2.1 （個人）觀察經驗與復古\n第一個主題是（個人）觀察和經驗的重要性。基督宗教認為人類是墮落的，所以感官也是虛假的，只有古代聖人血系才有真實的感官。所以，至少文藝復興時期，普通人的感官只是用來跟古代聖人的文獻搭配，而非佔據主導地位。直到17世紀，個人觀察才變得重要。\n神學上，基督教始終有一說認為上帝有兩本書：聖經和自然之書。而在新教的風潮下，自主閱讀自然之書是獲肯認的，這進一步影響17世紀的新自然哲學家或機械論者，他們如同牧師一般閱讀上帝的自然之書。許多著名的新哲學家—如虎克、培根、波以耳—認為原初的古老典籍才是真實的，但中間的流傳產生錯誤，故閱讀自然之書是為了崇尚原始典籍。\n\n\n1.2.2 自然發生的經驗（What happens in nature）與特殊經驗（particular experience）的對比\n第二個主題是自然發生的經驗（What happens in nature）與特殊經驗（particular experience）的對比。經驗主義和歸納法是新自然哲學的主軸，那到底甚麼經驗可以作為科學基礎呢？亞氏哲學和部分歐陸的機械論者，認為大自然「常見」的現象就是基礎；但在英國，如培根和波以耳等人認為需要小心檢證各種經驗知識的二手報告。更甚的是，以波以耳為首的英國的實作者，認為「特殊經驗」—實驗法的經驗—才是可靠的，而非那些自然發生的、常見的經驗。\n對現代人來說，自然發生的經驗和特殊經驗並無二致，但這個差異在當時被認為是存在的。譬如伽利略的滑坡實驗記錄中會說自己做了幾百次，因為他想說明這是自然發生的經驗。霍布斯則批評實驗法，認為若兩者相同，為甚麼需要特地做實驗？\n不過，波以耳的空氣幫浦實驗仍確立了現代實驗的準則：他在一個可以抽氣的玻璃容器中放入水銀氣壓計（倒裝的水銀柱），觀察到逐步抽空氣體會使得汞柱下降。這個實驗除了成為後續實驗自然哲學的圭臬，也再次說明了前述「人為」和「自然」的統合。\n波以耳的貢獻不僅於此，他和英國的倫敦皇家學會（Royal Society of London)）立下了現代科學社群形式的準則，他們不僅公開做實驗、記錄參與者，也會鉅細靡遺地寫下實驗方法和過程，並寫成報告等，讓「非目擊者」也可以彷彿體會到實驗，以此取信於人。這就是本書提到的兩個主軸：the depersonalization of natural knowledge、the attempted mechanization of knowledge making。"
+    "objectID": "posts/2024-02-15-distinct-soc-nat-science/index.html#研究對象與研究主題兩種現實reality或兩種知識",
+    "href": "posts/2024-02-15-distinct-soc-nat-science/index.html#研究對象與研究主題兩種現實reality或兩種知識",
+    "title": "自然科學與歷史科學的分野",
+    "section": "2.1 研究對象與研究主題：兩種現實（reality）或兩種知識",
+    "text": "2.1 研究對象與研究主題：兩種現實（reality）或兩種知識\n文德爾班區分了兩種知識：\n第一種是自然科學的知識，這是可觀察世界的知識。目的是在具體世界中找到現象的原因和法則。\n第二種是歷史的知識，這是有關人類價值與倫理的知識，包含倫理和判斷，永遠與「不能直接觀察到的對象」有關。而且人類行為背後的標準或是價值，會因為不同社會跟歷史緣由而不同，這是社會與歷史科學的「專屬主題」。這並不是說歷史學研究等同倫理學那類規範性（normative）研究，而是說文德爾班認為歷史學的研究標的總是跟行為背後的價值有關。\n第二種知識或許需要以例子以茲說明「為何歷史會跟價值有關」。他們的論點在於，談論歷史時總是會討論當時某些事物的象徵意義（aka價值），例如皇冠上的寶石代表秩序或是美等等，這意涵代表的當時代或社會的某種價值。"
   },
   {
-    "objectID": "posts/2025-01-08-scientific-revolution/index.html#why",
-    "href": "posts/2025-01-08-scientific-revolution/index.html#why",
-    "title": "書評：《科學革命》",
-    "section": "1.3 Why",
-    "text": "1.3 Why\n本章說明機械論者的目的和其社經背景環境等，但作者針對發生科學革命的原因大多簡單帶過就是了，較為可惜。\n\n1.3.1 科學革命的原因和國家權力\n在前兩章中，一個重複出現的主題是「新的自然哲學對傳統哲學的攻擊」，其脈絡之一為機械論者和傳統大學機構的衝突。傳統大學從屬於教會而服膺於經院哲學，更重視經典閱讀和辯論；新的思想家則認為其中充滿以訛傳訛，且辯論後仍缺乏建設性的實用結論。\n既然兩派人都是以追求真理為目標，為何只有到17世紀才會誕生現代意義的科學呢？作者粗略地說地理大發現、民族國家的誕生、啟蒙、宗教改革都導致了科學革命。這些動盪引起了以下的影響：\n宗教改革讓新的哲學思想反對傳統經院思想，也讓相對來說更多大眾關懷的議題參雜到新哲學中，因而更注重實用的經驗。然而，實際上新的高深理論創造了多少實用的經濟或軍事價值？實證上似乎寥寥無幾，故作者認為這種科學和商業跟軍事的複合體應等到19世紀後才比較明顯。另有論者認為，國家在海外探險上的需求，導致相關的研究領域受到重視，但這點仍沒有定論。\n因為歐洲的動盪，從國家穩定或秩序的觀點出發，有論者認為知識需要為其服務和受控管。這點培根可以作為一個代表人物。他認為新的自然哲學可以幫助知識的控制者增強權力，原因有二：第一，控管知識本身能控管大眾。第二，新的科學知識是實用的、可以改造大自然的，因此新的自然哲學是國家重要的財富。所以他的名言「Knowledge is power」其實帶有「權力」的意涵。\n這種重視知識管控或秩序的觀點，可在當時新興的學會組織中觀察到（雖然不一定受到政府重視）。學會有自己在方法論概念上的思想，即便彼此間有所不同，但他們普遍重視受到規範的集體勞作（collective labor），而不是毫無管制的個人主義科學實作。他們關心適當的學術行為準則，避免討論爭議性的宗教和政治議題（注意，他們還是相信上帝，所以這沒有「爭議」），讓科學討論容易進行，避免形上學的「主觀意識參雜」。\n\n\n1.3.2 新科學與宗教的關係\n新的科學實作者仍信奉基督宗教，也會發展正當化新實作的宗教論述，包含：閱讀自然之書才能幫助我們回到原典，去除錯誤的內容。或是，新科學可以讓人們重拾離開伊甸園後喪失的控制自然的能力，而重拾此能力是才能讓耶穌再次降臨。以及，即便我們了解很多事物的因果關係，終極的原因可能還是要訴諸上帝。\n有些人可能認為，學習新科學會讓人拋棄上帝，然而許多實作者反而認為，新科學會人驚嘆於自然之美，更會認為一定是有個精妙的工匠—上帝—在背後。作者還提到諸多對於上帝跟大自然關係的觀點，例如自然神學（Deists）觀認為上帝設計並讓世界開始運作後就不再管理等，這邊我就忽略不細究。"
+    "objectID": "posts/2024-02-15-distinct-soc-nat-science/index.html#兩種科學方法論",
+    "href": "posts/2024-02-15-distinct-soc-nat-science/index.html#兩種科學方法論",
+    "title": "自然科學與歷史科學的分野",
+    "section": "2.2 兩種科學方法論",
+    "text": "2.2 兩種科學方法論\n文德爾班不僅區分了自然科學與歷史科學的研究對象/主題，他進一步說明兩種科學方法論：\n律則式的（nomothetic）方法：這個方法聚焦在找出不同對象之間的相同性（commonalities），用盡量少的概念，去包含盡量多的對象。目標在於確認經驗事實是否符合理論假設。因此，這個方法有會有generalizing的傾向，通常為自然科學所用。\n個殊式的（ideographic）方法：這個方法則將研究標的鎖定在單一的事件或對象，盡量把事件發生的圖像完整描繪，以此判斷事件發生的動機跟緣由。\n舉例來說，牛頓的物理學，說明了「所有」石頭—無論表面是否崎嶇—落下的法則；相比之下，歷史學會盡量詳實說明跟研究羅馬的凱薩崛起和被暗殺的前因後果，或是研究西歐封建社會的沒落等特殊案例。文德爾班並未說明兩個方法孰優孰劣，他保持相對中庸的看法，認為兩者並重才能取得真實世界的圖像。"
   },
   {
-    "objectID": "posts/2025-01-08-scientific-revolution/index.html#理論化和實驗記錄",
-    "href": "posts/2025-01-08-scientific-revolution/index.html#理論化和實驗記錄",
-    "title": "書評：《科學革命》",
-    "section": "3.1 理論化和實驗記錄",
-    "text": "3.1 理論化和實驗記錄\n前面提到波以耳提出新的實驗記錄方法，但這種鉅細靡遺的實驗記錄流派，引來牛頓等人的批評，帶出「理論」和「實驗紀錄」的對比。波以耳本人非常謹慎地對待理論和因果關係；針對機械論中的粒子說，他僅願意做原則性的討論，而避免討論真實現象之原因。換言之，他避免理論化這些實驗記錄。反之，笛卡兒或牛頓都試圖提出現象運作的大理論。\n這點我覺得相當有趣，過去我一直以為自然科學是傾向一般化或理論化的學科（至少，相對社會科學和歷史學而言），原來此爭議也在自然科學中存在。若跟先前讀到新康德主義者西南學派對歷史科學的觀點（還未更新到這）結合，或許可以說，後來的自然科學實作者愈來愈倒向一般理論化。不過這也說明自然科學實作者還是有不同流派，或許我應該讀一讀作者推薦，由Kuhn所寫的相關文章。\n另外，我一直在想到底要怎麼適當地從現實經驗推論出理論？這個過程真也能被機械化處理嗎？還是這些理論只是呈現出我過去或我所處社會的觀點？"
+    "objectID": "posts/2024-02-15-distinct-soc-nat-science/index.html#文德爾班的影響",
+    "href": "posts/2024-02-15-distinct-soc-nat-science/index.html#文德爾班的影響",
+    "title": "自然科學與歷史科學的分野",
+    "section": "2.3 文德爾班的影響",
+    "text": "2.3 文德爾班的影響\nKen Morrsion認為，這些論點有了下列影響（我不確定文氏本身是否明確講出這些觀點）：\n\n人類對世界的認知牽涉到價值、判斷、詮釋等。\n人類社會的行動「不可以」被化約成以效用論這種單一的機械性動機（原因如1.所示）。"
   },
   {
-    "objectID": "posts/2025-01-08-scientific-revolution/index.html#自然的經驗和特殊經驗社會科學的因果推論",
-    "href": "posts/2025-01-08-scientific-revolution/index.html#自然的經驗和特殊經驗社會科學的因果推論",
-    "title": "書評：《科學革命》",
-    "section": "3.2 自然的經驗和特殊經驗，社會科學的因果推論",
-    "text": "3.2 自然的經驗和特殊經驗，社會科學的因果推論\n如前面所述，相對於將自然發生的事件當成科學經驗的來源，英國的新科學實作者崇尚使用特殊的實驗法經驗，引來部分歐陸實作者的反對。雖然作者專精於英國的實驗法歷史等，但這本書很可惜地未著墨實驗法本身的意涵和概念的革新，這是我自己原先想多學習的。\n不過，此爭議點出了我最初在學習Rubin Causal Model的小疑問。\n在當代社會科學、醫學、或流行病學的量化方法中，我們先統計式地證明一個理想實驗（使用randomized treatment assignment）的結果可以讓我們得到真正的causal effects。後續所有方法，大概都是在某種意義上尋找as-good-as-random的歷史事件，認定唯有此時我們才能計算出真的causal effect。那問題來了：首先，在最好的情況裡，現在的社會科學已經有經費到可以跑實驗，但礙於成本導致的sample size或抽樣母體問題，始終有人質疑其外部效度。其次，實驗室環境和現實社會的環境到底是否足夠相似？此外，即便不是實驗室情境，若我們只研究具備特定as-good-as-random variation的事件，那些沒有這麼理想的、自然發生的社會事件就容易被放棄討論了。但是，這些自然發生的事件，會不會才比較「現實」（例如：某些因素一定會一起發生或是互動等等，而不必然是單一個因素改變）？\n這些議題我沒有一個定論，不過這些問題似乎沒有人在討論就是了。"
+    "objectID": "posts/2024-02-15-distinct-soc-nat-science/index.html#科學知識論-批評自然科學來自直接的觀察",
+    "href": "posts/2024-02-15-distinct-soc-nat-science/index.html#科學知識論-批評自然科學來自直接的觀察",
+    "title": "自然科學與歷史科學的分野",
+    "section": "3.1 科學知識論: 批評自然科學來自直接的觀察",
+    "text": "3.1 科學知識論: 批評自然科學來自直接的觀察\n他認為人必定是「判斷先於觀察」（judgment before knowing），所以，事實本身是經由判斷才會再現，必然牽涉到某種詮釋。以此為基礎，他減弱了自然科學的正當性，並得到一個較激進的結論：「人類的價值判斷無法由自然科學那種律則的方式所掌握，所以歷史學比物理學更能掌握真實。」"
   },
   {
-    "objectID": "posts/2025-01-08-scientific-revolution/index.html#目的論和人類社會的解釋",
-    "href": "posts/2025-01-08-scientific-revolution/index.html#目的論和人類社會的解釋",
-    "title": "書評：《科學革命》",
-    "section": "3.3 目的論和人類社會的解釋",
-    "text": "3.3 目的論和人類社會的解釋\n機械論中對自然的解釋放棄了亞氏哲學的目的論，然而，這並不代表他們對人也用「非」目的論的方式解釋。同時，機械論更持有「被動的」形上學，認為物體是被動的而非有主動性。我覺得這有點像是[詮釋]社會學特別強調人的意圖這件事，喜愛用文化解釋。經濟學家則反之，傾向貶低文化因素，認為要用外在因素（地理、制度…）解釋人的行為，不喜歡說「人會這樣做，是因為人想這樣做」。(試著把人代換成土)\n這裡我就好奇，為甚麼亞氏擬人化的解釋（目的論、發展…），會被廣為接受，是因為巧合或是政治因素？ 還是，是人類解釋事情時習慣用人的思維出發嗎？這似乎和我刻板印象中，傳統人類社會偏愛幫萬物賦予生命或靈魂的觀點相符。\n這也代表，擬人化的哲學解釋，原本是遍佈人類社會與自然哲學的。但從科學革命開始，機械論從自然哲學起步，反撲到社會跟人文學科上。"
+    "objectID": "posts/2024-02-15-distinct-soc-nat-science/index.html#自然科學與歷史學的分野",
+    "href": "posts/2024-02-15-distinct-soc-nat-science/index.html#自然科學與歷史學的分野",
+    "title": "自然科學與歷史科學的分野",
+    "section": "3.2 自然科學與歷史學的分野",
+    "text": "3.2 自然科學與歷史學的分野\n李克特跟文德爾班的看法相同，並加強了某些論點。在兩種科學方法論上，他進一步批評自然科學那種generalizing的方法喪失了個案特殊性，為一大缺點；反之歷史科學致力於解釋individual non-recurring events。在概念形構（concept formation）上，李克特認為自然科學的概念是將經驗現實簡而化之，排除個體的構成要素；而歷史學的概念是盡可能貼近現實的特殊案例愈好，然而也不是說要求複雜的知識（那我們怎麼會能概念化任何歷史事件呢？），他只是認為概念是出自於個案，而非出自多個個案的一般特性。最後，李克特認為自然科學找尋事實性的知識，社會科學關心的是價值的知識，因為人永遠受到價值所形塑而產生行動。因此，有無價值是「兩種科學」的關鍵差異。\n他甚至認為，透過概念形構，我們超越了觀察本身。故當自然科學描繪出由簡單元素形成的圖像，世界的具體性不見了，但人的經驗卻包含著世界中具體的種種。\n那倒底歷史學知識和律則的知識有甚麼關係呢？李克特認為即便「概念」是以個殊的案例所發展，仍會跟一般性的概念或事物有連結。舉凱薩為例，他會跟「暗殺」這種一般的概念有關，也會跟更大的「羅馬帝國興起」一個殊案例有關。\n在這個看法之上，當我們有不同史家描繪的歷史案例知識時，需要重構一套知識論，來說明怎麼樣分辨哪些（歷史）知識是有效的。而且，如果史家都有不同觀察跟描述時，我們更難取得共識跟客觀性，甚至失去generalizing或取得歷史法則的可能。這方面確實是西南學派的一個哲學主題，下段根據史丹佛哲學百科和網路資源整理之。"
   },
   {
-    "objectID": "posts/2025-01-08-scientific-revolution/index.html#footnotes",
-    "href": "posts/2025-01-08-scientific-revolution/index.html#footnotes",
-    "title": "書評：《科學革命》",
+    "objectID": "posts/2024-02-15-distinct-soc-nat-science/index.html#footnotes",
+    "href": "posts/2024-02-15-distinct-soc-nat-science/index.html#footnotes",
+    "title": "自然科學與歷史科學的分野",
     "section": "腳註",
-    "text": "腳註\n\n\n亞里斯多德的原著中是否由此說仍有爭議，但中世紀的經院哲學確有此理論。↩︎"
+    "text": "腳註\n\n\n大多時候我的詞彙會用「歷史學」和「歷史科學」，因為新康德主義者使用的詞彙還是強調歷史學跟自然科學的對比（可見史丹佛哲學百科的用詞），我猜那個時代究竟社會科學的內容還不那麼清晰吧。↩︎\n張存華（2015）: 「實證科學的正確性只能從已經預設了的知識真性上獲得證實。如何透過價值概念﹐對知識真性提出說明﹐為西南學派在知識論上首要處理的哲學問題。…審視 Windelband 的這段話﹐『哲學並不把價值當作事實（Tatsaschen）﹐而是當作規範（Normen） 來看待。因此﹐哲學必須把自己的使命當作‘立法’（Gesetzgebung）來發揚』」↩︎\n這段是我自己吸收後整理的，我似乎難以找到更清楚說明西南學派對歷史學知識基礎的觀點（是否需要generalizing等）。故參考了史丹佛百科（注重section 3.3）、張正修老師的小文章、張存華老師的國科會計畫所撰寫，如下References。↩︎"
+  },
+  {
+    "objectID": "photography/index.html",
+    "href": "photography/index.html",
+    "title": "Photography",
+    "section": "",
+    "text": "As a wizard and scholar of Middle-earth, I have been studying the magic of the natural world for centuries. Through my self-portraits, I aim to capture the essence of my own being and reflect on my own journey through time. Each photograph is a reflection of my own experiences and emotions. Through my photography, I hope to offer a glimpse into my life as a scholar and adventurer, and inspire others to reflect on their own journeys through the world.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView the tutorial for this template (+ download link)"
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Download CV"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Yi-Chen Li (Ethan)",
+    "section": "",
+    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     X\n  \n\n  \n  \n\nWelcome to my website! (Under construction)\nI am Yi-Chen Li (Ethan), a master’s student in Economics at National Taiwan University (NTU), and I was previously a visiting student at University of California, Berkeley. I study international trade, political economy, economic history, and applied econometrics.\nAs a double major in Political Science and Economics during my undergraduate studies, I became fascinated by how economic shocks and globalization reshape social values and political life. Much of my thinking is inspired by Karl Polanyi’s The Great Transformation.\nOutside economics, I am broadly interested in history, philosophy, and social theory. Recently, I have been reading more in the philosophy of science and art history. In my free time, I enjoy classical music—I once played the saxophone—as well as independent music with inventive arrangements.\nFeel free to contact me if you would like to connect or discuss any of the topics explored on this website."
   },
   {
     "objectID": "posts/2024-02-05-global-econ-hist/index.html",
@@ -175,87 +203,94 @@
     "text": "腳註\n\n\n有一說認為法國君王權力大，所以財產權保障差。↩︎\n幾篇反對Allen的論點的文章\n\nStephenson, J. Z. (2018). ‘Real’ wages? Contractors, workers, and pay in London building trades, 1650–1800. The Economic History Review, 71(1), 106–132.\nStephenson, J. Z. (2019). Mistaken wages: the cost of labour in the early modern English economy, a reply to Robert C. Allen. The Economic History Review, 72(2), 755–769.\nJane Humphries, Jacob Weisdorf, Unreal Wages? Real Income and Economic Growth in England, 1260–1850, The Economic Journal, Volume 129, Issue 623, October 2019, Pages 2867–2887.\n整理反駁Allen的中文筆記https://zhuanlan.zhihu.com/p/45695611\n\n↩︎\n這台其實是Weaving而非Spinning Machine，但仔細看導覽板板的翻譯（由Gemini協助）可知日本人的technology adoption巧思：\n日本第一台動力織機豐田式汽力織機（1896 年發明） 這台實現了動力化的織機，為了讓當時的織布業者能輕鬆購入，特別採用了低成本的「木鐵構造」。隨著「緯紗斷裂自動停止裝置」等自動化設備的發明，織物的品質與生產力均獲得了劃時代的提升。\n詳細說明: 本展示機製造於1899年，並於1966年將當時仍在運作的機台進行了復原與整修。此機台發明了多項關鍵技術，包含能讓「經紗」保持固定力的自動調整裝置、當「緯紗」斷裂時會自動停機的裝置，以及布料捲取裝置等。 藉由這些技術，以往一名作業員只能操作一台機器，進步到可同時操作3至4台，且織物品質也大幅提升。此外，由於當時的織布業多為小規模經營，為了提供價格低廉的織機，機身採用了木材與鋼鐵混製的結構。這類革新動力織機的出現，促成了日本織布業的工業化，不僅活絡了國內經濟，更對當時「棉布出口」的國家政策做出了重大貢獻。豐田佐吉（註：Toyota創辦人）從立志改良織機之初，就認為人力操作的效率有限，因此決心開發動力織機，而這台機器正是他實踐理想的成果。↩︎"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Yi-Chen Li (Ethan)",
+    "objectID": "posts/2025-01-08-scientific-revolution/index.html",
+    "href": "posts/2025-01-08-scientific-revolution/index.html",
+    "title": "書評：《科學革命》",
     "section": "",
-    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     X\n  \n\n  \n  \n\nWelcome to my website! (Under construction)\nI am Yi-Chen Li (Ethan), a master’s student in Economics at National Taiwan University (NTU), and I was previously a visiting student at University of California, Berkeley. I study international trade, political economy, economic history, and applied econometrics.\nAs a double major in Political Science and Economics during my undergraduate studies, I became fascinated by how economic shocks and globalization reshape social values and political life. Much of my thinking is inspired by Karl Polanyi’s The Great Transformation.\nOutside economics, I am broadly interested in history, philosophy, and social theory. Recently, I have been reading more in the philosophy of science and art history. In my free time, I enjoy classical music—I once played the saxophone—as well as independent music with inventive arrangements.\nFeel free to contact me if you would like to connect or discuss any of the topics explored on this website."
+    "text": "註\n\n\n\n本文搬運自我的Medium，和原版差異僅在於文字編修。\n《科學革命》（The Scientific Revolution）是哈佛大學科學史教授Steven Shapin於1996年初版的科學革命介紹書籍，臺灣由左岸文化出版。本書由Shapin的上課教材編纂而成，主旨在於介紹科學革命的內容和相關的歷史學或社會學議題。作者嘗試破除傳統歷史學中對科學革命的理解，帶入新的史學研究，並試圖論證一個看似激進的論點:「There was no such thing as the Scientific Revolution」。\n「科學革命」此概念在1943年被法國歷史學家Alexandre Koyré提出後，傳統歷史學一直認為這段時期是現代性的起源，改變了人類思考的方式，就像戴上一副新的眼鏡(putting on a new pair of spectacles)。譬如英國歷史學家Herbert Butterfield曾說:\n既然這是一個如此有影響力的時期，作者為甚麼認為科學革命不存在？這共可分為三點：\n所以，實際上作者並未否定此事件的重要性，而是強調過去史學和大眾的理解或措辭不當，希望透過此書把新的研究介紹給大家。\n本書除了上述論證外，他以三個章節區分，分別是What (他們知道了甚麼)、How (他們如何知道)、Why (他們為甚麼想知道、目的是甚麼)；並以四個主題貫穿全文，包含：the mechanization of nature、the depersonalization of natural knowledge、the attempted mechanization of knowledge making、the aspiration to use the benign and disinterested reformed natural knowledge to achieve moral, social, and political ends。內容我後面會簡單敘述。\n以下先從內容、書寫風格和架構，後面會提到書本內容和我的個人心得。"
   },
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum vitae",
-    "section": "",
-    "text": "Download CV"
+    "objectID": "posts/2025-01-08-scientific-revolution/index.html#what",
+    "href": "posts/2025-01-08-scientific-revolution/index.html#what",
+    "title": "書評：《科學革命》",
+    "section": "1.1 What",
+    "text": "1.1 What\n第一章what說明了17世紀之前主流的自然哲學理論，即：中世紀教會修改後的經院版亞里斯多德的自然哲學理論（下簡稱亞氏自然哲學），並說明當時新的機械論（mechanical view of nature, or mechanical philosophy）和亞氏哲學的差異，以及機械論的新觀點或發現。本書在極小的篇幅內呈現許多兩個學說的對比，我就不一一贅述了，僅抓幾個印象比較深刻的重點簡述，我比較感興趣的部分則放在心得討論。\n\n1.1.1 （1）目的論或泛靈論vs.機械論；（2）自然vs.人造物\n亞氏自然哲學最大特色是目的論（teleology）和泛靈論（animism），認為萬物有一種傾向、目的、或屬性，以此同時解釋「生物」—包含人—和「大自然」。舉例來說，要解釋托里切利實驗中倒裝的汞柱或水柱為何有特定的高度，亞氏哲學觀點認為因為水有厭惡空無一物的特性，故那個高度就是厭惡程度的表現；同理，此論者會認為土有往下掉的傾向。由此可知，這實為從生物學或人類中心的觀點出發的大一統哲學理論，如同我們會觀察到樹有「長大」的傾向，人做事總有個「意圖」。所以，亞氏哲學僅是把此觀點套用到所有事物上。但要注意，他們並不認為物質會如人類那樣「思考」。\n亞氏哲學第二特色是認為自然「如同」工匠，打造了「完美」的自然事物。所以「自然物」和「人造物」有本質之不同，自然比較高等。在基督宗教中，地球是墮落的人類的居住地，和天界（太陽等星體）也有本質之不同，所以物理法則可能也不同。\n機械論則反其道而行，認為解釋大自然，應該要用「粒子–運動」這種機械般的方式解釋，而且機械的人造物就可以「比擬」大自然。針對汞柱上方的真空部分，機械論會以「平衡」的概念去解釋。\n其次，天界的規則和地球的物理規則是相同的，這可由牛頓物理學強大的預測力來佐證。另一個例子是伽利略當初看到太陽上的黑點後，根據計算斷言黑點是在太陽上，因此天體似乎並非「完美」。\n要注意到，我們現代的科學普遍相信機械論，但那時的觀測技術不足，所以這樣的說法只可謂新穎的哲學觀點，而非以紮實的觀察作為基礎。因此，理解當時的機械論哲學家如何論據、如何說服其他人變得非常重要。\n\n\n1.1.2 （3）抽象性質和可理解性（intelligibility）\n此爭點牽涉到兩種理論觀點對物的構成的根本想像。\n亞氏哲學中，物包含「物質」和「抽象屬性或是substantial forms（實質形式）」兩個要素。1 譬如亞歷山大雕像包含「石頭」和「亞歷山大的形象」。老鼠的構成除了有血肉，還有「老鼠的概念」附在上面，兩者缺一不可；若少了老鼠的形象，則那塊血肉就不是「老鼠」了。在解釋事物上，亞氏哲學將人的感受歸咎於物的屬性（當我用這個詞彙時我已經是機械論者了，哈）。例如，火是熱的，代表火有熱的屬性；玫瑰花有溫暖或甜美的屬性。\n相對地，機械論把物的構成拆分成主要性質（primary qualities）和次要性質（secondary qualities），前者意指物質和運動，後者意指人受到主要性質影響後對此物的感受。因此，火焰並沒有熱的特性，而是粒子震動後導致我的手感覺「熱」。再者，機械論者僅肯認物質和運動這類有形（tangible）事物的解釋方式，否定亞氏哲學的實質形式論，認為採用到抽象形式的理論是「不可理解的」（un-intelligible）、神祕的（occult）。即便機械論者堅稱，但這種論調在當時很難說比亞氏哲學更好「理解」。捫心自問，我們要怎麼說哪一個說法好理解呢？似乎只能說哪一個更實用？\n由此開始，主觀的感受被認定是比較不可靠的，新的機械論者還認為這種抽象形式的理論時常服膺於教會的教條主義。\n\n\n1.1.3 （4）機械論與數學的關係\n當代的科學和數學關係緊密，但17世紀時機械論者並不必然使用數學，他們只是偏好用機械、物質、運動的原則來解釋萬物。這要等到如Kepler或牛頓等人，使用數學幫助物理和天文學發展理論和展現其預測力後，才漸漸被接受。過去不被接受的原因大概是數學物件的idealization，雖然有紮實的邏輯，但總是和觀測結果有些差距。\n有一常見的說法認為牛頓是機械論的集大成者，但他飽受批評的一點在於，他放棄思考「引力」這種抽象力的機械因。納入引力這種主動的力，讓機械論似乎又重新引進抽象的、目的論的神祕力量。"
   },
   {
-    "objectID": "photography/index.html",
-    "href": "photography/index.html",
-    "title": "Photography",
-    "section": "",
-    "text": "As a wizard and scholar of Middle-earth, I have been studying the magic of the natural world for centuries. Through my self-portraits, I aim to capture the essence of my own being and reflect on my own journey through time. Each photograph is a reflection of my own experiences and emotions. Through my photography, I hope to offer a glimpse into my life as a scholar and adventurer, and inspire others to reflect on their own journeys through the world.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView the tutorial for this template (+ download link)"
+    "objectID": "posts/2025-01-08-scientific-revolution/index.html#how",
+    "href": "posts/2025-01-08-scientific-revolution/index.html#how",
+    "title": "書評：《科學革命》",
+    "section": "1.2 How",
+    "text": "1.2 How\n本章圍繞在機械論哲學家是如何（認為自己）「知道」和「傳播」這些新知的，如新儀器的使用、實驗法的發明、實驗報告的流傳。這裡每一個階段都會引起些爭議，譬如伽利略新的望遠鏡發明後，不是每個人都會使用、也不是都看到他宣稱的星體，因此，這種當代認為理所當然的新器材，也是需要花時間使人接受的。本章也提及新思想的神學基礎和復古的觀念，復古一說強調了當時的人目標是尚古，而非革命。\n\n1.2.1 （個人）觀察經驗與復古\n第一個主題是（個人）觀察和經驗的重要性。基督宗教認為人類是墮落的，所以感官也是虛假的，只有古代聖人血系才有真實的感官。所以，至少文藝復興時期，普通人的感官只是用來跟古代聖人的文獻搭配，而非佔據主導地位。直到17世紀，個人觀察才變得重要。\n神學上，基督教始終有一說認為上帝有兩本書：聖經和自然之書。而在新教的風潮下，自主閱讀自然之書是獲肯認的，這進一步影響17世紀的新自然哲學家或機械論者，他們如同牧師一般閱讀上帝的自然之書。許多著名的新哲學家—如虎克、培根、波以耳—認為原初的古老典籍才是真實的，但中間的流傳產生錯誤，故閱讀自然之書是為了崇尚原始典籍。\n\n\n1.2.2 自然發生的經驗（What happens in nature）與特殊經驗（particular experience）的對比\n第二個主題是自然發生的經驗（What happens in nature）與特殊經驗（particular experience）的對比。經驗主義和歸納法是新自然哲學的主軸，那到底甚麼經驗可以作為科學基礎呢？亞氏哲學和部分歐陸的機械論者，認為大自然「常見」的現象就是基礎；但在英國，如培根和波以耳等人認為需要小心檢證各種經驗知識的二手報告。更甚的是，以波以耳為首的英國的實作者，認為「特殊經驗」—實驗法的經驗—才是可靠的，而非那些自然發生的、常見的經驗。\n對現代人來說，自然發生的經驗和特殊經驗並無二致，但這個差異在當時被認為是存在的。譬如伽利略的滑坡實驗記錄中會說自己做了幾百次，因為他想說明這是自然發生的經驗。霍布斯則批評實驗法，認為若兩者相同，為甚麼需要特地做實驗？\n不過，波以耳的空氣幫浦實驗仍確立了現代實驗的準則：他在一個可以抽氣的玻璃容器中放入水銀氣壓計（倒裝的水銀柱），觀察到逐步抽空氣體會使得汞柱下降。這個實驗除了成為後續實驗自然哲學的圭臬，也再次說明了前述「人為」和「自然」的統合。\n波以耳的貢獻不僅於此，他和英國的倫敦皇家學會（Royal Society of London)）立下了現代科學社群形式的準則，他們不僅公開做實驗、記錄參與者，也會鉅細靡遺地寫下實驗方法和過程，並寫成報告等，讓「非目擊者」也可以彷彿體會到實驗，以此取信於人。這就是本書提到的兩個主軸：the depersonalization of natural knowledge、the attempted mechanization of knowledge making。"
   },
   {
-    "objectID": "posts/2024-02-15-distinct-soc-nat-science/index.html",
-    "href": "posts/2024-02-15-distinct-soc-nat-science/index.html",
-    "title": "自然科學與歷史科學的分野",
-    "section": "",
-    "text": "今天是初五，下周也要開學了，打算用寫作為寒假的閱讀作結。\n以前恰好在長頸鹿拓樸學的哲（科）普文〈韋伯摘要一：黑格爾與宗教於羅謝方法論之影響〉中，讀到19世紀末與20世紀初新康德主義（Neo-Kantianism）中西南學派（Southwest School）對科學和科學方法論的觀點。裡面針對自然科學跟社會科學分野的論點當時就引起我很大的興趣，不過始終未去深究。近期可能肇因讀了太多經濟學理論，開始閱讀Ken Morrison的《古典社會學巨擘》（Marx, Durkheim, Weber：Formations of Modern Social Thought），並在韋伯的章節再次讀到西南學派，便花了一天時間盡量搞懂新康德主義，尤其是西南學派的想法，也嘗試把筆記撰成文章整理在這，順便讓自己重整一下思緒。\n以下主要按照Ken Morrison的《古典社會學巨擘》中第四章〈韋伯〉的西南學派內容加以整理後撰寫，並搭配史丹佛哲學百科的Neo-Kantianism等網站以求內容正確。但以我一日西南學派迷而言，新康德主義的脈絡真不好理解，他們的知識論論辯參雜了相當抽象且繁雜（精妙?）的概念、以及對康德哲學思想的「超越」（他們很喜歡這麼說），我未能全部瞭解，僅按照我有興趣的「自然科學與社會/歷史科學的分野」一主題來整理並理解。"
+    "objectID": "posts/2025-01-08-scientific-revolution/index.html#why",
+    "href": "posts/2025-01-08-scientific-revolution/index.html#why",
+    "title": "書評：《科學革命》",
+    "section": "1.3 Why",
+    "text": "1.3 Why\n本章說明機械論者的目的和其社經背景環境等，但作者針對發生科學革命的原因大多簡單帶過就是了，較為可惜。\n\n1.3.1 科學革命的原因和國家權力\n在前兩章中，一個重複出現的主題是「新的自然哲學對傳統哲學的攻擊」，其脈絡之一為機械論者和傳統大學機構的衝突。傳統大學從屬於教會而服膺於經院哲學，更重視經典閱讀和辯論；新的思想家則認為其中充滿以訛傳訛，且辯論後仍缺乏建設性的實用結論。\n既然兩派人都是以追求真理為目標，為何只有到17世紀才會誕生現代意義的科學呢？作者粗略地說地理大發現、民族國家的誕生、啟蒙、宗教改革都導致了科學革命。這些動盪引起了以下的影響：\n宗教改革讓新的哲學思想反對傳統經院思想，也讓相對來說更多大眾關懷的議題參雜到新哲學中，因而更注重實用的經驗。然而，實際上新的高深理論創造了多少實用的經濟或軍事價值？實證上似乎寥寥無幾，故作者認為這種科學和商業跟軍事的複合體應等到19世紀後才比較明顯。另有論者認為，國家在海外探險上的需求，導致相關的研究領域受到重視，但這點仍沒有定論。\n因為歐洲的動盪，從國家穩定或秩序的觀點出發，有論者認為知識需要為其服務和受控管。這點培根可以作為一個代表人物。他認為新的自然哲學可以幫助知識的控制者增強權力，原因有二：第一，控管知識本身能控管大眾。第二，新的科學知識是實用的、可以改造大自然的，因此新的自然哲學是國家重要的財富。所以他的名言「Knowledge is power」其實帶有「權力」的意涵。\n這種重視知識管控或秩序的觀點，可在當時新興的學會組織中觀察到（雖然不一定受到政府重視）。學會有自己在方法論概念上的思想，即便彼此間有所不同，但他們普遍重視受到規範的集體勞作（collective labor），而不是毫無管制的個人主義科學實作。他們關心適當的學術行為準則，避免討論爭議性的宗教和政治議題（注意，他們還是相信上帝，所以這沒有「爭議」），讓科學討論容易進行，避免形上學的「主觀意識參雜」。\n\n\n1.3.2 新科學與宗教的關係\n新的科學實作者仍信奉基督宗教，也會發展正當化新實作的宗教論述，包含：閱讀自然之書才能幫助我們回到原典，去除錯誤的內容。或是，新科學可以讓人們重拾離開伊甸園後喪失的控制自然的能力，而重拾此能力是才能讓耶穌再次降臨。以及，即便我們了解很多事物的因果關係，終極的原因可能還是要訴諸上帝。\n有些人可能認為，學習新科學會讓人拋棄上帝，然而許多實作者反而認為，新科學會人驚嘆於自然之美，更會認為一定是有個精妙的工匠—上帝—在背後。作者還提到諸多對於上帝跟大自然關係的觀點，例如自然神學（Deists）觀認為上帝設計並讓世界開始運作後就不再管理等，這邊我就忽略不細究。"
   },
   {
-    "objectID": "posts/2024-02-15-distinct-soc-nat-science/index.html#研究對象與研究主題兩種現實reality或兩種知識",
-    "href": "posts/2024-02-15-distinct-soc-nat-science/index.html#研究對象與研究主題兩種現實reality或兩種知識",
-    "title": "自然科學與歷史科學的分野",
-    "section": "2.1 研究對象與研究主題：兩種現實（reality）或兩種知識",
-    "text": "2.1 研究對象與研究主題：兩種現實（reality）或兩種知識\n文德爾班區分了兩種知識：\n第一種是自然科學的知識，這是可觀察世界的知識。目的是在具體世界中找到現象的原因和法則。\n第二種是歷史的知識，這是有關人類價值與倫理的知識，包含倫理和判斷，永遠與「不能直接觀察到的對象」有關。而且人類行為背後的標準或是價值，會因為不同社會跟歷史緣由而不同，這是社會與歷史科學的「專屬主題」。這並不是說歷史學研究等同倫理學那類規範性（normative）研究，而是說文德爾班認為歷史學的研究標的總是跟行為背後的價值有關。\n第二種知識或許需要以例子以茲說明「為何歷史會跟價值有關」。他們的論點在於，談論歷史時總是會討論當時某些事物的象徵意義（aka價值），例如皇冠上的寶石代表秩序或是美等等，這意涵代表的當時代或社會的某種價值。"
+    "objectID": "posts/2025-01-08-scientific-revolution/index.html#理論化和實驗記錄",
+    "href": "posts/2025-01-08-scientific-revolution/index.html#理論化和實驗記錄",
+    "title": "書評：《科學革命》",
+    "section": "3.1 理論化和實驗記錄",
+    "text": "3.1 理論化和實驗記錄\n前面提到波以耳提出新的實驗記錄方法，但這種鉅細靡遺的實驗記錄流派，引來牛頓等人的批評，帶出「理論」和「實驗紀錄」的對比。波以耳本人非常謹慎地對待理論和因果關係；針對機械論中的粒子說，他僅願意做原則性的討論，而避免討論真實現象之原因。換言之，他避免理論化這些實驗記錄。反之，笛卡兒或牛頓都試圖提出現象運作的大理論。\n這點我覺得相當有趣，過去我一直以為自然科學是傾向一般化或理論化的學科（至少，相對社會科學和歷史學而言），原來此爭議也在自然科學中存在。若跟先前讀到新康德主義者西南學派對歷史科學的觀點（還未更新到這）結合，或許可以說，後來的自然科學實作者愈來愈倒向一般理論化。不過這也說明自然科學實作者還是有不同流派，或許我應該讀一讀作者推薦，由Kuhn所寫的相關文章。\n另外，我一直在想到底要怎麼適當地從現實經驗推論出理論？這個過程真也能被機械化處理嗎？還是這些理論只是呈現出我過去或我所處社會的觀點？"
   },
   {
-    "objectID": "posts/2024-02-15-distinct-soc-nat-science/index.html#兩種科學方法論",
-    "href": "posts/2024-02-15-distinct-soc-nat-science/index.html#兩種科學方法論",
-    "title": "自然科學與歷史科學的分野",
-    "section": "2.2 兩種科學方法論",
-    "text": "2.2 兩種科學方法論\n文德爾班不僅區分了自然科學與歷史科學的研究對象/主題，他進一步說明兩種科學方法論：\n律則式的（nomothetic）方法：這個方法聚焦在找出不同對象之間的相同性（commonalities），用盡量少的概念，去包含盡量多的對象。目標在於確認經驗事實是否符合理論假設。因此，這個方法有會有generalizing的傾向，通常為自然科學所用。\n個殊式的（ideographic）方法：這個方法則將研究標的鎖定在單一的事件或對象，盡量把事件發生的圖像完整描繪，以此判斷事件發生的動機跟緣由。\n舉例來說，牛頓的物理學，說明了「所有」石頭—無論表面是否崎嶇—落下的法則；相比之下，歷史學會盡量詳實說明跟研究羅馬的凱薩崛起和被暗殺的前因後果，或是研究西歐封建社會的沒落等特殊案例。文德爾班並未說明兩個方法孰優孰劣，他保持相對中庸的看法，認為兩者並重才能取得真實世界的圖像。"
+    "objectID": "posts/2025-01-08-scientific-revolution/index.html#自然的經驗和特殊經驗社會科學的因果推論",
+    "href": "posts/2025-01-08-scientific-revolution/index.html#自然的經驗和特殊經驗社會科學的因果推論",
+    "title": "書評：《科學革命》",
+    "section": "3.2 自然的經驗和特殊經驗，社會科學的因果推論",
+    "text": "3.2 自然的經驗和特殊經驗，社會科學的因果推論\n如前面所述，相對於將自然發生的事件當成科學經驗的來源，英國的新科學實作者崇尚使用特殊的實驗法經驗，引來部分歐陸實作者的反對。雖然作者專精於英國的實驗法歷史等，但這本書很可惜地未著墨實驗法本身的意涵和概念的革新，這是我自己原先想多學習的。\n不過，此爭議點出了我最初在學習Rubin Causal Model的小疑問。\n在當代社會科學、醫學、或流行病學的量化方法中，我們先統計式地證明一個理想實驗（使用randomized treatment assignment）的結果可以讓我們得到真正的causal effects。後續所有方法，大概都是在某種意義上尋找as-good-as-random的歷史事件，認定唯有此時我們才能計算出真的causal effect。那問題來了：首先，在最好的情況裡，現在的社會科學已經有經費到可以跑實驗，但礙於成本導致的sample size或抽樣母體問題，始終有人質疑其外部效度。其次，實驗室環境和現實社會的環境到底是否足夠相似？此外，即便不是實驗室情境，若我們只研究具備特定as-good-as-random variation的事件，那些沒有這麼理想的、自然發生的社會事件就容易被放棄討論了。但是，這些自然發生的事件，會不會才比較「現實」（例如：某些因素一定會一起發生或是互動等等，而不必然是單一個因素改變）？\n這些議題我沒有一個定論，不過這些問題似乎沒有人在討論就是了。"
   },
   {
-    "objectID": "posts/2024-02-15-distinct-soc-nat-science/index.html#文德爾班的影響",
-    "href": "posts/2024-02-15-distinct-soc-nat-science/index.html#文德爾班的影響",
-    "title": "自然科學與歷史科學的分野",
-    "section": "2.3 文德爾班的影響",
-    "text": "2.3 文德爾班的影響\nKen Morrsion認為，這些論點有了下列影響（我不確定文氏本身是否明確講出這些觀點）：\n\n人類對世界的認知牽涉到價值、判斷、詮釋等。\n人類社會的行動「不可以」被化約成以效用論這種單一的機械性動機（原因如1.所示）。"
+    "objectID": "posts/2025-01-08-scientific-revolution/index.html#目的論和人類社會的解釋",
+    "href": "posts/2025-01-08-scientific-revolution/index.html#目的論和人類社會的解釋",
+    "title": "書評：《科學革命》",
+    "section": "3.3 目的論和人類社會的解釋",
+    "text": "3.3 目的論和人類社會的解釋\n機械論中對自然的解釋放棄了亞氏哲學的目的論，然而，這並不代表他們對人也用「非」目的論的方式解釋。同時，機械論更持有「被動的」形上學，認為物體是被動的而非有主動性。我覺得這有點像是[詮釋]社會學特別強調人的意圖這件事，喜愛用文化解釋。經濟學家則反之，傾向貶低文化因素，認為要用外在因素（地理、制度…）解釋人的行為，不喜歡說「人會這樣做，是因為人想這樣做」。(試著把人代換成土)\n這裡我就好奇，為甚麼亞氏擬人化的解釋（目的論、發展…），會被廣為接受，是因為巧合或是政治因素？ 還是，是人類解釋事情時習慣用人的思維出發嗎？這似乎和我刻板印象中，傳統人類社會偏愛幫萬物賦予生命或靈魂的觀點相符。\n這也代表，擬人化的哲學解釋，原本是遍佈人類社會與自然哲學的。但從科學革命開始，機械論從自然哲學起步，反撲到社會跟人文學科上。"
   },
   {
-    "objectID": "posts/2024-02-15-distinct-soc-nat-science/index.html#科學知識論-批評自然科學來自直接的觀察",
-    "href": "posts/2024-02-15-distinct-soc-nat-science/index.html#科學知識論-批評自然科學來自直接的觀察",
-    "title": "自然科學與歷史科學的分野",
-    "section": "3.1 科學知識論: 批評自然科學來自直接的觀察",
-    "text": "3.1 科學知識論: 批評自然科學來自直接的觀察\n他認為人必定是「判斷先於觀察」（judgment before knowing），所以，事實本身是經由判斷才會再現，必然牽涉到某種詮釋。以此為基礎，他減弱了自然科學的正當性，並得到一個較激進的結論：「人類的價值判斷無法由自然科學那種律則的方式所掌握，所以歷史學比物理學更能掌握真實。」"
-  },
-  {
-    "objectID": "posts/2024-02-15-distinct-soc-nat-science/index.html#自然科學與歷史學的分野",
-    "href": "posts/2024-02-15-distinct-soc-nat-science/index.html#自然科學與歷史學的分野",
-    "title": "自然科學與歷史科學的分野",
-    "section": "3.2 自然科學與歷史學的分野",
-    "text": "3.2 自然科學與歷史學的分野\n李克特跟文德爾班的看法相同，並加強了某些論點。在兩種科學方法論上，他進一步批評自然科學那種generalizing的方法喪失了個案特殊性，為一大缺點；反之歷史科學致力於解釋individual non-recurring events。在概念形構（concept formation）上，李克特認為自然科學的概念是將經驗現實簡而化之，排除個體的構成要素；而歷史學的概念是盡可能貼近現實的特殊案例愈好，然而也不是說要求複雜的知識（那我們怎麼會能概念化任何歷史事件呢？），他只是認為概念是出自於個案，而非出自多個個案的一般特性。最後，李克特認為自然科學找尋事實性的知識，社會科學關心的是價值的知識，因為人永遠受到價值所形塑而產生行動。因此，有無價值是「兩種科學」的關鍵差異。\n他甚至認為，透過概念形構，我們超越了觀察本身。故當自然科學描繪出由簡單元素形成的圖像，世界的具體性不見了，但人的經驗卻包含著世界中具體的種種。\n那倒底歷史學知識和律則的知識有甚麼關係呢？李克特認為即便「概念」是以個殊的案例所發展，仍會跟一般性的概念或事物有連結。舉凱薩為例，他會跟「暗殺」這種一般的概念有關，也會跟更大的「羅馬帝國興起」一個殊案例有關。\n在這個看法之上，當我們有不同史家描繪的歷史案例知識時，需要重構一套知識論，來說明怎麼樣分辨哪些（歷史）知識是有效的。而且，如果史家都有不同觀察跟描述時，我們更難取得共識跟客觀性，甚至失去generalizing或取得歷史法則的可能。這方面確實是西南學派的一個哲學主題，下段根據史丹佛哲學百科和網路資源整理之。"
-  },
-  {
-    "objectID": "posts/2024-02-15-distinct-soc-nat-science/index.html#footnotes",
-    "href": "posts/2024-02-15-distinct-soc-nat-science/index.html#footnotes",
-    "title": "自然科學與歷史科學的分野",
+    "objectID": "posts/2025-01-08-scientific-revolution/index.html#footnotes",
+    "href": "posts/2025-01-08-scientific-revolution/index.html#footnotes",
+    "title": "書評：《科學革命》",
     "section": "腳註",
-    "text": "腳註\n\n\n大多時候我的詞彙會用「歷史學」和「歷史科學」，因為新康德主義者使用的詞彙還是強調歷史學跟自然科學的對比（可見史丹佛哲學百科的用詞），我猜那個時代究竟社會科學的內容還不那麼清晰吧。↩︎\n張存華（2015）: 「實證科學的正確性只能從已經預設了的知識真性上獲得證實。如何透過價值概念﹐對知識真性提出說明﹐為西南學派在知識論上首要處理的哲學問題。…審視 Windelband 的這段話﹐『哲學並不把價值當作事實（Tatsaschen）﹐而是當作規範（Normen） 來看待。因此﹐哲學必須把自己的使命當作‘立法’（Gesetzgebung）來發揚』」↩︎\n這段是我自己吸收後整理的，我似乎難以找到更清楚說明西南學派對歷史學知識基礎的觀點（是否需要generalizing等）。故參考了史丹佛百科（注重section 3.3）、張正修老師的小文章、張存華老師的國科會計畫所撰寫，如下References。↩︎"
+    "text": "腳註\n\n\n亞里斯多德的原著中是否由此說仍有爭議，但中世紀的經院哲學確有此理論。↩︎"
   },
   {
-    "objectID": "posts/2025-09-23-color-hierarchy/index.html",
-    "href": "posts/2025-09-23-color-hierarchy/index.html",
-    "title": "顏色命名的規律",
+    "objectID": "posts/2026-01-27-first-post/index.html",
+    "href": "posts/2026-01-27-first-post/index.html",
+    "title": "Quarto Resources and Template (My First Post!)",
     "section": "",
-    "text": "註\n\n\n\n本篇文搬運自我的Medium。\n\n\n小時候演奏過一首John Mackey所寫的炫炮現代樂曲—「Wine-Dark Sea」—描述古希臘作家荷馬（Homer ）的史詩「奧德賽（Odyssey）」中主角奧德修斯（Odysseus）的經歷。第一樂章的標題是Hubris，以雄偉的號角聲，搭配不和諧音程及隨小節變換的拍號，讓海神的天罰在奧德修斯的傲慢中醞釀後爆發。我以前只覺得這是一首很「酷」的曲子，沒太多其他想法，但最近看了幾部影片，才突然瞭解了Wine-Dark Sea名稱蘊含的科學或人文（?）意義。\nWine-Dark Sea意指「如酒一樣深色的海」，我猜想可能是紫或深紅色吧。我以前覺得這個形容詞的形式—「物體-Dark」—是歐美文學的修辭法，聽起來比較具象化。直至前幾天透過Vox的影片「The surprising pattern behind color names around the world」，知道了所謂的「Basic Color Terms」，而且每個社會的顏色命名有固定的pattern，我這才發現原來這首管樂曲名另有奧妙！？這幾天我沒事查了些這方面的內容，故在本文稍稍整理我的不專業小心得，也幫自己Medium除草一番。\n\n\n\n\n1 顏色命名的Puzzle\n很早就有人發現，荷馬史詩中僅有很少的顏色詞彙。英國首相William Gladstone在1858年出版的「Studies on Homer and the Homeric Age」中，發現荷馬用同一個詞形容不同的顏色（至少對英語使用者來說不同）；例如他用同一個詞形容blood、dark cloud、sea wave、rainbow。為甚麼會這樣呢？\n仔細思考人們命名顏色的方式，有幾個有趣的問題:\n\n顏色按照波長而言是連續的，那為甚麼我們會命名特定波長的顏色—例如紅、黃、綠—而非其他呢？ 為甚麼沒有人用「鼻涕色」代稱黃色和綠色的中間色呢？\n不同語言似乎有不同數量的顏色詞彙，例如象牙海岸的語言Wobé用Kpe指涉藍色、紫色、棕色。\n若2.為真，則這些基礎顏色詞彙（Basic Color Term, BCT）的數量是否會對應特定一組顏色呢？ 例如，當一個語言只有三種顏色，那這三種會是甚麼呢？\n承3.，那是甚麼因素決定了哪一些顏色會先被命名？\nBCT數量較少的語言，是如何稱呼各種物體的顏色呢？\n\n\n\n2 Berlin and Kay’s BCT\nUC Berkeley的教授Berlin and Kay在1969年的「Basic Color Terms: Their Universality and Evolution」一書中，首次提出BCT（Basic Color Term）的概念。他們訪問了不同國家的受試者，歸納出以下規律:\n\n\n\n\n\n\nflowchart LR\n  WB[\"white&lt;br/&gt;black\"] --&gt; R[\"red\"] --&gt; GY[\"green&lt;br/&gt;yellow\"] --&gt; BL[\"blue\"] --&gt; BR[\"brown\"] --&gt; P[\"purple&lt;br/&gt;pink&lt;br/&gt;orange&lt;br/&gt;grey\"]\n\n\n\n\n圖 1: Adapted from Kay and Daniel (1978)\n\n\n\n\n\n這張圖要由左至右來閱讀。若一個語言只有兩種顏色，那就是White and Black，如果是三種，那就多加上red，第四和五種的話就是Green or Yellow…以此類推。\n雖然這個BCT的原始版本遭受諸多批評，但後來Berlin and Kay使用了更大的樣本、並觀察更多沒有文字的語言後（可見Berlin and Kay後來的World Color Survey），這個規律仍被支持，不過也歷經不少修改和新詮釋:\n\nWhite and Black的雙顏色語言，實際上指涉的是亮跟暗，而他們只是用亮色和暗色來指涉高階語言的數個顏色。其他低階語言也是同樣的，如開頭提到過Wobé語言用Kpe稱呼藍色、紫色、棕色。\n當低階語言使用者指涉特定顏色時，會用物體顏色來形容，如用sky代表藍色。\n不同語言或文化的使用者，他們所指涉的顏色，切在大致相同的位置。譬如中文使用者所稱的紅色和英文使用者的red，對應在光譜上的位置差不多，說明似乎不同語言使用者所定義的顏色波長具有普世性。\n\n我個人相當懷疑3.的詮釋，這系列的研究畢竟在20世紀後期才開始，而全球化和通訊產品的發達，可能已經讓不同社會原本在波長上指涉的位置漸漸統合，但現代的研究似乎很難調查到古代人對顏色的感知（perception）了。\n\n\n3 為甚麼某些顏色先於其他顏色？\n然而有趣的是，為甚麼有些顏色先於其他顏色？學界給出的原因族繁不及備載，仍未有定論。我找到了以下幾個說法:\n\n紅色可能和血或危險有關，所以為了生存，演化上會被保留下來。\n人類天生比較能辨識暖色或紅色，這點可以從嬰兒大腦的反應上發現。\n有人認為統計上，大自然的暖色系物體多。我們談論的物體的顏色都是偏暖和偏紅，背景的顏色則多是冷色系。人類為了溝通，故先發展出紅色。同理，藍色較晚發展，是因為大自然中藍色的生物很少（這點可以看這部影片）。\n文化因素：在歐洲歷史上，紅色衣著和高社會階級有關，紅色也是過去因稀缺而珍貴的顏色。種種社會因素使得紅色成為人們會先注意到的顏色。\n\n\n\n\n4 結語\n看了半天，感覺這方面的文獻還存有許多謎團。各種顏色跟對應的意涵，似乎顯現出一種人類天生的內在能力？如同Sound Symbolism—特定發音對應特定物體形狀—那般，值得思考原因為何。\n現在回想起荷馬所說的「Wine-Dark Sea」，原來這可能不是修辭的技巧，而是在顏色詞彙侷限下的表達方式！我只能說…嗯這首曲子還真的挺酷的（詞窮lol）。\n\n\n\n\n\n\n\nP.S.\n\n\n\n本篇是我不專業的整理。現在有AI了，針對紅色為何先出現一問題，我使用過Perplexity的研究功能。即便我有閱讀過內文，確定AI詮釋無誤，但若有錯誤仍歡迎指正；內文則全是本人親自撰寫。\n\n\n\n\nReferences\n\n圖 1 出處: Kay, P., & McDaniel, C. K. (1978). The Linguistic Significance of the Meanings of Basic Color Terms. Language, 54(3), 610–646. https://doi.org/10.2307/412789\n部分開頭Puzzle、例子、解釋來自Vox的The surprising pattern behind color names around the world\nBCT理論的後續討論和詮釋的整理\n\nHardin, C. L. (2013). Berlin and Kay theory. In Encyclopedia of color science and technology (pp. 1–4). Springer, New York, NY.\nFranklin, A. (2015). Development of color categorization. In A. J. Elliot, M. D. Fairchild, & A. Franklin (Eds.), Handbook of Color Psychology (pp. 279–294). chapter, Cambridge: Cambridge University Press.\n\n為何紅色先發展的社會和文化因素\n\nSmith, S. (2018, June 29). The Red Craze. Fashion History Timeline. https://fashionhistory.fitnyc.edu/the-red-craze/\n\n人們談論的物體多是暖色、而背景多是冷色系\n\nE. Gibson, R. Futrell, J. Jara-Ettinger, K. Mahowald, L. Bergen, S. Ratnasingam, M. Gibson, S.T. Piantadosi, & B.R. Conway, Color naming across languages reflects color use, Proc. Natl. Acad. Sci. 114 (40) 10785–10790, https://doi.org/10.1073/pnas.1619666114 (2017)."
+    "text": "I record what has to be done if I update the website.\n\nAfter any update, open terminal in R studio, and type quarto render to render the website. Then, type quarto preview to browse the website locally and check the results of the change.\nClosing the local browser does not terminate preview state in the terminal. To close it properly, press control + C on the keyboard.\nTo publish the website, we need to push it to the repo. In the terminal, run the following\n\nNote: ```bash with bash create a non-executable code chunk for terminal stuffs,1 unlike ```{somelanguage}\n\n\n\n\ngit status # examine modified doc\ngit add .  # add \"all\" ( . means all) modified do in a package\ngit commit -m \"update message\" # message for this package\ngit push"
+  },
+  {
+    "objectID": "posts/2026-01-27-first-post/index.html#english-subheader",
+    "href": "posts/2026-01-27-first-post/index.html#english-subheader",
+    "title": "Quarto Resources and Template (My First Post!)",
+    "section": "\n3.1 English subheader",
+    "text": "3.1 English subheader\nBlock quote test\n\n…The life of man is solitary, poor, nasty, brutish, and short. He is the prey of contingent happenings.\n\nEndowed with a few limited senses and a brain, man began to pierce the mystery about him. By utilizing what the senses reveal immediately or what can be inferred from experiments, man adopted axioms and applied his reasoning powers. His quest was the quest for order; his goal, to build systems of knowledge as opposed to transient sensations, and to form patterns of explanation that might help him attain some mastery over his environment. His chief accomplishment, the product of man’s own reason, is mathematics. It is not a perfect gem and continued polishing will probably not remove all flaws.\nNevertheless; mathematics has been our most effective link with the world of sense perceptions and though it is discomfiting to have to grant that its foundations are not secure, it is still the most precious jewel of the human mind and must be treasured and husbanded. It has been in the van of reason and no doubt will continue to be even if new flaws are discovered by more searching scrutiny.\nAlfred North Whitehead once wrote, “Let us grant that the pursuit of mathematics is a divine madness of the human spirit.” Madness, perhaps, but surely divine."
+  },
+  {
+    "objectID": "posts/2026-01-27-first-post/index.html#中文小標題",
+    "href": "posts/2026-01-27-first-post/index.html#中文小標題",
+    "title": "Quarto Resources and Template (My First Post!)",
+    "section": "\n4.1 中文小標題",
+    "text": "4.1 中文小標題\n學而篇第一 【1.1】 子曰：「學而時習之，不亦說（同『悅』，下文僅列字）乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」\n孔子說：「學了做人處事的道理，並在適當的時候印證練習，不也覺得高興嗎？志同道合的朋友從遠方來相聚，不也感到快樂嗎？別人不瞭解你，而你並不生氣，不也是君子的風度嗎？」\n古代的「子」字放在名字之後，是對老師、長者的尊稱，就好像稱呼「您」一樣，譬如：孔子、老子、荀子等；但子貢、子張、子游、子夏等人，就純粹是名字而已。《論語》中出現的「子曰」，專指孔子說的話，譯文直接翻成「孔子說」，比較清楚。\n全方位的學習與成長\n何謂「學而時習之」？一般譯為「學了以後時常練習」，但是「時」字在古代不作「時常」解，而是指適當的時機，好比春耕、夏耘、秋收、冬藏一樣。「不亦說乎」的「說」字，同「悅」字，是指發自內在的高興。\n就「學」的內容而言，通常是指五經：《詩》、《書》、《禮》、《樂》、《易》，以及「六藝」：禮、樂、射、御、書、數。根據孔子的思想來說，這應該是指學習做人處事的道理。\n「五經」的「經」即指永恆的道理，《詩經》代表文學；《書經》（即《尚書》）代表歷史；《禮經》（即《禮記》）代表社會科學，有很多詳細的生活規範；《樂經》代表藝術；《易經》代表哲學，這些是古代的人文學科。生活的基本規範就在「五經」裡，所以說是學習做人處事的道理。\n就學的方法而言，要配合「思」（主體的反省與理解），以求溫故知新，活學活用。孔子的「學」有三點內涵：\n其一，學習古代的知識與技術。為什麼「禮」、「樂」在「五經」、「六藝」裡都有呢？因為禮、樂既有理論的部分，也有操作的部分。譬如，學禮是要能真正執行禮儀，像宗教祭祀或喪禮，都有具體的操作過程，需要學習和實踐；樂也是一樣，學了音樂理論，還要實際演奏樂器，才是真正的技能。六藝就是六種技術，都是基本的技巧。在古代社會，只有貴族子弟可以受大學教育；平民子弟學了五經、六藝，在社會上就成為人才，很多諸侯國或大夫之家甚至會聘請他們擔任家臣。\n其二，「學」要配合思考。譬如，「學而不思則罔，思而不學則殆」（【2.15】），代表學習要配合思考才能把古代的知識現代化。「溫故而知新」，重新再讀學過的知識，有了新的體會，才能擔任老師。為師者必須經常融合個人的心得，學生學習之後，才能對生活有所幫助。\n其三，學習與行為有關。學習可以改變人的行為，譬如，《論語》有幾處提到好學，其中以顏淵最得孔子的欣賞，他說顏淵的好學是：「不遷怒，不貳過。」（【6.3】）與人吵架爭執，即使滿腔怒火，也不會把怒氣發泄到另一個人身上；不會再犯同樣的過錯，這說明學習有一種改造自己的力量。顏淵的好學表現在「不遷怒，不貳過」，也就是付諸於日常行為中。\n所以，孔子的學有三點特色：第一，老老實實學習古代的知識與技術；第二，學與思配合，得到個人的體會；第三，學習要能改變行為，這才是所謂做人處事的道理。\n由此可知，孔子的「學」是全方位的學習與成長。\n進德修業，追求至聖境界\n「樂」是外在顯示出來的快樂。古代的交通不像今日方便，朋友從遠方來拜訪，特別能感受到那份心意，分外覺得同聲相應、同氣相求。\n南宋的哲學家陸象山說：「東海有聖人，西海有聖人，此心同，此理同。」任何一種文化產品的相通，都要提高到理念的層次才能互動和溝通，志同道合的人聚在一起，絕不是黨同伐異，而是純粹追求人生的理想，因此相聚就會快樂。總之，「學而時習之」較重視個人的自我要求，「有朋自遠方來」，就開始產生一種互動。\n「人不知而不慍，不亦君子乎？」說明一個人已經學問有成，在社會上擁有很高的聲望，照樣不為人所瞭解，卻不因此生氣。因為求人不如求己，時機尚未成熟，即使學問再好，也無法要求事事都依照自己的方式來做。關於「人不知而不慍」，還可參考【1.16】、【4.14】、【14.30】、【15.19】。\n「君子」在古代是指君之子，也就是政治權貴的子弟，或指有官位者。有官位者又分為幾等：天子、諸侯、卿大夫，然後是士、庶人，庶人是人數最多的一個階級。天子只有一個，就是周天子。諸侯是指天子分封的七十一國，其中有分大國、次國、小國，大國方百里，次國方七十里，小國方五十里。第三個是卿大夫，在諸侯國當政的人。士就是讀書人，包括文士、武士。\n孔子保留這種用法，同時更強調以「君子」代表學行兼備的有德之人。因此，君子成為儒家的人格典型，泛指有理想、有原則，不斷進德修業，追求至聖境界的人。\n本章強調，先要自己努力學習，其次與朋友互相呼應，然後在學習有成而未受重視時，可以坦然自處。"
+  },
+  {
+    "objectID": "posts/2026-01-27-first-post/index.html#footnotes",
+    "href": "posts/2026-01-27-first-post/index.html#footnotes",
+    "title": "Quarto Resources and Template (My First Post!)",
+    "section": "Footnotes",
+    "text": "Footnotes\n\nSee HTML Code Block for the languages that Quarto supports syntax highlighting↩︎"
   },
   {
     "objectID": "posts/index.html",
     "href": "posts/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Quarto Resources and Template (My First Post!)\n\n\n\n\n\n\nquarto\n\n\n\nMy first quarto blog post with some resources to be read in the future\n\n\n\n\n\nJan 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n顏色命名的規律\n\n\n\n\n\n\nnotes\n\n\n\n思考人類社會對顏色命名的差異，並整理Color Hierarchy的理論演變。\n\n\n\n\n\nSep 23, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n書評：《科學革命》\n\n\n\n\n\n\nbook-review\n\n\n\nSteven Shapin的《科學革命》(The Scientific Revolution）書評，了解科學是如何被（西方）人發明。\n\n\n\n\n\nJan 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n書評：《Global Economic History》\n\n\n\n\n\n\nbook-review\n\n\n\nRobert Allen《Global Economic History》讀後感，一探當今西方與非西方國家財富累積的決定因素。\n\n\n\n\n\nFeb 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n自然科學與歷史科學的分野\n\n\n\n\n\n\nnotes\n\n\n\n自然科學與歷史科學、以及社會科學有甚麼本質的差異嗎？新康德主義西南學派思想的閱讀筆記與心得。\n\n\n\n\n\nFeb 15, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "2026-01-30 日常雜感\n\n\n\n\n\n\nreflection\n\n\n\n記錄自己開始看YT英文知識型頻道，並筆記為何動物總是有黑背白肚的皮膚結構。\n\n\n\n\n\nJan 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Resources and Template (My First Post!)\n\n\n\n\n\n\nquarto\n\n\n\nMy first quarto blog post with some resources to be read in the future\n\n\n\n\n\nJan 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n顏色命名的規律\n\n\n\n\n\n\nnotes\n\n\n\n思考人類社會對顏色命名的差異，並整理Color Hierarchy的理論演變。\n\n\n\n\n\nSep 23, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n書評：《科學革命》\n\n\n\n\n\n\nbook-review\n\n\n\nSteven Shapin的《科學革命》(The Scientific Revolution）書評，了解科學是如何被（西方）人發明。\n\n\n\n\n\nJan 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n書評：《Global Economic History》\n\n\n\n\n\n\nbook-review\n\n\n\nRobert Allen《Global Economic History》讀後感，一探當今西方與非西方國家財富累積的決定因素。\n\n\n\n\n\nFeb 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n自然科學與歷史科學的分野\n\n\n\n\n\n\nnotes\n\n\n\n自然科學與歷史科學、以及社會科學有甚麼本質的差異嗎？新康德主義西南學派思想的閱讀筆記與心得。\n\n\n\n\n\nFeb 15, 2024\n\n\n\n\n\n\nNo matching items"
   }
 ]

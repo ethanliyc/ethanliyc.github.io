@@ -2,7 +2,7 @@
 title: "Title of the Post"
 date: YYYY-MM-DD
 description: "Desc in the info box below the blog listing. This also informs SEO about page content" 
-# author: # add author info in the article
+author: # add author info in the article
    - name: Yi-Chen Li (Ethan)
 #     url: https://samanthacsik.github.io/
 #     orcid: 0000-0002-5300-3075
@@ -12,7 +12,7 @@ categories: [book-review, notes, reflection]  # tag
 number-sections: true  # Add number before header
 # image: preview-image.jpg # add preview image placed inside posts/[folder of this article]
 draft: false  # true means to hide the article in the listing page and search engine.
-# lang: zh-Hant  # The default language is English; zh-Hant means Chinese and the modified ver is set in _language.yml.
+# lang: zh-Hant  # This affects languages of many objects (e.g. toc). The default language is English; zh-Hant switches to Chinese and the modified ver is set in _language.yml.
 ---
 
 
