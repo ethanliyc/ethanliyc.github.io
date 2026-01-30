@@ -31,7 +31,7 @@ lang: zh-Hant  # The default language is English; zh-Hant means Chinese and the 
 <br> 
 
 
-![](book-cover.jpg){width=60% fig-align="center"}
+![本書封面（為本人的實體書照）](book-cover.jpg){width=50% fig-align="center"}
 
 
 既然這是一個如此有影響力的時期，作者為甚麼認為科學革命不存在？這共可分為三點：
