@@ -10,8 +10,9 @@ website:
   description: "Yi-Chen Li (Ethan) is a master’s student in economics at NTU, interested in trade, political economy, and economic history, with broader interests in social science and intellectual history."   # A brief slogan for SEO
   google-analytics:
     tracking-id: "G-JFYLBEH0M1"   
-    storage: none                 # no cookies. !!If on, consent pop-up should be added
+    storage: cookies              # no cookies. !!If on, consent pop-up should be added
     anonymize-ip: true            # Detailed ip is masked  
+  cookie-consent: true    # pop-up window added
   
   # navigation bar at the top of the website
   navbar:
