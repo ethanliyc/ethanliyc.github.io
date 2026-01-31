@@ -1,18 +1,20 @@
 # This file controls the settings for your Quarto template from www.marvinschmitt.com
 
 # website settings #########################################
-website:
-  title: "Yi-Chen Li (Ethan)"                                # Your name
-  description: "Yi-Chen Li (Ethan) is a master’s student in economics at NTU, interested in trade, political economy, and economic history, with broader interests in social science and intellectual history."   # A brief slogan for search engine to understand the content of the site.
+# some objects to be added under website arg
   # image: img/personal-photo.JPG  # thumbnail when the hyperlink is provided in other websites (e.g. facebook)
   # favicon: img/favicon.png  # image of the browser tab icon
   
+website:
+  title: "Yi-Chen Li (Ethan)"                                # Your name
+  description: "Yi-Chen Li (Ethan) is a master’s student in economics at NTU, interested in trade, political economy, and economic history, with broader interests in social science and intellectual history."   # A brief slogan for SEO
   google-analytics:
-    tracking-id: "G-JFYLBEH0M1"     # 使用 GA4
-    storage: none                 # no cookies. !!If on, cookie consent pop-up should be added (legal issue)
-    anonymize-ip: true            # No tracking id in detail  
+    tracking-id: "G-JFYLBEH0M1"   
+    storage: none                 # no cookies. !!If on, consent pop-up should be added
+    anonymize-ip: true            # Detailed ip is masked  
+    version: 4
   
-  # start of the navigation bar at the top of the website
+  # navigation bar at the top of the website
   navbar:
     pinned: true
     # logo: /img/logo.png  # logo to the left of the title arg

@@ -16,37 +16,67 @@ draft: false  # true means to hide the article in the listing page and search en
 ---
 
 
-# Hyper links and footnote
+# Workflow 
 
-This post documents **[brief purpose here]**, mainly for future reference and reproducibility.
+When editing **few articles**, to make it render faster, run the following to **render only the updated articles** and see preview (updates whenever the qmd changes)
+```bash
+quarto preview
+```
 
-You can include hyperlinks like this:
+See [maintainers' discussion thread](https://github.com/orgs/quarto-dev/discussions/3674#discussioncomment-4403913). This is still being developed as of 2025-08. Rendering all files seems still necessary now.
+
+
+When the editing is finished, you still need to render everything: 
+```bash
+quarto render
+quarto preview # optional
+
+git status 
+git add .
+git commit -m "Some messages"
+git push
+```
+
+
+
+# Quick Formatting Guide
+
+- [Quarto Formatting Guide](https://quarto.org/docs/authoring/markdown-basics.html)
+
+
+## Common Text Formatting Syntax
+
+- `<br>`: Add a while space to separate paragraphs: 
+- `---`: Add separation line: 
+- @sec-secname @fig-figname: cross-reference those objects (if labeled). The prefix are reserved, you **cannot use whatever prefix**. The reserved ones are sec, fig, tip, nte, tbl, etc. See [Quarto Cross-Ref](https://quarto.org/docs/authoring/cross-references.html)
+
+
+## Hyper links and footnote
+
 - Official documentation: https://quarto.org
 - Inline link example: [Quarto documentation](https://quarto.org/docs/)
 - [Quarto Formatting Guide](https://quarto.org/docs/authoring/markdown-basics.html)
 
-You can also add a footnote like this[^example-footnote].
+You can add a footnote like this[^example-footnote].
 
-[^example-footnote]: This is an example footnote. Use it for side remarks, references, or clarifications.
+[^example-footnote]: This is an example footnote content. Use it for side remarks, references, or clarifications.
 
 
-# Lists
+## Lists
 
-*Nested list usually require 4 spaces before - or 1. to make indentation*
+*Nested list requires 4 spaces before - or 1. to make indentation*
 
 ---
 
-## Key Points (Numbered List)
+### Key Points (Numbered List)
 
-1. First key idea or step.
-2. Second key idea.
-3. Third key idea (can include subpoints):
-    1. Nested sub-step A.
+1. First idea
+3. Second idea (can include subpoints):
+    1. **4 spaces before this**
     2. Nested sub-step B.
 
----
 
-## Outline / Checklist (Unordered List)
+### Outline / Checklist (Unordered List)
 
 - Main task or concept
     - Subtask / detail
@@ -55,6 +85,68 @@ You can also add a footnote like this[^example-footnote].
 - Final takeaway
 
 ---
+
+## Header Number and Lable Control 
+
+- YAML sectuon sets *number-sections: true*
+- Add `{.unnumbered}` after one header to disable its numbering.
+- Add `{#sec-intro}` after one header to cross-ref it by @sec-intro.
+
+# Callout Block
+
+::: {.callout-note}
+Five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+**More Args**
+- #tip-example creates a cross-ref label
+- title="" overrides default callout title 
+- collapse="true" make it folded
+
+::: {#tip-example .callout-tip title = "tip text is overrided by this line" collapse="true"}
+- "tip text is overrided by this line" is exhibited without the default "tip:".
+- This callout block is folded
+:::
+
+**To cite the tip**, use @tip-example
+
+
+# Insert Picture
+
+## One picture
+
+![Caption of Picture](dog.jpg){#fig-pic fig-align="center" width="35%"}
+
+- #fig-pic: optional. If added, the picture can be cross-referenced, **AND** 圖1 or Figure 1 are added in the beginning of the caption. 
+- `width="35%"` makes the picture width 35% of the linewidth
+- `fig-align` adjusts position of the picture
+
+### Long caption 
+
+If the caption is long, it is ok to put it in the little **[]** above. But consider: 
+
+::: {#fig-elephant}
+
+![](elephant.png)
+
+An Elephant
+:::
+
+
+## Subfigures
+
+::: {#fig-elephants layout-ncol=2}
+
+![Surus](surus.png){#fig-surus}
+
+![Hanno](hanno.png){#fig-hanno}
+
+Famous Elephants
+:::
+
+See @fig-elephants for examples. In particular, @fig-hanno.
+
 
 # Example Code
 
@@ -84,4 +176,3 @@ git push
 
 - Quarto documentation: https://quarto.org/docs/
 
----

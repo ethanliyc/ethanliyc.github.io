@@ -11,7 +11,7 @@ description: "My first quarto blog post with some resources to be read in the fu
 categories: [quarto]  # tag 
 number-sections: true  # Add number before header
 # image: preview-image.jpg # add preview image placed in posts/[folder of this article]
-draft: false  # true means to hide the article in the listing page and search engine.
+draft: true  # true means to hide the article in the listing page and search engine.
 # lang: zh-hant  # The default language is English; zh means Chinese. It affects (1) Which of zh and Eng fonts are prioritized. (2) how search engine and brwoser perceive the language of the page (3) text formatting of Chinese whenever the doc is rendered as LeTeX pdf
 ---
 
