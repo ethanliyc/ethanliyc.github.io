@@ -12,7 +12,6 @@ website:
     tracking-id: "G-JFYLBEH0M1"   
     storage: none                 # no cookies. !!If on, consent pop-up should be added
     anonymize-ip: true            # Detailed ip is masked  
-    version: 4
   
   # navigation bar at the top of the website
   navbar:
