@@ -1,5 +1,5 @@
 ---
-title: "2026-01-30 日常雜感"
+title: "日常雜感"
 date: 2026-01-30
 description: "記錄自己開始看YT英文知識型頻道，並筆記為何動物總是有黑背白肚的皮膚結構。" 
 author: # add author info in the article
