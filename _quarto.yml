@@ -14,6 +14,9 @@ website:
     anonymize-ip: true            # Detailed ip is masked  
   cookie-consent: true    # pop-up window added
   
+  # gone: draft is unlinked (in listing page) and empty
+  draft-mode: gone
+  
   # navigation bar at the top of the website
   navbar:
     pinned: true
