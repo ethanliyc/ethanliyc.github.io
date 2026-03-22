@@ -126,24 +126,31 @@ Five types of callouts, including:
 
 If the caption is long, it is ok to put it in the little **[]** above. But consider: 
 
-::: {#fig-elephant}
+::: {#fig-elephant fig-align="center" fig-cap-location="bottom"}
 
-![](elephant.png)
+![An Elephant](elephant.png){width="70%"}
 
-An Elephant
+An elephant description of the figure
+
 :::
 
 
 ## Subfigures
 
-::: {#fig-elephants layout-ncol=2}
 
-![Surus](surus.png){#fig-surus}
+::: {#fig-results layout-ncol=2 fig-align="center"}
 
-![Hanno](hanno.png){#fig-hanno}
+![Panel A subcaption](fig-a.png){#fig-hanno width="95%"}
 
-Famous Elephants
+![Panel B](fig-b.png){width="95%"}
+
+![Panel C](fig-c.png){width="95%"}
+
+![](fig-d.png){width="95%"}
+
+Four related results. Panel D is left as blank to delete subcaption
 :::
+
 
 See @fig-elephants for examples. In particular, @fig-hanno.
 

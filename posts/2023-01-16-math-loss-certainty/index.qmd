@@ -10,7 +10,7 @@ author: # add author info in the article
 #     affiliation-url: https://ucsb-meds.github.io/
 categories: [book-review]  # tag 
 number-sections: true  # Add number before header
-# image: preview-image.jpg # add preview image placed inside posts/[folder of this article]
+image: theme-gemini.png # add preview image placed inside posts/[folder of this article]
 draft: false  # true means to hide the article in the listing page and search engine.
 lang: zh-Hant  # This affects languages of many objects (e.g. toc). The default language is English; zh-Hant switches to Chinese and the modified ver is set in _language.yml.
 ---
@@ -116,6 +116,9 @@ lang: zh-Hant  # This affects languages of many objects (e.g. toc). The default 
 好啦，數學走到這，發現我們賴以為科學基礎的數學，竟然不能「確定」其地基是牢固的！？因此，本書後面作者探討了他對這些議題的看法，大致上在說：他認為以［物理］應用是否有效來判斷數學會是一個較好的判準，批評了那些認為純數才是真數學的數學家，因為他們放棄過去數學家以數學探索大自然的目標、也放棄跟科學界的連結。
 
 在最後一章，作者探討了「為甚麼數學（在科學上）有效？」一問題。這是我最有感的部分，留在下半 @sec-reflection 再介紹跟討論。
+
+
+![請Gemini閱讀全文後生成的圖。他用了倒塌的房子比喻數學大廈，確實有抓到全書的主旨。](theme-gemini.png){#fig-book-cover fig-align="center" width="80%"}
 
 
 <br> 
