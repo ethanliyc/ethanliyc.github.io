@@ -174,7 +174,7 @@ Use ``` to create a code display environment. ```{program} means executable code
 
 ```bash
 git status
-git add -A
+git add .
 git commit -m "Update post"
 git push
 ```
